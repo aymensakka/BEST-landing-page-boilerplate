@@ -1,46 +1,198 @@
 {
   "Hero": {
-    "title1": "",
-    "title2": "Página de aterrizaje",
-    "title3": "construcción rápida"
+    "badge": "Accesible por móvil, disponible en 8 idiomas",
+    "title": "Gestione sus vales regalo con gifthero",
+    "description": "Vales y tarjetas regalo en un clic desde su sitio web. Simplifique su gestión diaria con nuestra solución integral: personalización, pago seguro en línea y envío automático por email o correo.",
+    "trustedBy": "Ofrezca regalos. Aumente sus ventas.",
+    "dashboardAlt": "Vista Previa del Panel de gifthero"
   },
-  "SocialProof": {
-    "maker": "creadores construyen rápido"
+  "Features": {
+    "title": "Funciones innovadoras",
+    "subtitle": "Opciones adaptadas a su negocio",
+    "cards": {
+      "groupGifts": {
+        "title": "Pagos en grupo y fondos compartidos",
+        "description": "Permita que varios clientes contribuyan juntos para regalos grupales con opciones de pago compartido"
+      },
+      "inStoreSales": {
+        "title": "Ventas presenciales simplificadas",
+        "description": "Integración fácil de punto de venta para vender tarjetas regalo directamente en su ubicación física"
+      },
+      "qrValidation": {
+        "title": "Validación instantánea vía QR",
+        "description": "Validación rápida y segura de vales con tecnología de escaneo de código QR"
+      },
+      "postalDelivery": {
+        "title": "Envío postal automatizado",
+        "description": "Nos encargamos del envío de tarjetas sin coste adicional"
+      },
+      "marketing": {
+        "title": "Marketing & SEO",
+        "description": "Tienda optimizada para SEO con GA4 y Google Tag Manager. Herramientas gratuitas: códigos QR, ventanas emergentes, ofertas destacadas"
+      },
+      "autonomy": {
+        "title": "Autonomía y control total",
+        "description": "Cree y gestione sus ofertas fácilmente. Supervise ventas y valide vales desde un panel intuitivo"
+      }
+    }
   },
-  "Showcase": {
-    "title": "Escaparate",
-    "description": "Únete a más de 1000 creadores que aumentan sus conversiones con nuestra plantilla de página de aterrizaje"
+  "Benefits": {
+    "title": "¿Qué es gifthero?",
+    "subtitle": "Venda sus propios vales o tarjetas directamente desde su sitio web. Mejore sus ingresos y flujo de caja.",
+    "list": [
+      "Tienda personalizada en su página web",
+      "Accesible por móvil, disponible en 8 idiomas",
+      "Pago en línea seguro integrado",
+      "Automatización total: personalización, pago y envío",
+      "Panel de control completo y fácil de usar",
+      "Sin suscripciones ni tarifas fijas"
+    ],
+    "imageAlt": "Reunión de negocios discutiendo estrategia de tarjetas regalo",
+    "roi": "Sin suscripciones",
+    "roiDescription": "Ni tarifas fijas - pague solo cuando venda"
   },
-  "Feature": {
-    "title": "Características"
+  "HowItWorks": {
+    "title": "¿Cómo funciona?",
+    "subtitle": "Proceso simple de 7 pasos para sus clientes y usted",
+    "steps": [
+      {
+        "title": "Se integra la tienda en su sitio",
+        "description": "Integramos su tienda personalizada de tarjetas regalo directamente en su sitio web"
+      },
+      {
+        "title": "El cliente accede a ella",
+        "description": "Los clientes pueden encontrar y acceder fácilmente a su tienda de tarjetas regalo desde su sitio web principal"
+      },
+      {
+        "title": "Elige y personaliza el vale",
+        "description": "Los clientes seleccionan el regalo perfecto y lo personalizan con mensajes y diseños personales"
+      },
+      {
+        "title": "Realiza el pago (solo o en grupo)",
+        "description": "Procesamiento de pago seguro con opciones para compras individuales o contribuciones grupales"
+      },
+      {
+        "title": "Recibe el vale al instante",
+        "description": "La entrega automática asegura que los clientes reciban sus vales regalo inmediatamente después de la compra"
+      },
+      {
+        "title": "Usted cobra",
+        "description": "El procesamiento de pago instantáneo significa que cobra inmediatamente cuando se venden los vales"
+      },
+      {
+        "title": "El beneficiario usa el vale más adelante",
+        "description": "Los beneficiarios pueden usar sus vales a su conveniencia, típicamente dentro de 6 meses"
+      }
+    ]
   },
-  "Pricing": {
-    "title": "Precios",
-    "title2": "Obtén acceso ilimitado.",
-    "description": "La página que estás viendo actualmente es un template gratuito y de código abierto.",
-    "doYouLike": "¿Te gusta este template para páginas de aterrizaje?",
-    "follow": "Sigue mi Twitter."
+  "UseCases": {
+    "title": "Casos de Uso & Tipos de Tarjeta",
+    "subtitle": "Descubra la solución de tarjeta regalo perfecta para cada necesidad comercial. Desde campañas de marketing hasta programas de fidelidad y eventos.",
+    "marketingCards": {
+      "title": "Tarjetas de Marketing",
+      "experienceVoucher": {
+        "title": "Vale de Experiencia",
+        "description": "Perfecto para experiencias únicas y servicios donde el precio varía o quiere mantener flexibilidad.",
+        "features": ["No pueden expirar", "Precio no mostrado", "Canje flexible", "Enfocado en experiencias"],
+        "status": "Disponible"
+      },
+      "monetaryVoucher": {
+        "title": "Vale de Valor Monetario",
+        "description": "Tarjetas regalo tradicionales con valores monetarios fijos, perfectas para restaurantes y comercios.",
+        "features": ["No pueden expirar", "Precio claramente visible", "Valor fijo", "Canje fácil"],
+        "status": "Disponible"
+      },
+      "marketingVoucher": {
+        "title": "Vale de Marketing de Mayor Valor",
+        "description": "Incentive compras más grandes con promociones de valor bonus que impulsan la adquisición de clientes.",
+        "features": ["Puede expirar", "Opciones de límite de uso", "Campañas con límite de tiempo", "Recompensas de valor bonus"],
+        "status": "Disponible"
+      },
+      "discountCards": {
+        "title": "Tarjetas de Descuento por Acción",
+        "description": "Recompense acciones específicas del cliente con descuentos porcentuales o en dinero para impulsar el compromiso.",
+        "features": ["Puede expirar", "Activado por acción", "Límites de uso", "Tipos de descuento flexibles"],
+        "status": "Disponible"
+      }
+    },
+    "loyaltyPrograms": {
+      "title": "Programas de Fidelidad",
+      "membershipId": {
+        "title": "ID de Membresía",
+        "description": "Tarjetas de membresía digitales con beneficios exclusivos y gestión de niveles.",
+        "features": ["Identificación de miembro", "Gestión de niveles", "Beneficios exclusivos", "Listo para billetera digital"],
+        "status": "Próximamente"
+      },
+      "loyaltyCard": {
+        "title": "Tarjeta de Fidelidad con Sellos",
+        "description": "Tarjetas de sellos digitales que recompensan a clientes habituales con sellos y recompensas.",
+        "features": ["Sellos digitales", "Seguimiento de recompensas", "Bonos de completación", "Visualización de progreso"],
+        "status": "Próximamente"
+      }
+    },
+    "eventManagement": {
+      "title": "Gestión de Eventos",
+      "eventTickets": {
+        "title": "Entradas de Evento",
+        "description": "Entradas de evento digitales con expiración automática y gestión de capacidad.",
+        "features": ["Expira automáticamente después del evento", "Límites de capacidad", "Integración de código QR", "Detalles del evento integrados"],
+        "status": "Próximamente"
+      }
+    }
   },
-  "Testimonials": {
-    "title": "Muro del Amor",
-    "description1": "Si usas esta plantilla para página de aterrizaje y la recomiendas en tu Twitter,",
-    "description2": "por favor házmelo saber",
-    "description3": ". Exhibiré tu tweet y recomendación aquí."
+  "About": {
+    "title": "Acerca de gifthero",
+    "description": "Nos apasiona ayudar a las empresas locales a prosperar en la era digital. Nuestra plataforma facilita la creación, venta y gestión de tarjetas regalo digitales que funcionan perfectamente con sus operaciones comerciales existentes.",
+    "stats": {
+      "languages": "8 Idiomas",
+      "businesses": "500+ Empresas Satisfechas",
+      "uptime": "99.9% Tiempo Activo",
+      "support": "Soporte 24/7"
+    }
   },
-  "FAQ": {
-    "title": "Preguntas Frecuentes",
-    "description": "Aquí están algunas de las preguntas más frecuentes."
+  "Contact": {
+    "title": "Póngase en Contacto",
+    "subtitle": "¿Tiene preguntas? Nos encantaría saber de usted.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje"
+    },
+    "info": {
+      "email": "hello@gifthero.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Business St, Suite 100, City, State 12345"
+    }
   },
   "CTA": {
-    "title": "Construye tu página de aterrizaje ahora",
-    "description1": "Construye",
-    "description2": "tu página de aterrizaje,",
-    "description3": "muestra",
-    "description4": "tu producto, y",
-    "description5": "comienza a ganar",
-    "description6": "¡dinero!"
+    "title": "¿Listo para Impulsar sus Ingresos?",
+    "subtitle": "Únase a miles de empresas que ya usan nuestra plataforma",
+    "button": "Comience su Prueba Gratuita"
   },
   "CTAButton": {
-    "title": "Obtener Plantilla"
+    "startTrial": "Comenzar Prueba Gratuita",
+    "watchDemo": "Ver Demo",
+    "signIn": "Iniciar Sesión"
+  },
+  "Navigation": {
+    "brand": "gifthero",
+    "features": "Características",
+    "howItWorks": "Cómo Funciona",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "useCases": "Casos de Uso",
+    "useCasesDropdown": {
+      "marketingCards": "Tarjetas de Marketing",
+      "experienceVouchers": "Vales de Experiencia",
+      "monetaryVouchers": "Vales Monetarios",
+      "marketingVouchers": "Vales de Marketing",
+      "discountCards": "Tarjetas de Descuento",
+      "loyaltyPrograms": "Programas de Fidelidad",
+      "membershipCards": "Tarjetas de Membresía",
+      "loyaltyCards": "Tarjetas de Fidelidad",
+      "eventManagement": "Gestión de Eventos",
+      "eventTickets": "Entradas de Evento"
+    }
   }
 }

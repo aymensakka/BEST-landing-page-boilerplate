@@ -1,0 +1,198 @@
+{
+  "Hero": {
+    "badge": "Accessible sur mobile et disponible en 8 langues",
+    "title": "Gérez vos bons cadeaux avec gifthero",
+    "description": "Des bons et chèques cadeaux en un clic sur votre site. Simplifiez votre quotidien grâce à notre solution tout-en-un : personnalisation de l'achat, paiement en ligne sécurisé, envoi automatique du bon cadeau par email ou courrier.",
+    "trustedBy": "Offrez des bons cadeaux à vos clients, boostez vos ventes",
+    "dashboardAlt": "Aperçu du Tableau de Bord gifthero"
+  },
+  "Features": {
+    "title": "Fonctionnalités innovantes",
+    "subtitle": "Nombreuses options adaptées à votre activité",
+    "cards": {
+      "groupGifts": {
+        "title": "Cagnotte et paiement de groupe",
+        "description": "Permettez à plusieurs personnes de contribuer ensemble pour offrir un cadeau commun"
+      },
+      "inStoreSales": {
+        "title": "Vente sur place simplifiée",
+        "description": "Intégration facile en point de vente pour vendre des cartes cadeaux directement dans votre établissement"
+      },
+      "qrValidation": {
+        "title": "Vérification QR Code",
+        "description": "Validation rapide et sécurisée des bons avec la technologie de scan QR"
+      },
+      "postalDelivery": {
+        "title": "Expédition postale automatisée",
+        "description": "Nous prenons en charge l'envoi de vos cartes cadeaux. Gagnez du temps et gérez des volumes importants sans coût additionnel"
+      },
+      "marketing": {
+        "title": "Marketing & SEO",
+        "description": "Boutique optimisée SEO avec GA4 et Google Tag Manager. Outils gratuits : QR code, pop-in, offres à la une"
+      },
+      "autonomy": {
+        "title": "Autonomie et contrôle",
+        "description": "Créez vos offres (montant, description, conditions), suivez vos ventes en temps réel, et gérez vos bons via un tableau de bord intuitif"
+      }
+    }
+  },
+  "Benefits": {
+    "title": "gifthero, c'est quoi ?",
+    "subtitle": "Vendez vos propres bons, chèques ou cartes cadeaux directement sur votre site. Augmentez vos revenus et sécurisez votre trésorerie.",
+    "list": [
+      "Une boutique personnalisée intégrée à votre site web",
+      "Accessible sur mobile et disponible en 8 langues",
+      "Paiement sécurisé en ligne",
+      "Automatisation complète : personnalisation, paiement et envoi",
+      "Tableau de bord complet pour gérer vos ventes en toute autonomie",
+      "Sans abonnement ni frais fixes"
+    ],
+    "imageAlt": "Réunion d'affaires discutant de la stratégie des cartes-cadeaux",
+    "roi": "Sans abonnement",
+    "roiDescription": "Ni frais fixes - payez seulement quand vous vendez"
+  },
+  "HowItWorks": {
+    "title": "Comment ça marche ?",
+    "subtitle": "Processus simple en 7 étapes pour vos clients et vous",
+    "steps": [
+      {
+        "title": "Votre boutique est intégrée à votre site",
+        "description": "Nous intégrons votre boutique de cartes cadeaux personnalisée directement dans votre site web"
+      },
+      {
+        "title": "Le client la visite",
+        "description": "Les clients peuvent facilement trouver et accéder à votre boutique de cartes cadeaux depuis votre site principal"
+      },
+      {
+        "title": "Il choisit et personnalise son bon cadeau",
+        "description": "Les clients sélectionnent le cadeau parfait et le personnalisent avec des messages et designs personnels"
+      },
+      {
+        "title": "Il paie en ligne, seul ou en groupe",
+        "description": "Traitement de paiement sécurisé avec options pour achats individuels ou contributions de groupe"
+      },
+      {
+        "title": "Il reçoit immédiatement son bon par email",
+        "description": "La livraison automatique garantit que les clients reçoivent leurs bons cadeaux immédiatement après l'achat"
+      },
+      {
+        "title": "Vous êtes payé",
+        "description": "Le traitement de paiement instantané signifie que vous êtes payé immédiatement quand les bons sont vendus"
+      },
+      {
+        "title": "Le bénéficiaire profite de son bon dans les mois qui suivent",
+        "description": "Les bénéficiaires peuvent utiliser leurs bons à leur convenance, généralement dans les 6 mois"
+      }
+    ]
+  },
+  "UseCases": {
+    "title": "Cas d'usage & Types de cartes",
+    "subtitle": "Découvrez la solution de carte cadeau parfaite pour chaque besoin professionnel. Des campagnes marketing aux programmes de fidélité et événements.",
+    "marketingCards": {
+      "title": "Cartes Marketing",
+      "experienceVoucher": {
+        "title": "Bon d'Expérience",
+        "description": "Parfait pour les expériences uniques et services où les prix varient.",
+        "features": ["Ne peuvent pas expirer", "Prix non affiché sur le bon", "Options de remboursement flexibles", "Axé sur l'expérience"],
+        "status": "Disponible"
+      },
+      "monetaryVoucher": {
+        "title": "Bon Monétaire",
+        "description": "Chèques cadeaux traditionnels à valeur fixe, parfaits pour restaurants et commerces.",
+        "features": ["Ne peuvent pas expirer", "Prix affiché", "Valeur fixe", "Utilisation facile"],
+        "status": "Disponible"
+      },
+      "marketingVoucher": {
+        "title": "Bon Marketing à Valeur Élevée",
+        "description": "Incentivez les achats importants avec des promotions à valeur ajoutée qui stimulent l'acquisition client.",
+        "features": ["Peut expirer", "Options de limite d'utilisation", "Campagnes limitées dans le temps", "Récompenses à valeur ajoutée"],
+        "status": "Disponible"
+      },
+      "discountCards": {
+        "title": "Carte Remise",
+        "description": "Récompensez des actions clients spécifiques avec des remises pour stimuler l'engagement.",
+        "features": ["Peut expirer", "Déclenché par action", "Limites d'utilisation", "Types de remise flexibles"],
+        "status": "Disponible"
+      }
+    },
+    "loyaltyPrograms": {
+      "title": "Programmes de Fidélité",
+      "membershipId": {
+        "title": "Carte de Membre",
+        "description": "Cartes de membre numériques avec avantages exclusifs et gestion des niveaux.",
+        "features": ["Identification du membre", "Gestion des niveaux", "Avantages exclusifs", "Prêt pour portefeuille numérique"],
+        "status": "Bientôt Disponible"
+      },
+      "loyaltyCard": {
+        "title": "Carte de Fidélité à Tamponner",
+        "description": "Cartes à tamponner numériques qui récompensent les clients fidèles avec des tampons et récompenses.",
+        "features": ["Tampons numériques", "Suivi des récompenses", "Bonus de completion", "Visualisation des progrès"],
+        "status": "Bientôt Disponible"
+      }
+    },
+    "eventManagement": {
+      "title": "Gestion d'Événements",
+      "eventTickets": {
+        "title": "Billets d'Événement",
+        "description": "Billets d'événement numériques avec expiration automatique et gestion de capacité.",
+        "features": ["Expiration automatique après événement", "Limites de capacité", "Intégration QR code", "Détails d'événement intégrés"],
+        "status": "Bientôt Disponible"
+      }
+    }
+  },
+  "About": {
+    "title": "À propos de gifthero",
+    "description": "Nous sommes passionnés d'aider les entreprises locales à prospérer à l'ère numérique. Notre plateforme facilite la création, la vente et la gestion de cartes cadeaux numériques qui s'intègrent parfaitement à vos opérations commerciales existantes.",
+    "stats": {
+      "languages": "8 Langues",
+      "businesses": "500+ Entreprises Satisfaites",
+      "uptime": "99.9% de Disponibilité",
+      "support": "Support 24/7"
+    }
+  },
+  "Contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Vous avez des questions ? Nous aimerions avoir de vos nouvelles.",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Envoyer le Message"
+    },
+    "info": {
+      "email": "hello@gifthero.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Business St, Suite 100, City, State 12345"
+    }
+  },
+  "CTA": {
+    "title": "Prêt à Booster vos Revenus ?",
+    "subtitle": "Rejoignez des milliers d'entreprises qui utilisent déjà notre plateforme",
+    "button": "Commencer Votre Essai Gratuit"
+  },
+  "CTAButton": {
+    "startTrial": "Commencer l'Essai Gratuit",
+    "watchDemo": "Voir la Démo",
+    "signIn": "Se Connecter"
+  },
+  "Navigation": {
+    "brand": "gifthero",
+    "features": "Fonctionnalités",
+    "howItWorks": "Comment ça marche",
+    "about": "À propos",
+    "contact": "Contact",
+    "useCases": "Cas d'usage",
+    "useCasesDropdown": {
+      "marketingCards": "Cartes Marketing",
+      "experienceVouchers": "Bons d'Expérience",
+      "monetaryVouchers": "Bons Monétaires",
+      "marketingVouchers": "Bons Marketing",
+      "discountCards": "Cartes Remise",
+      "loyaltyPrograms": "Programmes de Fidélité",
+      "membershipCards": "Cartes de Membre",
+      "loyaltyCards": "Cartes de Fidélité",
+      "eventManagement": "Gestion d'Événements",
+      "eventTickets": "Billets d'Événement"
+    }
+  }
+}

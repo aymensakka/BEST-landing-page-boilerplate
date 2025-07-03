@@ -1,0 +1,198 @@
+{
+  "Hero": {
+    "badge": "Mobilfreundlich und in 8 Sprachen verfügbar",
+    "title": "Verwalten Sie Ihre Geschenkgutscheine mit gifthero",
+    "description": "Geschenkgutscheine mit nur einem Klick direkt über Ihre Website. Vereinfachen Sie Ihren Alltag mit unserer All-in-One-Lösung: individuelle Gestaltung, sichere Online-Zahlung und automatischer Versand per E-Mail oder Post.",
+    "trustedBy": "Machen Sie Kunden glücklich. Steigern Sie Ihre Umsätze.",
+    "dashboardAlt": "gifthero Dashboard Vorschau"
+  },
+  "Features": {
+    "title": "Innovative Funktionen",
+    "subtitle": "Viele Funktionen für Ihre Branche",
+    "cards": {
+      "groupGifts": {
+        "title": "Gruppenzahlungen, Sammelaktionen",
+        "description": "Ermöglichen Sie Kunden, gemeinsam für Gruppengeschenke mit geteilten Zahlungsoptionen beizutragen"
+      },
+      "inStoreSales": {
+        "title": "Vor-Ort-Verkäufe",
+        "description": "Einfache Point-of-Sale-Integration für den direkten Verkauf von Geschenkkarten in Ihrem Geschäft"
+      },
+      "qrValidation": {
+        "title": "QR-Code-Verifizierung",
+        "description": "Schnelle und sichere Gutschein-Validierung mit QR-Code-Scan-Technologie"
+      },
+      "postalDelivery": {
+        "title": "Automatischer Postversand",
+        "description": "Wir übernehmen den Versand Ihrer Karten – effizient und ohne Zusatzkosten"
+      },
+      "marketing": {
+        "title": "Marketing & SEO",
+        "description": "SEO-optimierter Shop mit GA4 und Google Tag Manager. Kostenlose Tools: QR-Code, Pop-Ups, Top-Angebote"
+      },
+      "autonomy": {
+        "title": "Autonome Verwaltung",
+        "description": "Erstellen Sie Angebote, verfolgen Sie Verkäufe und verwalten Sie Gutscheine in Echtzeit über ein zentrales Dashboard"
+      }
+    }
+  },
+  "Benefits": {
+    "title": "Was ist gifthero?",
+    "subtitle": "Verkaufen Sie Ihre eigenen Gutscheine direkt auf Ihrer Website. Erhöhen Sie Ihre Einnahmen und verbessern Sie Ihren Cashflow.",
+    "list": [
+      "Ein personalisierter Online-Shop auf Ihrer Website",
+      "Mobilfreundlich und in 8 Sprachen verfügbar",
+      "Integrierte sichere Zahlungslösung",
+      "Vollständige Automatisierung: Personalisierung, Bezahlung, Versand",
+      "Intuitives Dashboard für autonome Verwaltung",
+      "Ohne Abo oder fixe Gebühren"
+    ],
+    "imageAlt": "Geschäftstreffen über Geschenkkarten-Strategie",
+    "roi": "Ohne Abo",
+    "roiDescription": "Ohne fixe Gebühren - zahlen Sie nur beim Verkauf"
+  },
+  "HowItWorks": {
+    "title": "Wie funktioniert es?",
+    "subtitle": "Einfacher 7-Schritte-Prozess für Ihre Kunden und Sie",
+    "steps": [
+      {
+        "title": "Ihr Shop wird integriert",
+        "description": "Wir integrieren Ihren personalisierten Geschenkkarten-Shop direkt in Ihre Website"
+      },
+      {
+        "title": "Der Kunde besucht Ihre Website",
+        "description": "Kunden können leicht Ihren Geschenkkarten-Shop von Ihrer Hauptwebsite finden und besuchen"
+      },
+      {
+        "title": "Er wählt und gestaltet den Gutschein",
+        "description": "Kunden wählen das perfekte Geschenk und personalisieren es mit persönlichen Nachrichten und Designs"
+      },
+      {
+        "title": "Bezahlung online, alleine oder in Gruppen",
+        "description": "Sichere Zahlungsabwicklung mit Optionen für Einzelkäufe oder Gruppenbeiträge"
+      },
+      {
+        "title": "Gutschein wird sofort per E-Mail versendet",
+        "description": "Automatische Lieferung stellt sicher, dass Kunden ihre Geschenkgutscheine sofort nach dem Kauf erhalten"
+      },
+      {
+        "title": "Sie erhalten die Zahlung",
+        "description": "Sofortige Zahlungsabwicklung bedeutet, dass Sie sofort bezahlt werden, wenn Gutscheine verkauft werden"
+      },
+      {
+        "title": "Der Empfänger löst den Gutschein später ein",
+        "description": "Empfänger können ihre Gutscheine nach Belieben einlösen, normalerweise innerhalb von 6 Monaten"
+      }
+    ]
+  },
+  "UseCases": {
+    "title": "Anwendungsfälle & Kartentypen",
+    "subtitle": "Entdecken Sie die perfekte Geschenkkartenlösung für jeden geschäftlichen Bedarf. Von Marketingkampagnen bis zu Treueprogrammen und Events.",
+    "marketingCards": {
+      "title": "Marketing-Karten",
+      "experienceVoucher": {
+        "title": "Erlebnis-Gutschein",
+        "description": "Perfekt für einzigartige Erlebnisse und Dienstleistungen mit variablen Preisen.",
+        "features": ["Können nicht verfallen", "Preis nicht auf dem Gutschein angezeigt", "Flexible Einlösungsoptionen", "Erlebnisfokussiert"],
+        "status": "Verfügbar"
+      },
+      "monetaryVoucher": {
+        "title": "Geld-Gutschein",
+        "description": "Traditionelle Geschenkkarten mit festen Werten, ideal für Gastronomie und Einzelhandel.",
+        "features": ["Können nicht verfallen", "Preis sichtbar", "Fester Wert", "Einfache Einlösung"],
+        "status": "Verfügbar"
+      },
+      "marketingVoucher": {
+        "title": "Marketing-Gutschein",
+        "description": "Belohnen Sie größere Einkäufe mit Bonuswert-Aktionen, die die Kundenakquise fördern.",
+        "features": ["Kann verfallen", "Nutzungsbegrenzungen", "Zeitlich begrenzte Kampagnen", "Bonuswert-Prämien"],
+        "status": "Verfügbar"
+      },
+      "discountCards": {
+        "title": "Rabattkarte",
+        "description": "Belohnen Sie bestimmte Kundenaktionen mit Prozent- oder Geldrabatten zur Steigerung der Kundenbindung.",
+        "features": ["Kann verfallen", "Aktionsbasiert", "Nutzungsbegrenzungen", "Flexible Rabattarten"],
+        "status": "Verfügbar"
+      }
+    },
+    "loyaltyPrograms": {
+      "title": "Treueprogramme",
+      "membershipId": {
+        "title": "Mitgliedskarte",
+        "description": "Digitale Mitgliedskarten mit exklusiven Vorteilen und Tier-Management.",
+        "features": ["Mitgliederidentifikation", "Tier-Management", "Exklusive Vorteile", "Digital Wallet bereit"],
+        "status": "Bald Verfügbar"
+      },
+      "loyaltyCard": {
+        "title": "Treuepunktkarte",
+        "description": "Digitale Stempelkarten, die wiederkehrende Kunden mit Stempeln und Belohnungen belohnen.",
+        "features": ["Digitale Stempel", "Belohnungsverfolgung", "Abschlussboni", "Fortschrittsvisualisierung"],
+        "status": "Bald Verfügbar"
+      }
+    },
+    "eventManagement": {
+      "title": "Event-Management",
+      "eventTickets": {
+        "title": "Event-Tickets",
+        "description": "Digitale Event-Tickets mit automatischem Ablauf und Kapazitätsmanagement.",
+        "features": ["Automatischer Ablauf nach Event", "Kapazitätsgrenzen", "QR-Code-Integration", "Event-Details integriert"],
+        "status": "Bald Verfügbar"
+      }
+    }
+  },
+  "About": {
+    "title": "Über gifthero",
+    "description": "Wir haben Leidenschaft dafür, lokalen Unternehmen zu helfen, im digitalen Zeitalter zu prosperieren. Unsere Plattform macht es einfach, digitale Geschenkkarten zu erstellen, zu verkaufen und zu verwalten, die nahtlos mit Ihren bestehenden Geschäftsoperationen funktionieren.",
+    "stats": {
+      "languages": "8 Sprachen",
+      "businesses": "500+ Zufriedene Unternehmen",
+      "uptime": "99.9% Verfügbarkeit",
+      "support": "24/7 Support"
+    }
+  },
+  "Contact": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Haben Sie Fragen? Wir hören gerne von Ihnen.",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Nachricht Senden"
+    },
+    "info": {
+      "email": "hello@gifthero.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Business St, Suite 100, City, State 12345"
+    }
+  },
+  "CTA": {
+    "title": "Bereit, Ihre Umsätze zu Steigern?",
+    "subtitle": "Schließen Sie sich Tausenden von Unternehmen an, die bereits unsere Plattform nutzen",
+    "button": "Starten Sie Ihren Kostenlosen Test"
+  },
+  "CTAButton": {
+    "startTrial": "Kostenlos Testen",
+    "watchDemo": "Demo Ansehen",
+    "signIn": "Anmelden"
+  },
+  "Navigation": {
+    "brand": "gifthero",
+    "features": "Funktionen",
+    "howItWorks": "Wie es funktioniert",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "useCases": "Anwendungsfälle",
+    "useCasesDropdown": {
+      "marketingCards": "Marketing-Karten",
+      "experienceVouchers": "Erlebnis-Gutscheine",
+      "monetaryVouchers": "Geld-Gutscheine",
+      "marketingVouchers": "Marketing-Gutscheine",
+      "discountCards": "Rabattkarten",
+      "loyaltyPrograms": "Treueprogramme",
+      "membershipCards": "Mitgliedskarten",
+      "loyaltyCards": "Treuekarten",
+      "eventManagement": "Event-Management",
+      "eventTickets": "Event-Tickets"
+    }
+  }
+}

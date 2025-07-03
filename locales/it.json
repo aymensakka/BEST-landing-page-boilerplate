@@ -1,0 +1,198 @@
+{
+  "Hero": {
+    "badge": "Mobile-friendly e disponibile in 8 lingue",
+    "title": "Gestisci i tuoi voucher regalo con gifthero",
+    "description": "Carte e voucher regalo disponibili in un clic dal tuo sito. Semplifica la gestione quotidiana con la nostra soluzione all-in-one: personalizzazione, pagamento sicuro online e invio automatico via email o posta.",
+    "trustedBy": "Sorprendi i tuoi clienti. Aumenta le tue vendite.",
+    "dashboardAlt": "Anteprima Dashboard gifthero"
+  },
+  "Features": {
+    "title": "Funzionalità innovative",
+    "subtitle": "Opzioni su misura per la tua attività",
+    "cards": {
+      "groupGifts": {
+        "title": "Pagamenti di gruppo e raccolte condivise",
+        "description": "Permetti a più clienti di contribuire insieme per regali di gruppo con opzioni di pagamento condiviso"
+      },
+      "inStoreSales": {
+        "title": "Vendite in presenza semplificate",
+        "description": "Integrazione POS facile per vendere carte regalo direttamente nel tuo punto vendita"
+      },
+      "qrValidation": {
+        "title": "Validazione istantanea tramite QR",
+        "description": "Validazione rapida e sicura dei voucher con tecnologia QR code"
+      },
+      "postalDelivery": {
+        "title": "Spedizione postale automatizzata",
+        "description": "Ci occupiamo noi della spedizione delle carte senza costi aggiuntivi"
+      },
+      "marketing": {
+        "title": "Marketing & SEO",
+        "description": "Negozio ottimizzato SEO con GA4 e Google Tag Manager. Strumenti gratuiti: QR code, popup, offerte in evidenza"
+      },
+      "autonomy": {
+        "title": "Autonomia e controllo totale",
+        "description": "Crea e gestisci le tue offerte facilmente. Monitora vendite e valida voucher da una dashboard intuitiva"
+      }
+    }
+  },
+  "Benefits": {
+    "title": "Cos'è gifthero?",
+    "subtitle": "Vendi i tuoi voucher e carte regalo direttamente dal tuo sito. Aumenta i ricavi e migliora il flusso di cassa.",
+    "list": [
+      "Negozio personalizzato sul tuo sito web",
+      "Mobile-friendly, disponibile in 8 lingue",
+      "Pagamento online sicuro integrato",
+      "Automazione totale: personalizzazione, pagamento e invio",
+      "Dashboard completa e facile da usare",
+      "Nessun abbonamento o costo fisso"
+    ],
+    "imageAlt": "Riunione aziendale che discute la strategia delle carte regalo",
+    "roi": "Nessun abbonamento",
+    "roiDescription": "Nessun costo fisso - paghi solo quando vendi"
+  },
+  "HowItWorks": {
+    "title": "Come funziona?",
+    "subtitle": "Un processo semplice in 7 passi per te e i tuoi clienti",
+    "steps": [
+      {
+        "title": "Il negozio viene integrato nel tuo sito",
+        "description": "Integriamo il tuo negozio personalizzato di carte regalo direttamente sul tuo sito web"
+      },
+      {
+        "title": "Il cliente vi accede",
+        "description": "I clienti possono trovare e accedere facilmente al tuo negozio di carte regalo dal sito principale"
+      },
+      {
+        "title": "Sceglie e personalizza il voucher",
+        "description": "I clienti selezionano il regalo perfetto e lo personalizzano con messaggi e design personali"
+      },
+      {
+        "title": "Effettua il pagamento (singolo o di gruppo)",
+        "description": "Pagamento sicuro con opzioni per acquisti singoli o contributi di gruppo"
+      },
+      {
+        "title": "Riceve il voucher all'istante",
+        "description": "La consegna automatica garantisce che i clienti ricevano subito i loro voucher regalo"
+      },
+      {
+        "title": "Tu incassi",
+        "description": "L'incasso è immediato quando vengono venduti i voucher"
+      },
+      {
+        "title": "Il destinatario usa il voucher in seguito",
+        "description": "I destinatari possono utilizzare i voucher quando preferiscono, tipicamente entro 6 mesi"
+      }
+    ]
+  },
+  "UseCases": {
+    "title": "Casi d'Uso & Tipi di Carta",
+    "subtitle": "Scopri la soluzione di carta regalo perfetta per ogni esigenza aziendale. Dalle campagne marketing ai programmi fedeltà e agli eventi.",
+    "marketingCards": {
+      "title": "Carte Marketing",
+      "experienceVoucher": {
+        "title": "Voucher Esperienza",
+        "description": "Ideale per esperienze uniche e servizi a prezzo variabile.",
+        "features": ["Non scadono mai", "Prezzo non visibile sul voucher", "Opzioni di riscatto flessibili", "Focalizzato sull'esperienza"],
+        "status": "Disponibile"
+      },
+      "monetaryVoucher": {
+        "title": "Voucher Monetari",
+        "description": "Carte regalo tradizionali a valore fisso, perfette per ristoranti e negozi.",
+        "features": ["Non scadono mai", "Prezzo visibile", "Valore fisso", "Riscatto facile"],
+        "status": "Disponibile"
+      },
+      "marketingVoucher": {
+        "title": "Voucher Marketing",
+        "description": "Incentiva acquisti di valore con promozioni extra che aumentano la clientela.",
+        "features": ["Può scadere", "Limiti di utilizzo", "Campagne a tempo", "Valore extra in regalo"],
+        "status": "Disponibile"
+      },
+      "discountCards": {
+        "title": "Carta Sconto",
+        "description": "Premia azioni specifiche dei clienti con sconti per aumentare l'engagement.",
+        "features": ["Può scadere", "Attivata da azione", "Limiti di utilizzo", "Tipi di sconto flessibili"],
+        "status": "Disponibile"
+      }
+    },
+    "loyaltyPrograms": {
+      "title": "Programmi Fedeltà",
+      "membershipId": {
+        "title": "Carta Abbonamento",
+        "description": "Carte abbonamento digitali con vantaggi esclusivi e gestione livelli.",
+        "features": ["Identificazione membro", "Gestione livelli", "Vantaggi esclusivi", "Pronto per wallet digitale"],
+        "status": "Prossimamente"
+      },
+      "loyaltyCard": {
+        "title": "Carta Fedeltà a Punti",
+        "description": "Carte digitali a timbratura che premiano clienti fedeli con timbri e ricompense.",
+        "features": ["Timbri digitali", "Tracciamento ricompense", "Bonus completamento", "Visualizzazione progressi"],
+        "status": "Prossimamente"
+      }
+    },
+    "eventManagement": {
+      "title": "Gestione Eventi",
+      "eventTickets": {
+        "title": "Biglietti Evento",
+        "description": "Biglietti evento digitali con scadenza automatica e gestione capacità.",
+        "features": ["Scadenza automatica dopo evento", "Limiti di capacità", "Integrazione QR code", "Dettagli evento integrati"],
+        "status": "Prossimamente"
+      }
+    }
+  },
+  "About": {
+    "title": "Chi è gifthero",
+    "description": "Siamo appassionati nell'aiutare le aziende locali a prosperare nell'era digitale. La nostra piattaforma rende facile creare, vendere e gestire carte regalo digitali che si integrano perfettamente con le tue operazioni aziendali esistenti.",
+    "stats": {
+      "languages": "8 Lingue",
+      "businesses": "500+ Aziende Soddisfatte",
+      "uptime": "99.9% Disponibilità",
+      "support": "Supporto 24/7"
+    }
+  },
+  "Contact": {
+    "title": "Contattaci",
+    "subtitle": "Hai domande? Ci piacerebbe sentirti.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Messaggio",
+      "submit": "Invia Messaggio"
+    },
+    "info": {
+      "email": "hello@gifthero.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Business St, Suite 100, City, State 12345"
+    }
+  },
+  "CTA": {
+    "title": "Pronto ad Aumentare i Ricavi?",
+    "subtitle": "Unisciti a migliaia di aziende che già usano la nostra piattaforma",
+    "button": "Inizia la Tua Prova Gratuita"
+  },
+  "CTAButton": {
+    "startTrial": "Inizia la Prova Gratuita",
+    "watchDemo": "Guarda la Demo",
+    "signIn": "Accedi"
+  },
+  "Navigation": {
+    "brand": "gifthero",
+    "features": "Funzionalità",
+    "howItWorks": "Come funziona",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "useCases": "Casi d'uso",
+    "useCasesDropdown": {
+      "marketingCards": "Carte Marketing",
+      "experienceVouchers": "Voucher Esperienza",
+      "monetaryVouchers": "Voucher Monetari",
+      "marketingVouchers": "Voucher Marketing",
+      "discountCards": "Carte Sconto",
+      "loyaltyPrograms": "Programmi Fedeltà",
+      "membershipCards": "Carte Abbonamento",
+      "loyaltyCards": "Carte Fedeltà",
+      "eventManagement": "Gestione Eventi",
+      "eventTickets": "Biglietti Evento"
+    }
+  }
+}

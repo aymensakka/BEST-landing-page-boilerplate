@@ -1,47 +1,307 @@
 {
   "Hero": {
-    "title1": "Ship",
-    "title2": "Landing Page",
-    "title3": "Fast",
-    "description": "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour."
+    "badge": "Mobile-friendly and available in 8 languages",
+    "title": "Manage your gift vouchers with gifthero",
+    "description": "Gift cards and vouchers available in one click from your website. Simplify your operations with our all-in-one solution: purchase customization, secure online payment, and automatic delivery by email or mail.",
+    "trustedBy": "Delight your customers. Boost your sales.",
+    "dashboardAlt": "gifthero Dashboard Preview"
   },
-  "SocialProof": {
-    "maker": "makers ship fast"
+  "Features": {
+    "title": "Innovative Features",
+    "subtitle": "Many features tailored to your business",
+    "cards": {
+      "groupGifts": {
+        "title": "Group Gifts & Shared Payments",
+        "description": "Enable customers to contribute together for group gifts with shared payment options"
+      },
+      "inStoreSales": {
+        "title": "In-Store Sales Simplified",
+        "description": "Easy point-of-sale integration for selling gift cards directly in your physical location"
+      },
+      "qrValidation": {
+        "title": "Instant QR Code Validation",
+        "description": "Quick and secure voucher validation with QR code scanning technology"
+      },
+      "postalDelivery": {
+        "title": "Automated Postal Delivery",
+        "description": "We handle the shipping of your gift cards, helping you scale without extra cost"
+      },
+      "marketing": {
+        "title": "Marketing & SEO",
+        "description": "SEO-optimized store with GA4 & Google Tag Manager integration. Free tools: QR codes, pop-ups, highlighted offers"
+      },
+      "autonomy": {
+        "title": "Full Autonomy",
+        "description": "Create and manage offers with ease. Monitor sales in real-time. Manage vouchers, payments, validity, and notes from one dashboard"
+      }
+    }
   },
-  "Showcase": {
-    "title": "Showcase",
-    "description": "Join 1000+ Makers Boosting Conversions with Our Landing Page Boilerplate"
+  "Benefits": {
+    "title": "What is gifthero?",
+    "subtitle": "Sell your own gift vouchers and cards directly from your site. Increase your revenue and improve cash flow.",
+    "list": [
+      "A personalized store integrated into your website",
+      "Mobile-friendly and available in 8 languages",
+      "Secure online payment system",
+      "Full automation: personalization, payment, and delivery",
+      "Intuitive dashboard for autonomous daily management",
+      "No subscription, no fixed fees"
+    ],
+    "imageAlt": "Business meeting discussing gift card strategy",
+    "roi": "No subscription",
+    "roiDescription": "No fixed fees - pay only when you sell"
   },
-  "Feature": {
-    "title": "Features"
+  "HowItWorks": {
+    "title": "How does it work?",
+    "subtitle": "Simple 7-step process for your customers and you",
+    "steps": [
+      {
+        "title": "Your customized store is integrated",
+        "description": "We integrate your personalized gift card store directly into your website"
+      },
+      {
+        "title": "The client visits your website",
+        "description": "Customers can easily find and access your gift card store from your main website"
+      },
+      {
+        "title": "They choose and personalize the gift voucher",
+        "description": "Customers select the perfect gift and customize it with personal messages and designs"
+      },
+      {
+        "title": "They pay online, individually or in a group",
+        "description": "Secure payment processing with options for individual purchases or group contributions"
+      },
+      {
+        "title": "The voucher is sent instantly via email",
+        "description": "Automatic delivery ensures customers receive their gift vouchers immediately after purchase"
+      },
+      {
+        "title": "You receive the payment",
+        "description": "Instant payment processing means you get paid immediately when vouchers are sold"
+      },
+      {
+        "title": "The recipient redeems the voucher later",
+        "description": "Recipients can use their vouchers at their convenience, typically within 6 months"
+      }
+    ]
   },
-  "Pricing": {
-    "title": "Pricing",
-    "title2": "Get unlimited access.",
-    "description": "The page you are currently viewing is an open-source, free boilerplate.",
-    "doYouLike": "Do you like this landing page boilerplate?",
-    "follow": "Follow my Twitter."
+  "useCases": {
+    "title": "Use Cases & Card Types",
+    "subtitle": "Discover the perfect gift card solution for every business need. From marketing campaigns to loyalty programs and events.",
+    "experienceVouchers": {
+      "title": "Experience Vouchers",
+      "description": "Perfect for unique experiences and services where pricing varies or you want to maintain flexibility.",
+      "features": [
+        "Cannot expire",
+        "Price not displayed",
+        "Flexible redemption",
+        "Experience-focused"
+      ],
+      "stats": [
+        { "value": "95%", "label": "Customer Satisfaction" },
+        { "value": "3x", "label": "Higher Average Order Value" },
+        { "value": "65%", "label": "Repeat Customers" }
+      ]
+    },
+    "monetaryVouchers": {
+      "title": "Monetary Vouchers",
+      "description": "Traditional gift cards with fixed monetary values, perfect for restaurants and retail.",
+      "features": [
+        "Cannot expire",
+        "Price clearly visible",
+        "Fixed value",
+        "Easy redemption"
+      ],
+      "stats": [
+        { "value": "90%", "label": "Redemption Rate" },
+        { "value": "2.5x", "label": "Average Spend Over Value" },
+        { "value": "40%", "label": "New Customer Acquisition" }
+      ]
+    },
+    "marketingVouchers": {
+      "title": "Marketing Vouchers",
+      "description": "Incentivize purchases with special offers and discounts.",
+      "features": [
+        "Custom expiry dates",
+        "Special promotions",
+        "Limited time offers",
+        "Targeted campaigns"
+      ],
+      "stats": [
+        { "value": "75%", "label": "Conversion Rate" },
+        { "value": "3.2x", "label": "ROI on Campaigns" },
+        { "value": "50%", "label": "Repeat Purchase Rate" }
+      ]
+    },
+    "discountCards": {
+      "title": "Discount Cards",
+      "description": "Reward loyal customers with special discounts and offers.",
+      "features": [
+        "Percentage or fixed discounts",
+        "Limited time offers",
+        "Exclusive to members",
+        "Stackable with other offers"
+      ],
+      "stats": [
+        { "value": "85%", "label": "Customer Retention" },
+        { "value": "2.8x", "label": "Average Order Value" },
+        { "value": "60%", "label": "Repeat Usage" }
+      ]
+    },
+    "loyaltyCards": {
+      "title": "Loyalty Cards",
+      "description": "Build customer loyalty with reward points and exclusive benefits.",
+      "features": [
+        "Points on purchases",
+        "Exclusive rewards",
+        "VIP tiers",
+        "Birthday surprises"
+      ],
+      "stats": [
+        { "value": "4x", "label": "More Frequent Visits" },
+        { "value": "70%", "label": "Higher Spend" },
+        { "value": "80%", "label": "Customer Retention" }
+      ]
+    },
+    "eventTickets": {
+      "title": "Event Tickets",
+      "description": "Sell and manage tickets for your events with ease.",
+      "features": [
+        "QR code validation",
+        "Seat selection",
+        "Digital delivery",
+        "Real-time availability"
+      ],
+      "stats": [
+        { "value": "95%", "label": "Sell-Through Rate" },
+        { "value": "3.5x", "label": "Social Shares" },
+        { "value": "70%", "label": "Returning Attendees" }
+      ]
+    },
+    "membershipCards": {
+      "title": "Membership Cards",
+      "description": "Exclusive access and benefits for your members.",
+      "features": [
+        "Digital membership cards",
+        "Exclusive content",
+        "Member-only events",
+        "Special discounts"
+      ],
+      "stats": [
+        { "value": "90%", "label": "Renewal Rate" },
+        { "value": "4x", "label": "Engagement" },
+        { "value": "75%", "label": "Referral Rate" }
+      ]
+    }
   },
-  "Testimonials": {
-    "title": "Testimonials",
-    "description1": "If you use this landing page template and recommend it on your Twitter,",
-    "description2": "please let me know",
-    "description3": ". I will display your tweet and recommendation here."
+  "UseCases": {
+    "title": "Use Cases & Card Types",
+    "subtitle": "Discover the perfect gift card solution for every business need. From marketing campaigns to loyalty programs and events.",
+    "marketingCards": {
+      "title": "Marketing Cards",
+      "experienceVoucher": {
+        "title": "Experience Voucher",
+        "description": "Perfect for unique experiences and services where pricing varies or you want to maintain flexibility.",
+        "features": ["Cannot expire", "Price not displayed", "Flexible redemption", "Experience-focused"],
+        "status": "Available"
+      },
+      "monetaryVoucher": {
+        "title": "Monetary Value Voucher",
+        "description": "Traditional gift cards with fixed monetary values, perfect for restaurants and retail.",
+        "features": ["Cannot expire", "Price clearly visible", "Fixed value", "Easy redemption"],
+        "status": "Available"
+      },
+      "marketingVoucher": {
+        "title": "Higher Value Marketing Voucher",
+        "description": "Incentivize larger purchases with bonus value promotions that drive customer acquisition.",
+        "features": ["May expire", "Usage limit options", "Time-limited campaigns", "Bonus value rewards"],
+        "status": "Available"
+      },
+      "discountCards": {
+        "title": "Discount Action Cards",
+        "description": "Reward specific customer actions with percentage or dollar discounts to drive engagement.",
+        "features": ["May expire", "Action-triggered", "Usage limits", "Flexible discount types"],
+        "status": "Available"
+      }
+    },
+    "loyaltyPrograms": {
+      "title": "Loyalty Programs",
+      "membershipId": {
+        "title": "Membership ID",
+        "description": "Digital membership cards with exclusive benefits and tier management.",
+        "features": ["Member identification", "Tier management", "Exclusive benefits", "Digital wallet ready"],
+        "status": "Coming Soon"
+      },
+      "loyaltyCard": {
+        "title": "Loyalty Punch Card",
+        "description": "Digital punch cards that reward repeat customers with stamps and rewards.",
+        "features": ["Digital stamps", "Reward tracking", "Completion bonuses", "Progress visualization"],
+        "status": "Coming Soon"
+      }
+    },
+    "eventManagement": {
+      "title": "Event Management",
+      "eventTickets": {
+        "title": "Event Tickets",
+        "description": "Digital event tickets with automatic expiration and capacity management.",
+        "features": ["Auto-expire after event", "Capacity limits", "QR code integration", "Event details embedded"],
+        "status": "Coming Soon"
+      }
+    }
   },
-  "FAQ": {
-    "title": "FAQs",
-    "description": "Here are some of the most frequently asked questions."
+  "About": {
+    "title": "About gifthero",
+    "description": "We're passionate about helping local businesses thrive in the digital age. Our platform makes it easy to create, sell, and manage digital gift cards that work seamlessly with your existing business operations.",
+    "stats": {
+      "languages": "8 Languages",
+      "businesses": "500+ Happy Businesses",
+      "uptime": "99.9% Uptime",
+      "support": "24/7 Support"
+    }
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions? We'd love to hear from you.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "info": {
+      "email": "hello@gifthero.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Business St, Suite 100, City, State 12345"
+    }
   },
   "CTA": {
-    "title": "Build Your Landing Page Now",
-    "description1": "Build",
-    "description2": "your landing page,",
-    "description3": "show",
-    "description4": "your product, and",
-    "description5": "start earning",
-    "description6": "!"
+    "title": "Ready to Boost Your Revenue?",
+    "subtitle": "Join thousands of businesses already using our platform",
+    "button": "Start Your Free Trial"
   },
   "CTAButton": {
-    "title": "Get Source Code"
+    "startTrial": "Start Free Trial",
+    "watchDemo": "Watch Demo",
+    "signIn": "Sign In"
+  },
+  "Navigation": {
+    "brand": "gifthero",
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "about": "About",
+    "contact": "Contact",
+    "useCases": "Use Cases",
+    "useCasesDropdown": {
+      "marketingCards": "Marketing Cards",
+      "experienceVouchers": "Experience Vouchers",
+      "monetaryVouchers": "Monetary Vouchers",
+      "marketingVouchers": "Marketing Vouchers",
+      "discountCards": "Discount Cards",
+      "loyaltyPrograms": "Loyalty Programs",
+      "membershipCards": "Membership Cards",
+      "loyaltyCards": "Loyalty Cards",
+      "eventManagement": "Event Management",
+      "eventTickets": "Event Tickets"
+    }
   }
 }
