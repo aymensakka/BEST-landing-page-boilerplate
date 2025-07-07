@@ -1,0 +1,10 @@
+{
+  "title": "Gifthero - Gift Card & Voucher Platform",
+  "description": "Powerful gift card and voucher management platform for businesses",
+  "loading": "Loading...",
+  "error": {
+    "title": "Something went wrong",
+    "description": "An unexpected error occurred. Please try again later.",
+    "back": "Go back"
+  }
+}

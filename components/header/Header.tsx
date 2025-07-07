@@ -1,5 +1,4 @@
 "use client";
-import HeaderLinks from "@/components/header/HeaderLinks";
 import { LangSwitcher } from "@/components/header/LangSwitcher";
 import { siteConfig } from "@/config/site";
 import { MenuIcon } from "lucide-react";
@@ -9,6 +8,7 @@ import { useParams } from "next/navigation";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { ThemedButton } from "../ThemedButton";
+import UseCasesDropdown from "./UseCasesDropdown";
 
 const links = [
   { label: "Features", href: "#Features" },
@@ -47,24 +47,26 @@ const Header = () => {
         </div>
 
         {/* Center section - Navigation */}
-        <ul className="hidden md:flex items-center justify-center gap-6 flex-1">
+        <ul className="hidden md:flex items-center justify-center gap-8 flex-1">
           {links.map((link) => (
-            <li key={link.label}>
+            <li key={link.label} className="whitespace-nowrap">
               <Link
                 href={`/${lang === "en" ? "" : lang}${link.href}`}
                 aria-label={link.label}
                 title={link.label}
-                className="tracking-wide transition-colors duration-200 font-normal"
+                className="tracking-wide transition-colors duration-200 font-medium text-base hover:text-primary"
               >
                 {link.label}
               </Link>
             </li>
           ))}
+          <li>
+            <UseCasesDropdown />
+          </li>
         </ul>
 
         {/* Right section */}
         <div className="hidden md:flex items-center justify-end gap-x-6 flex-1">
-          <HeaderLinks />
           <ThemedButton />
           <LangSwitcher />
         </div>
@@ -121,22 +123,42 @@ const Header = () => {
                           href={link.href}
                           aria-label={link.label}
                           title={link.label}
-                          className="font-medium tracking-wide transition-colors duration-200 hover:text-deep-purple-accent-400"
+                          className="block py-2 text-base font-medium tracking-wide transition-colors duration-200 hover:text-primary"
                           onClick={() => setIsMenuOpen(false)}
                         >
                           {link.label}
                         </Link>
                       </li>
                     ))}
+                    <li className="border-t border-gray-200 dark:border-gray-700 my-2 pt-3">
+                      <div className="text-sm font-medium text-gray-500 dark:text-gray-400 px-4 mb-2">Use Cases</div>
+                      <div className="space-y-1">
+                        {[
+                          { id: "experience-vouchers", label: "Experience Vouchers" },
+                          { id: "monetary-vouchers", label: "Monetary Vouchers" },
+                          { id: "gift-cards", label: "Gift Cards" },
+                          { id: "loyalty-rewards", label: "Loyalty Rewards" },
+                          { id: "employee-recognition", label: "Employee Recognition" },
+                          { id: "customer-retention", label: "Customer Retention" },
+                          { id: "marketing-campaigns", label: "Marketing Campaigns" },
+                        ].map((item) => (
+                          <Link
+                            key={item.id}
+                            href={`/${lang}/use-cases/${item.id}`}
+                            className="block px-6 py-2 text-sm text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-150"
+                            onClick={() => setIsMenuOpen(false)}
+                          >
+                            {item.label}
+                          </Link>
+                        ))}
+                      </div>
+                    </li>
                   </ul>
                 </nav>
                 <div className="pt-4">
-                  <div className="flex items-center gap-x-5 justify-between">
-                    <HeaderLinks />
-                    <div className="flex items-center justify-end gap-x-5">
-                      <ThemedButton />
-                      <LangSwitcher />
-                    </div>
+                  <div className="flex items-center justify-end gap-x-5">
+                    <ThemedButton />
+                    <LangSwitcher />
                   </div>
                 </div>
               </div>

@@ -6,6 +6,32 @@
     "trustedBy": "Delight your customers. Boost your sales.",
     "dashboardAlt": "gifthero Dashboard Preview"
   },
+  "HowItWorks": {
+    "title": "How It Works",
+    "subtitle": "Get started with gifthero in just a few simple steps",
+    "steps": [
+      {
+        "title": "Create Your Account",
+        "description": "Sign up for a free account and set up your business profile in minutes.",
+        "icon": "user-plus"
+      },
+      {
+        "title": "Customize Your Vouchers",
+        "description": "Design and customize your gift cards and vouchers with your branding and terms.",
+        "icon": "settings"
+      },
+      {
+        "title": "Start Selling",
+        "description": "Share your voucher links or integrate with your website to start selling instantly.",
+        "icon": "shopping-cart"
+      },
+      {
+        "title": "Manage & Track",
+        "description": "Easily manage your vouchers, track redemptions, and analyze performance from your dashboard.",
+        "icon": "bar-chart-2"
+      }
+    ]
+  },
   "Features": {
     "title": "Innovative Features",
     "subtitle": "Many features tailored to your business",
@@ -47,261 +73,267 @@
       "Intuitive dashboard for autonomous daily management",
       "No subscription, no fixed fees"
     ],
-    "imageAlt": "Business meeting discussing gift card strategy",
-    "roi": "No subscription",
-    "roiDescription": "No fixed fees - pay only when you sell"
-  },
-  "HowItWorks": {
-    "title": "How does it work?",
-    "subtitle": "Simple 7-step process for your customers and you",
-    "steps": [
-      {
-        "title": "Your customized store is integrated",
-        "description": "We integrate your personalized gift card store directly into your website"
-      },
-      {
-        "title": "The client visits your website",
-        "description": "Customers can easily find and access your gift card store from your main website"
-      },
-      {
-        "title": "They choose and personalize the gift voucher",
-        "description": "Customers select the perfect gift and customize it with personal messages and designs"
-      },
-      {
-        "title": "They pay online, individually or in a group",
-        "description": "Secure payment processing with options for individual purchases or group contributions"
-      },
-      {
-        "title": "The voucher is sent instantly via email",
-        "description": "Automatic delivery ensures customers receive their gift vouchers immediately after purchase"
-      },
-      {
-        "title": "You receive the payment",
-        "description": "Instant payment processing means you get paid immediately when vouchers are sold"
-      },
-      {
-        "title": "The recipient redeems the voucher later",
-        "description": "Recipients can use their vouchers at their convenience, typically within 6 months"
-      }
-    ]
-  },
-  "useCases": {
-    "title": "Use Cases & Card Types",
-    "subtitle": "Discover the perfect gift card solution for every business need. From marketing campaigns to loyalty programs and events.",
-    "experienceVouchers": {
-      "title": "Experience Vouchers",
-      "description": "Perfect for unique experiences and services where pricing varies or you want to maintain flexibility.",
-      "features": [
-        "Cannot expire",
-        "Price not displayed",
-        "Flexible redemption",
-        "Experience-focused"
-      ],
-      "stats": [
-        { "value": "95%", "label": "Customer Satisfaction" },
-        { "value": "3x", "label": "Higher Average Order Value" },
-        { "value": "65%", "label": "Repeat Customers" }
-      ]
-    },
-    "monetaryVouchers": {
-      "title": "Monetary Vouchers",
-      "description": "Traditional gift cards with fixed monetary values, perfect for restaurants and retail.",
-      "features": [
-        "Cannot expire",
-        "Price clearly visible",
-        "Fixed value",
-        "Easy redemption"
-      ],
-      "stats": [
-        { "value": "90%", "label": "Redemption Rate" },
-        { "value": "2.5x", "label": "Average Spend Over Value" },
-        { "value": "40%", "label": "New Customer Acquisition" }
-      ]
-    },
-    "marketingVouchers": {
-      "title": "Marketing Vouchers",
-      "description": "Incentivize purchases with special offers and discounts.",
-      "features": [
-        "Custom expiry dates",
-        "Special promotions",
-        "Limited time offers",
-        "Targeted campaigns"
-      ],
-      "stats": [
-        { "value": "75%", "label": "Conversion Rate" },
-        { "value": "3.2x", "label": "ROI on Campaigns" },
-        { "value": "50%", "label": "Repeat Purchase Rate" }
-      ]
-    },
-    "discountCards": {
-      "title": "Discount Cards",
-      "description": "Reward loyal customers with special discounts and offers.",
-      "features": [
-        "Percentage or fixed discounts",
-        "Limited time offers",
-        "Exclusive to members",
-        "Stackable with other offers"
-      ],
-      "stats": [
-        { "value": "85%", "label": "Customer Retention" },
-        { "value": "2.8x", "label": "Average Order Value" },
-        { "value": "60%", "label": "Repeat Usage" }
-      ]
-    },
-    "loyaltyCards": {
-      "title": "Loyalty Cards",
-      "description": "Build customer loyalty with reward points and exclusive benefits.",
-      "features": [
-        "Points on purchases",
-        "Exclusive rewards",
-        "VIP tiers",
-        "Birthday surprises"
-      ],
-      "stats": [
-        { "value": "4x", "label": "More Frequent Visits" },
-        { "value": "70%", "label": "Higher Spend" },
-        { "value": "80%", "label": "Customer Retention" }
-      ]
-    },
-    "eventTickets": {
-      "title": "Event Tickets",
-      "description": "Sell and manage tickets for your events with ease.",
-      "features": [
-        "QR code validation",
-        "Seat selection",
-        "Digital delivery",
-        "Real-time availability"
-      ],
-      "stats": [
-        { "value": "95%", "label": "Sell-Through Rate" },
-        { "value": "3.5x", "label": "Social Shares" },
-        { "value": "70%", "label": "Returning Attendees" }
-      ]
-    },
-    "membershipCards": {
-      "title": "Membership Cards",
-      "description": "Exclusive access and benefits for your members.",
-      "features": [
-        "Digital membership cards",
-        "Exclusive content",
-        "Member-only events",
-        "Special discounts"
-      ],
-      "stats": [
-        { "value": "90%", "label": "Renewal Rate" },
-        { "value": "4x", "label": "Engagement" },
-        { "value": "75%", "label": "Referral Rate" }
-      ]
-    }
+    "imageAlt": "Business meeting discussing gift card strategy"
   },
   "UseCases": {
     "title": "Use Cases & Card Types",
     "subtitle": "Discover the perfect gift card solution for every business need. From marketing campaigns to loyalty programs and events.",
-    "marketingCards": {
-      "title": "Marketing Cards",
-      "experienceVoucher": {
-        "title": "Experience Voucher",
-        "description": "Perfect for unique experiences and services where pricing varies or you want to maintain flexibility.",
-        "features": ["Cannot expire", "Price not displayed", "Flexible redemption", "Experience-focused"],
-        "status": "Available"
+    
+    "giftCards": {
+      "title": "Gift Cards",
+      "description": "Perfect for any occasion, our gift cards are the ideal present for your customers, employees, or partners.",
+      "featuresSection": {
+        "title": "Why Choose Our Gift Cards?",
+        "subtitle": "Versatile and convenient solutions for all your gifting needs"
       },
-      "monetaryVoucher": {
-        "title": "Monetary Value Voucher",
-        "description": "Traditional gift cards with fixed monetary values, perfect for restaurants and retail.",
-        "features": ["Cannot expire", "Price clearly visible", "Fixed value", "Easy redemption"],
-        "status": "Available"
+      "benefitsSection": {
+        "title": "Benefits of Our Gift Cards",
+        "subtitle": "Create lasting impressions with our flexible gift card solutions"
       },
-      "marketingVoucher": {
-        "title": "Higher Value Marketing Voucher",
-        "description": "Incentivize larger purchases with bonus value promotions that drive customer acquisition.",
-        "features": ["May expire", "Usage limit options", "Time-limited campaigns", "Bonus value rewards"],
-        "status": "Available"
+      "cta": {
+        "title": "Start Selling Gift Cards Today",
+        "subtitle": "Join thousands of businesses that trust our platform.",
+        "getStarted": "Get Started",
+        "scheduleDemo": "Schedule a Demo"
       },
-      "discountCards": {
-        "title": "Discount Action Cards",
-        "description": "Reward specific customer actions with percentage or dollar discounts to drive engagement.",
-        "features": ["May expire", "Action-triggered", "Usage limits", "Flexible discount types"],
-        "status": "Available"
+      "testimonial": {
+        "quote": "The gift cards have significantly boosted our holiday sales and improved customer loyalty.",
+        "author": "Sarah Johnson",
+        "role": "Retail Manager, Fashion Boutique"
       }
     },
-    "loyaltyPrograms": {
-      "title": "Loyalty Programs",
-      "membershipId": {
-        "title": "Membership ID",
-        "description": "Digital membership cards with exclusive benefits and tier management.",
-        "features": ["Member identification", "Tier management", "Exclusive benefits", "Digital wallet ready"],
-        "status": "Coming Soon"
+    
+    "experienceVouchers": {
+      "title": "Experience Vouchers",
+      "description": "Perfect for unique experiences and services where pricing varies or you want to maintain flexibility.",
+      "featuresSection": {
+        "title": "Why Choose Experience Vouchers?",
+        "subtitle": "Create unforgettable moments with our experience vouchers"
       },
-      "loyaltyCard": {
-        "title": "Loyalty Punch Card",
-        "description": "Digital punch cards that reward repeat customers with stamps and rewards.",
-        "features": ["Digital stamps", "Reward tracking", "Completion bonuses", "Progress visualization"],
-        "status": "Coming Soon"
+      "benefitsSection": {
+        "title": "Benefits of Experience Vouchers",
+        "subtitle": "Offer unique experiences that customers will remember"
+      },
+      "cta": {
+        "title": "Start Offering Experience Vouchers",
+        "subtitle": "Join businesses that are creating memorable experiences.",
+        "getStarted": "Get Started",
+        "scheduleDemo": "Schedule a Demo"
+      },
+      "testimonial": {
+        "quote": "Our experience vouchers have become our most popular offering, with a 30% increase in repeat customers.",
+        "author": "Michael Chen",
+        "role": "Owner, Adventure Tours"
       }
     },
-    "eventManagement": {
-      "title": "Event Management",
-      "eventTickets": {
-        "title": "Event Tickets",
-        "description": "Digital event tickets with automatic expiration and capacity management.",
-        "features": ["Auto-expire after event", "Capacity limits", "QR code integration", "Event details embedded"],
-        "status": "Coming Soon"
+    
+    "monetaryVouchers": {
+      "title": "Monetary Vouchers",
+      "description": "Flexible monetary vouchers that can be used across your products and services.",
+      "features": [
+        "Flexible value that can be used on all products",
+        "Extendable expiration",
+        "Centralized balance management",
+        "Real-time transaction tracking"
+      ],
+      "stats": [
+        { "value": "25%", "label": "Increase in average order value" },
+        { "value": "40%", "label": "Higher conversion rate" },
+        { "value": "30%", "label": "Increase in repeat sales" }
+      ],
+      "featuresSection": {
+        "title": "Why Choose Monetary Vouchers?",
+        "subtitle": "Flexible spending options for your customers"
+      },
+      "benefitsSection": {
+        "title": "Benefits of Monetary Vouchers",
+        "subtitle": "Increase sales and customer satisfaction with flexible vouchers"
+      },
+      "cta": {
+        "title": "Start Selling Monetary Vouchers",
+        "subtitle": "Join businesses that are increasing their revenue with vouchers.",
+        "getStarted": "Get Started",
+        "scheduleDemo": "Schedule a Demo"
+      },
+      "testimonial": {
+        "quote": "Monetary vouchers have helped us increase our average order value by 25%.",
+        "author": "Emma Wilson",
+        "role": "Marketing Director, Retail Chain"
+      }
+    },
+    
+    "marketingCampaigns": {
+      "title": "Marketing Campaigns",
+      "description": "Create targeted marketing campaigns with special offers and promotions.",
+      "featuresSection": {
+        "title": "Why Use Gift Cards for Marketing?",
+        "subtitle": "Boost your marketing efforts with targeted campaigns"
+      },
+      "benefitsSection": {
+        "title": "Benefits of Marketing Campaigns",
+        "subtitle": "Reach new customers and increase brand awareness"
+      },
+      "cta": {
+        "title": "Launch Your Marketing Campaign",
+        "subtitle": "Start reaching more customers today.",
+        "getStarted": "Get Started",
+        "scheduleDemo": "Schedule a Demo"
+      },
+      "testimonial": {
+        "quote": "Our last campaign using gift cards resulted in a 40% increase in new customer acquisition.",
+        "author": "David Kim",
+        "role": "Marketing Manager, E-commerce"
+      }
+    },
+    
+    "employeeRewards": {
+      "title": "Employee Rewards",
+      "description": "Recognize and reward your employees with gift cards they'll love.",
+      "featuresSection": {
+        "title": "Why Choose Employee Rewards?",
+        "subtitle": "Boost morale and retention with meaningful rewards"
+      },
+      "benefitsSection": {
+        "title": "Benefits of Employee Rewards",
+        "subtitle": "Create a positive work environment with employee recognition"
+      },
+      "cta": {
+        "title": "Start Rewarding Your Team",
+        "subtitle": "Show your employees they're valued.",
+        "getStarted": "Get Started",
+        "scheduleDemo": "Schedule a Demo"
+      },
+      "testimonial": {
+        "quote": "Our employee satisfaction scores improved by 35% after implementing a rewards program.",
+        "author": "Lisa Rodriguez",
+        "role": "HR Director, Tech Company"
+      }
+    },
+    
+    "customerLoyalty": {
+      "title": "Customer Loyalty",
+      "description": "Build customer loyalty with rewards and special offers.",
+      "featuresSection": {
+        "title": "Why Focus on Customer Loyalty?",
+        "subtitle": "Turn one-time buyers into repeat customers"
+      },
+      "benefitsSection": {
+        "title": "Benefits of Loyalty Programs",
+        "subtitle": "Increase customer retention and lifetime value"
+      },
+      "cta": {
+        "title": "Build Customer Loyalty Today",
+        "subtitle": "Start rewarding your best customers.",
+        "getStarted": "Get Started",
+        "scheduleDemo": "Schedule a Demo"
+      },
+      "testimonial": {
+        "quote": "Our loyalty program has increased repeat business by 45%.",
+        "author": "James Wilson",
+        "role": "Owner, Local Restaurant"
+      }
+    },
+    
+    "eventTickets": {
+      "title": "Event Tickets",
+      "description": "Sell and manage tickets for your events with ease.",
+      "featuresSection": {
+        "title": "Why Sell Event Tickets with Us?",
+        "subtitle": "Streamline your event management"
+      },
+      "benefitsSection": {
+        "title": "Benefits of Our Ticketing System",
+        "subtitle": "Sell more tickets with less effort"
+      },
+      "cta": {
+        "title": "Start Selling Event Tickets",
+        "subtitle": "Make your next event a success.",
+        "getStarted": "Get Started",
+        "scheduleDemo": "Schedule a Demo"
+      },
+      "testimonial": {
+        "quote": "Our last event sold out in record time thanks to the easy ticketing system.",
+        "author": "Sarah Thompson",
+        "role": "Event Coordinator, Music Festival"
+      }
+    },
+    
+    "membershipCards": {
+      "title": "Membership Cards",
+      "description": "Exclusive access and benefits for your members.",
+      "featuresSection": {
+        "title": "Why Offer Membership Cards?",
+        "subtitle": "Create a community of loyal members"
+      },
+      "benefitsSection": {
+        "title": "Benefits of Membership Programs",
+        "subtitle": "Increase engagement and recurring revenue"
+      },
+      "cta": {
+        "title": "Launch Your Membership Program",
+        "subtitle": "Start building your community today.",
+        "getStarted": "Get Started",
+        "scheduleDemo": "Schedule a Demo"
+      },
+      "testimonial": {
+        "quote": "Our membership program has provided a steady stream of recurring revenue and loyal customers.",
+        "author": "Robert Garcia",
+        "role": "Owner, Fitness Center"
       }
     }
   },
   "About": {
-    "title": "About gifthero",
-    "description": "We're passionate about helping local businesses thrive in the digital age. Our platform makes it easy to create, sell, and manage digital gift cards that work seamlessly with your existing business operations.",
+    "title": "Why Choose Gifthero?",
+    "description": "Gifthero is the leading platform for gift card and voucher management, trusted by businesses of all sizes. Our mission is to simplify the way businesses create, sell, and manage digital gift cards and vouchers.",
     "stats": {
-      "languages": "8 Languages",
-      "businesses": "500+ Happy Businesses",
-      "uptime": "99.9% Uptime",
-      "support": "24/7 Support"
+      "languages": "10+",
+      "businesses": "500+",
+      "uptime": "99.9%",
+      "support": "24/7"
     }
-  },
-  "Contact": {
-    "title": "Get in Touch",
-    "subtitle": "Have questions? We'd love to hear from you.",
-    "form": {
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "submit": "Send Message"
-    },
-    "info": {
-      "email": "hello@gifthero.com",
-      "phone": "+1 (555) 123-4567",
-      "address": "123 Business St, Suite 100, City, State 12345"
-    }
-  },
-  "CTA": {
-    "title": "Ready to Boost Your Revenue?",
-    "subtitle": "Join thousands of businesses already using our platform",
-    "button": "Start Your Free Trial"
   },
   "CTAButton": {
     "startTrial": "Start Free Trial",
-    "watchDemo": "Watch Demo",
-    "signIn": "Sign In"
+    "watchDemo": "Watch Demo"
   },
-  "Navigation": {
-    "brand": "gifthero",
-    "features": "Features",
-    "howItWorks": "How It Works",
-    "about": "About",
-    "contact": "Contact",
-    "useCases": "Use Cases",
-    "useCasesDropdown": {
-      "marketingCards": "Marketing Cards",
-      "experienceVouchers": "Experience Vouchers",
-      "monetaryVouchers": "Monetary Vouchers",
-      "marketingVouchers": "Marketing Vouchers",
-      "discountCards": "Discount Cards",
-      "loyaltyPrograms": "Loyalty Programs",
-      "membershipCards": "Membership Cards",
-      "loyaltyCards": "Loyalty Cards",
-      "eventManagement": "Event Management",
-      "eventTickets": "Event Tickets"
-    }
+  "common": {
+    "getStarted": "Get Started",
+    "scheduleDemo": "Schedule a Demo",
+    "backToUseCases": "Back to Use Cases",
+    "viewAllFeatures": "View All Features",
+    "testimonials": "What Our Customers Say",
+    "trustedBy": "Trusted by businesses worldwide",
+    "readMore": "Read More",
+    "seeAll": "See All",
+    "loading": "Loading...",
+    "error": "An error occurred. Please try again later.",
+    "success": "Success! Your request has been processed.",
+    "required": "This field is required",
+    "invalidEmail": "Please enter a valid email address",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "search": "Search...",
+    "noResults": "No results found",
+    "allRightsReserved": "All rights reserved",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiePolicy": "Cookie Policy",
+    "faq": "FAQ",
+    "support": "Support",
+    "documentation": "Documentation",
+    "blog": "Blog",
+    "careers": "Careers",
+    "press": "Press",
+    "partners": "Partners",
+    "developers": "Developers",
+    "enterprise": "Enterprise"
   }
 }

@@ -47,152 +47,254 @@
       "Intuitives Dashboard für autonome Verwaltung",
       "Ohne Abo oder fixe Gebühren"
     ],
-    "imageAlt": "Geschäftstreffen über Geschenkkarten-Strategie",
-    "roi": "Ohne Abo",
-    "roiDescription": "Ohne fixe Gebühren - zahlen Sie nur beim Verkauf"
-  },
-  "HowItWorks": {
-    "title": "Wie funktioniert es?",
-    "subtitle": "Einfacher 7-Schritte-Prozess für Ihre Kunden und Sie",
-    "steps": [
-      {
-        "title": "Ihr Shop wird integriert",
-        "description": "Wir integrieren Ihren personalisierten Geschenkkarten-Shop direkt in Ihre Website"
-      },
-      {
-        "title": "Der Kunde besucht Ihre Website",
-        "description": "Kunden können leicht Ihren Geschenkkarten-Shop von Ihrer Hauptwebsite finden und besuchen"
-      },
-      {
-        "title": "Er wählt und gestaltet den Gutschein",
-        "description": "Kunden wählen das perfekte Geschenk und personalisieren es mit persönlichen Nachrichten und Designs"
-      },
-      {
-        "title": "Bezahlung online, alleine oder in Gruppen",
-        "description": "Sichere Zahlungsabwicklung mit Optionen für Einzelkäufe oder Gruppenbeiträge"
-      },
-      {
-        "title": "Gutschein wird sofort per E-Mail versendet",
-        "description": "Automatische Lieferung stellt sicher, dass Kunden ihre Geschenkgutscheine sofort nach dem Kauf erhalten"
-      },
-      {
-        "title": "Sie erhalten die Zahlung",
-        "description": "Sofortige Zahlungsabwicklung bedeutet, dass Sie sofort bezahlt werden, wenn Gutscheine verkauft werden"
-      },
-      {
-        "title": "Der Empfänger löst den Gutschein später ein",
-        "description": "Empfänger können ihre Gutscheine nach Belieben einlösen, normalerweise innerhalb von 6 Monaten"
-      }
-    ]
+    "imageAlt": "Geschäftstreffen über Geschenkkarten-Strategie"
   },
   "UseCases": {
     "title": "Anwendungsfälle & Kartentypen",
     "subtitle": "Entdecken Sie die perfekte Geschenkkartenlösung für jeden geschäftlichen Bedarf. Von Marketingkampagnen bis zu Treueprogrammen und Events.",
-    "marketingCards": {
-      "title": "Marketing-Karten",
-      "experienceVoucher": {
-        "title": "Erlebnis-Gutschein",
-        "description": "Perfekt für einzigartige Erlebnisse und Dienstleistungen mit variablen Preisen.",
-        "features": ["Können nicht verfallen", "Preis nicht auf dem Gutschein angezeigt", "Flexible Einlösungsoptionen", "Erlebnisfokussiert"],
-        "status": "Verfügbar"
+    
+    "giftCards": {
+      "title": "Geschenkkarten",
+      "description": "Perfekt für jeden Anlass sind unsere Geschenkkarten das ideale Geschenk für Ihre Kunden, Mitarbeiter oder Partner.",
+      "featuresSection": {
+        "title": "Warum unsere Geschenkkarten wählen?",
+        "subtitle": "Vielseitige und praktische Lösungen für alle Ihre Geschenkbedürfnisse"
       },
-      "monetaryVoucher": {
-        "title": "Geld-Gutschein",
-        "description": "Traditionelle Geschenkkarten mit festen Werten, ideal für Gastronomie und Einzelhandel.",
-        "features": ["Können nicht verfallen", "Preis sichtbar", "Fester Wert", "Einfache Einlösung"],
-        "status": "Verfügbar"
+      "benefitsSection": {
+        "title": "Vorteile unserer Geschenkkarten",
+        "subtitle": "Hinterlassen Sie bleibende Eindrücke mit unseren flexiblen Geschenkkartenlösungen"
       },
-      "marketingVoucher": {
-        "title": "Marketing-Gutschein",
-        "description": "Belohnen Sie größere Einkäufe mit Bonuswert-Aktionen, die die Kundenakquise fördern.",
-        "features": ["Kann verfallen", "Nutzungsbegrenzungen", "Zeitlich begrenzte Kampagnen", "Bonuswert-Prämien"],
-        "status": "Verfügbar"
+      "cta": {
+        "title": "Starten Sie noch heute mit dem Verkauf von Geschenkkarten",
+        "subtitle": "Werden Sie Teil von Tausenden von Unternehmen, die unserer Plattform vertrauen.",
+        "getStarted": "Jetzt starten",
+        "scheduleDemo": "Demo vereinbaren"
       },
-      "discountCards": {
-        "title": "Rabattkarte",
-        "description": "Belohnen Sie bestimmte Kundenaktionen mit Prozent- oder Geldrabatten zur Steigerung der Kundenbindung.",
-        "features": ["Kann verfallen", "Aktionsbasiert", "Nutzungsbegrenzungen", "Flexible Rabattarten"],
-        "status": "Verfügbar"
+      "testimonial": {
+        "quote": "Die Geschenkkarten haben unseren Weihnachtsumsatz erheblich gesteigert und die Kundenbindung verbessert.",
+        "author": "Sarah Schmidt",
+        "role": "Filialleiterin, Modeboutique"
       }
     },
-    "loyaltyPrograms": {
-      "title": "Treueprogramme",
-      "membershipId": {
-        "title": "Mitgliedskarte",
-        "description": "Digitale Mitgliedskarten mit exklusiven Vorteilen und Tier-Management.",
-        "features": ["Mitgliederidentifikation", "Tier-Management", "Exklusive Vorteile", "Digital Wallet bereit"],
-        "status": "Bald Verfügbar"
+    
+    "experienceVouchers": {
+      "title": "Erlebnisgutscheine",
+      "description": "Perfekt für einzigartige Erlebnisse und Dienstleistungen, bei denen die Preise variieren oder Sie flexibel bleiben möchten.",
+      "featuresSection": {
+        "title": "Warum Erlebnisgutscheine wählen?",
+        "subtitle": "Schaffen Sie unvergessliche Momente mit unseren Erlebnisgutscheinen"
       },
-      "loyaltyCard": {
-        "title": "Treuepunktkarte",
-        "description": "Digitale Stempelkarten, die wiederkehrende Kunden mit Stempeln und Belohnungen belohnen.",
-        "features": ["Digitale Stempel", "Belohnungsverfolgung", "Abschlussboni", "Fortschrittsvisualisierung"],
-        "status": "Bald Verfügbar"
+      "benefitsSection": {
+        "title": "Vorteile von Erlebnisgutscheinen",
+        "subtitle": "Bieten Sie einzigartige Erlebnisse, an die sich Kunden erinnern werden"
+      },
+      "cta": {
+        "title": "Starten Sie mit Erlebnisgutscheinen",
+        "subtitle": "Werden Sie Teil von Unternehmen, die unvergessliche Erlebnisse schaffen.",
+        "getStarted": "Jetzt starten",
+        "scheduleDemo": "Demo vereinbaren"
+      },
+      "testimonial": {
+        "quote": "Unsere Erlebnisgutscheine sind unser meistgefragtes Angebot mit einer 30%igen Steigerung bei Stammkunden.",
+        "author": "Michael Meier",
+        "role": "Inhaber, Abenteuer-Touren"
       }
     },
-    "eventManagement": {
-      "title": "Event-Management",
-      "eventTickets": {
-        "title": "Event-Tickets",
-        "description": "Digitale Event-Tickets mit automatischem Ablauf und Kapazitätsmanagement.",
-        "features": ["Automatischer Ablauf nach Event", "Kapazitätsgrenzen", "QR-Code-Integration", "Event-Details integriert"],
-        "status": "Bald Verfügbar"
+    
+    "monetaryVouchers": {
+      "title": "Geldwerte Gutscheine",
+      "description": "Flexible Geldgutscheine, die für Ihre Produkte und Dienstleistungen eingelöst werden können.",
+      "featuresSection": {
+        "title": "Warum Geldwerte Gutscheine wählen?",
+        "subtitle": "Flexible Ausgabemöglichkeiten für Ihre Kunden"
+      },
+      "benefitsSection": {
+        "title": "Vorteile von Geldwerten Gutscheinen",
+        "subtitle": "Steigern Sie den Umsatz und die Kundenzufriedenheit mit flexiblen Gutscheinen"
+      },
+      "cta": {
+        "title": "Starten Sie mit Geldwerten Gutscheinen",
+        "subtitle": "Werden Sie Teil von Unternehmen, die ihren Umsatz mit Gutscheinen steigern.",
+        "getStarted": "Jetzt starten",
+        "scheduleDemo": "Demo vereinbaren"
+      },
+      "testimonial": {
+        "quote": "Geldwerte Gutscheine haben uns geholfen, unseren durchschnittlichen Bestellwert um 25% zu steigern.",
+        "author": "Emma Weber",
+        "role": "Marketingleiterin, Einzelhandelskette"
+      }
+    },
+    
+    "marketingCampaigns": {
+      "title": "Marketingkampagnen",
+      "description": "Erstellen Sie gezielte Marketingkampagnen mit Sonderangeboten und Aktionen.",
+      "featuresSection": {
+        "title": "Warum Geschenkkarten für Marketing nutzen?",
+        "subtitle": "Steigern Sie Ihre Marketingbemühungen mit gezielten Kampagnen"
+      },
+      "benefitsSection": {
+        "title": "Vorteile von Marketingkampagnen",
+        "subtitle": "Erreichen Sie neue Kunden und steigern Sie die Markenbekanntheit"
+      },
+      "cta": {
+        "title": "Starten Sie Ihre Marketingkampagne",
+        "subtitle": "Beginnen Sie noch heute, mehr Kunden zu erreichen.",
+        "getStarted": "Jetzt starten",
+        "scheduleDemo": "Demo vereinbaren"
+      },
+      "testimonial": {
+        "quote": "Unsere letzte Kampagne mit Geschenkkarten führte zu einem 40%igen Anstieg bei der Neukundengewinnung.",
+        "author": "David Müller",
+        "role": "Marketingmanager, E-Commerce"
+      }
+    },
+    
+    "employeeRewards": {
+      "title": "Mitarbeiterbelohnungen",
+      "description": "Anerkennen und belohnen Sie Ihre Mitarbeiter mit Geschenkkarten, die sie lieben werden.",
+      "featuresSection": {
+        "title": "Warum Mitarbeiterbelohnungen?",
+        "subtitle": "Steigern Sie die Moral und Bindung mit sinnvollen Belohnungen"
+      },
+      "benefitsSection": {
+        "title": "Vorteile von Mitarbeiterbelohnungen",
+        "subtitle": "Schaffen Sie ein positives Arbeitsumfeld mit Mitarbeiteranerkennung"
+      },
+      "cta": {
+        "title": "Beginnen Sie mit der Belohnung Ihres Teams",
+        "subtitle": "Zeigen Sie Ihren Mitarbeitern, dass sie wertgeschätzt werden.",
+        "getStarted": "Jetzt starten",
+        "scheduleDemo": "Demo vereinbaren"
+      },
+      "testimonial": {
+        "quote": "Unsere Mitarbeiterzufriedenheit stieg nach Einführung eines Belohnungsprogramms um 35%.",
+        "author": "Lisa Schmidt",
+        "role": "Personalchefin, Technologieunternehmen"
+      }
+    },
+    
+    "customerLoyalty": {
+      "title": "Kundenbindung",
+      "description": "Bauen Sie Kundenbindung mit Belohnungen und Sonderangeboten auf.",
+      "featuresSection": {
+        "title": "Warum auf Kundenbindung setzen?",
+        "subtitle": "Verwandeln Sie Einmalkäufer in Stammkunden"
+      },
+      "benefitsSection": {
+        "title": "Vorteile von Treueprogrammen",
+        "subtitle": "Erhöhen Sie die Kundenbindung und den Kundenlebenswert"
+      },
+      "cta": {
+        "title": "Bauen Sie noch heute Kundenbindung auf",
+        "subtitle": "Beginnen Sie damit, Ihre besten Kunden zu belohnen.",
+        "getStarted": "Jetzt starten",
+        "scheduleDemo": "Demo vereinbaren"
+      },
+      "testimonial": {
+        "quote": "Unser Treueprogramm hat den Wiederkaufswert um 45% erhöht.",
+        "author": "Thomas Weber",
+        "role": "Inhaber, Lokales Restaurant"
+      }
+    },
+    
+    "eventTickets": {
+      "title": "Veranstaltungstickets",
+      "description": "Verkaufen und verwalten Sie Tickets für Ihre Veranstaltungen ganz einfach.",
+      "featuresSection": {
+        "title": "Warum Veranstaltungstickets bei uns verkaufen?",
+        "subtitle": "Vereinfachen Sie Ihr Veranstaltungsmanagement"
+      },
+      "benefitsSection": {
+        "title": "Vorteile unseres Ticketsystems",
+        "subtitle": "Verkaufen Sie mehr Tickets mit weniger Aufwand"
+      },
+      "cta": {
+        "title": "Starten Sie mit dem Verkauf von Veranstaltungstickets",
+        "subtitle": "Machen Sie Ihre nächste Veranstaltung zu einem Erfolg.",
+        "getStarted": "Jetzt starten",
+        "scheduleDemo": "Demo vereinbaren"
+      },
+      "testimonial": {
+        "quote": "Unsere letzte Veranstaltung war dank des einfachen Ticketsystems in Rekordzeit ausverkauft.",
+        "author": "Anna Hoffmann",
+        "role": "Veranstaltungskoordinatorin, Musikfestival"
+      }
+    },
+    
+    "membershipCards": {
+      "title": "Mitgliedskarten",
+      "description": "Exklusiver Zugang und Vorteile für Ihre Mitglieder.",
+      "featuresSection": {
+        "title": "Warum Mitgliedskarten anbieten?",
+        "subtitle": "Schaffen Sie eine Gemeinschaft treuer Mitglieder"
+      },
+      "benefitsSection": {
+        "title": "Vorteile von Mitgliedschaftsprogrammen",
+        "subtitle": "Erhöhen Sie die Bindung und wiederkehrende Einnahmen"
+      },
+      "cta": {
+        "title": "Starten Sie Ihr Mitgliedschaftsprogramm",
+        "subtitle": "Beginnen Sie noch heute mit dem Aufbau Ihrer Community.",
+        "getStarted": "Jetzt starten",
+        "scheduleDemo": "Demo vereinbaren"
+      },
+      "testimonial": {
+        "quote": "Unser Mitgliedschaftsprogramm hat für einen stetigen Strom an wiederkehrenden Einnahmen und treuen Kunden gesorgt.",
+        "author": "Robert Bauer",
+        "role": "Inhaber, Fitnessstudio"
       }
     }
-  },
-  "About": {
-    "title": "Über gifthero",
-    "description": "Wir haben Leidenschaft dafür, lokalen Unternehmen zu helfen, im digitalen Zeitalter zu prosperieren. Unsere Plattform macht es einfach, digitale Geschenkkarten zu erstellen, zu verkaufen und zu verwalten, die nahtlos mit Ihren bestehenden Geschäftsoperationen funktionieren.",
-    "stats": {
-      "languages": "8 Sprachen",
-      "businesses": "500+ Zufriedene Unternehmen",
-      "uptime": "99.9% Verfügbarkeit",
-      "support": "24/7 Support"
-    }
-  },
-  "Contact": {
-    "title": "Kontakt aufnehmen",
-    "subtitle": "Haben Sie Fragen? Wir hören gerne von Ihnen.",
-    "form": {
-      "name": "Name",
-      "email": "E-Mail",
-      "message": "Nachricht",
-      "submit": "Nachricht Senden"
-    },
-    "info": {
-      "email": "hello@gifthero.com",
-      "phone": "+1 (555) 123-4567",
-      "address": "123 Business St, Suite 100, City, State 12345"
-    }
-  },
-  "CTA": {
-    "title": "Bereit, Ihre Umsätze zu Steigern?",
-    "subtitle": "Schließen Sie sich Tausenden von Unternehmen an, die bereits unsere Plattform nutzen",
-    "button": "Starten Sie Ihren Kostenlosen Test"
   },
   "CTAButton": {
-    "startTrial": "Kostenlos Testen",
-    "watchDemo": "Demo Ansehen",
-    "signIn": "Anmelden"
+    "startTrial": "Kostenlose Testversion starten",
+    "watchDemo": "Demo ansehen"
   },
-  "Navigation": {
-    "brand": "gifthero",
+  "common": {
+    "getStarted": "Jetzt starten",
+    "scheduleDemo": "Demo vereinbaren",
+    "backToUseCases": "Zurück zu den Anwendungsfällen",
+    "viewAllFeatures": "Alle Funktionen anzeigen",
+    "testimonials": "Was unsere Kunden sagen",
+    "trustedBy": "Vertrauen Sie auf Unternehmen weltweit",
+    "readMore": "Mehr lesen",
+    "seeAll": "Alle anzeigen",
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es später noch einmal.",
+    "success": "Erfolg! Ihre Anfrage wurde verarbeitet.",
+    "required": "Dieses Feld ist erforderlich",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "submit": "Absenden",
+    "cancel": "Abbrechen",
+    "saveChanges": "Änderungen speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "view": "Anzeigen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "learnMore": "Mehr erfahren",
+    "contactUs": "Kontaktieren Sie uns",
+    "pricing": "Preise",
     "features": "Funktionen",
-    "howItWorks": "Wie es funktioniert",
     "about": "Über uns",
     "contact": "Kontakt",
-    "useCases": "Anwendungsfälle",
-    "useCasesDropdown": {
-      "marketingCards": "Marketing-Karten",
-      "experienceVouchers": "Erlebnis-Gutscheine",
-      "monetaryVouchers": "Geld-Gutscheine",
-      "marketingVouchers": "Marketing-Gutscheine",
-      "discountCards": "Rabattkarten",
-      "loyaltyPrograms": "Treueprogramme",
-      "membershipCards": "Mitgliedskarten",
-      "loyaltyCards": "Treuekarten",
-      "eventManagement": "Event-Management",
-      "eventTickets": "Event-Tickets"
-    }
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "previous": "Zurück",
+    "close": "Schließen",
+    "search": "Suchen...",
+    "noResults": "Keine Ergebnisse gefunden",
+    "allRightsReserved": "Alle Rechte vorbehalten",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "faq": "FAQ",
+    "support": "Support",
+    "documentation": "Dokumentation",
+    "blog": "Blog",
+    "careers": "Karriere",
+    "press": "Presse",
+    "partners": "Partner",
+    "developers": "Entwickler",
+    "enterprise": "Unternehmen"
   }
 }

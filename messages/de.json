@@ -1,0 +1,175 @@
+{
+  "common": {
+    "title": "Gifthero - Geschenkkarten- und Gutscheinplattform",
+    "description": "Leistungsstarke Plattform zur Verwaltung von Geschenkkarten und Gutscheinen für Unternehmen",
+    "loading": "Wird geladen...",
+    "error": {
+      "title": "Etwas ist schiefgelaufen",
+      "description": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es später noch einmal.",
+      "back": "Zurück",
+      "useCaseNotFound": "Anwendungsfall nicht gefunden",
+      "useCaseNotFoundDescription": "Der angeforderte Anwendungsfall konnte nicht gefunden werden."
+    },
+    "cta": {
+      "title": "Bereit loszulegen?",
+      "learnMore": "Mehr erfahren",
+      "getStarted": "Jetzt starten",
+      "contactUs": "Kontakt",
+      "scheduleDemo": "Demo vereinbaren",
+      "back": "Zurück"
+    }
+  },
+  "navigation": {
+    "home": "Startseite",
+    "useCases": "Anwendungsfälle",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "getStarted": "Jetzt starten"
+  },
+  "useCases": {
+    "title": "Anwendungsfälle",
+    "subtitle": "Entdecken Sie, wie Gifthero Ihr Unternehmen verändern kann",
+    "backToUseCases": "Zurück zu den Anwendungsfällen",
+    "hero": {
+      "title": "Leistungsstarke Lösungen für Ihr Unternehmen",
+      "subtitle": "Entdecken Sie, wie unsere Plattform Ihnen beim Wachstum helfen kann"
+    },
+    "learnMore": "Mehr erfahren",
+    "status": {
+      "available": "Jetzt verfügbar",
+      "soon": "Bald verfügbar",
+      "beta": "In Beta"
+    },
+    "experienceVouchers": {
+      "hero": {
+        "title": "Schaffen Sie unvergessliche Momente mit Erlebnisgutscheinen",
+        "subtitle": "Verkaufen Sie einzigartige Erlebnisse – von Spa-Tagen bis hin zu Kochkursen – und schaffen Sie bleibende Erinnerungen für Ihre Kunden."
+      },
+      "overview": {
+        "title": "Über Produkte hinausgehen. Erlebnisse verkaufen.",
+        "description": "Gifthero ermöglicht es Ihnen, mühelos Gutscheine für einzigartige Erlebnisse zu erstellen, zu verkaufen und zu verwalten. Steigern Sie das Kundenengagement, fördern Sie den Verkehr außerhalb der Stoßzeiten und stärken Sie Ihre Marke durch unvergessliche Aktivitäten, die Sie von der Konkurrenz abheben."
+      },
+      "featuresSection": {
+        "title": "Leistungsstarke Funktionen für Erlebnisgutscheine",
+        "subtitle": "Alles, was Sie brauchen, um unvergessliche Erlebnisse zu erstellen, zu verkaufen und zu verwalten"
+      },
+      "features": [
+        {
+          "title": "Anpassbare Erlebnisvorlagen",
+          "description": "Gestalten Sie schöne, markengerechte Gutscheine für jedes Erlebnis mit unserem intuitiven Editor. Keine Programmierung erforderlich."
+        },
+        {
+          "title": "Integrierte Buchung & Terminplanung",
+          "description": "Ermöglichen Sie Kunden, beim Kauf bestimmte Daten und Zeiten zu buchen, die direkt mit Ihrem Verfügbarkeitskalender synchronisiert werden."
+        },
+        {
+          "title": "Gestufte & Paket-Erlebnisse",
+          "description": "Bündeln Sie mehrere Services oder erstellen Sie Premium-Stufen (z.B. 'VIP Spa-Tag'), um den Wert jedes Verkaufs zu steigern."
+        },
+        {
+          "title": "Automatisierte Erinnerungen & Kommunikation",
+          "description": "Reduzieren Sie No-Shows mit automatisierten E-Mail- und SMS-Erinnerungen für bevorstehende Buchungen."
+        }
+      ],
+      "benefitsSection": {
+        "title": "Warum Erlebnisgutscheine wählen?",
+        "subtitle": "Transformieren Sie Ihr Unternehmen mit unserer umfassenden Erlebnisgutschein-Lösung"
+      },
+      "benefits": [
+        {
+          "title": "Neue Zielgruppen anziehen",
+          "description": "Erreichen Sie Kunden, die nach Geschenken suchen, die persönlicher und unvergesslicher sind als physische Produkte."
+        },
+        {
+          "title": "Verkäufe außerhalb der Stoßzeiten steigern",
+          "description": "Erstellen und bewerben Sie besondere Erlebnisse, um Kapazitäten in traditionell schwachen Zeiten zu füllen."
+        },
+        {
+          "title": "Ausgaben pro Kunde erhöhen",
+          "description": "Erlebnisgutscheine führen oft zu zusätzlichen Vor-Ort-Käufen und Upsells."
+        },
+        {
+          "title": "Social Buzz generieren",
+          "description": "Einzigartige Erlebnisse werden häufig in sozialen Medien geteilt und bieten organisches Marketing für Ihre Marke."
+        }
+      ],
+      "cta": {
+        "title": "Bereit, Erlebnisse zu verkaufen?",
+        "description": "Beginnen Sie noch heute mit der Erstellung und dem Verkauf unvergesslicher Erlebnisse. Sehen Sie, wie Gifthero neue Einnahmequellen für Ihr Unternehmen eröffnen kann.",
+        "primaryButton": "Demo vereinbaren",
+        "secondaryButton": "Preise ansehen"
+      },
+      "testimonial": {
+        "quote": "Der Wechsel zu Gifthero für unsere Weinverkostungstouren war ein Wendepunkt. Die Buchungen stiegen um 60%, und die automatisierten Erinnerungen halbierten unsere No-Shows. Es ist unglaublich benutzerfreundlich.",
+        "author": "Maria Garcia",
+        "role": "Inhaberin, Valley Vineyard Tours"
+      }
+    },
+    "monetaryVouchers": {
+      "hero": {
+        "title": "Flexible Geldgutscheine für jeden Anlass",
+        "subtitle": "Geben Sie Ihren Kunden die Freiheit der Wahl. Bieten Sie sichere, einfach zu verwaltende Geldgutscheine für Ihre Produkte und Dienstleistungen an."
+      },
+      "overview": {
+        "title": "Das ultimative flexible Geschenk",
+        "description": "Geldgutscheine sind ein mächtiges Werkzeug zur Verbesserung des Cashflows und zur Gewinnung neuer Kunden. Mit Gifthero können Sie digitale und physische Gutscheine mit variablen Werten, individuellem Branding und robusten Sicherheitsfeatures ausgeben, verfolgen und verwalten."
+      },
+      "featuresSection": {
+        "title": "Leistungsstarke Funktionen für Ihr Gutscheinprogramm",
+        "subtitle": "Alles, was Sie für den Start und die Verwaltung eines erfolgreichen Gutscheinprogramms benötigen"
+      },
+      "features": [
+        {
+          "title": "Variable & feste Nennwerte",
+          "description": "Lassen Sie Kunden jeden Wert wählen oder bieten Sie voreingestellte Beträge an (z.B. 25€, 50€, 100€)."
+        },
+        {
+          "title": "Massengenerierung & Verteilung",
+          "description": "Erstellen und versenden Sie mühelos Hunderte einzigartiger Gutscheincodes für Firmenkunden oder Marketingkampagnen."
+        },
+        {
+          "title": "Erweiterte Sicherheitsfeatures",
+          "description": "Schützen Sie sich vor Betrug mit einzigartigen Codes, Ablaufdaten und detaillierter Einlösungsverfolgung."
+        },
+        {
+          "title": "Omnichannel-Einlösung",
+          "description": "Ermöglichen Sie Kunden, ihre Gutscheine nahtlos online, im Geschäft oder telefonisch einzulösen."
+        }
+      ],
+      "benefitsSection": {
+        "title": "Warum unsere Geldgutscheine wählen",
+        "subtitle": "Entdecken Sie die Vorteile unserer flexiblen und sicheren Gutscheinlösung"
+      },
+      "benefits": [
+        {
+          "title": "Sofortigen Cashflow verbessern",
+          "description": "Erhalten Sie Zahlungen im Voraus, bevor Produkte oder Dienstleistungen erbracht werden, und stärken Sie Ihr Betriebskapital."
+        },
+        {
+          "title": "Durchschnittlichen Bestellwert erhöhen",
+          "description": "Kunden, die Gutscheine einlösen, geben oft mehr aus als der Nennwert des Gutscheins."
+        },
+        {
+          "title": "Kundenakquisitionskosten reduzieren",
+          "description": "Gutscheine werden oft als Geschenke geteilt und bringen neue Kunden ohne zusätzliche Marketingkosten."
+        },
+        {
+          "title": "Kundenloyalität aufbauen",
+          "description": "Regelmäßige Gutscheinprogramme fördern Wiederholungskäufe und stärken Kundenbeziehungen."
+        }
+      ],
+      "cta": {
+        "title": "Bereit, Ihr Gutscheinprogramm zu starten?",
+        "description": "Beginnen Sie noch heute mit der Ausgabe von Geldgutscheinen und entdecken Sie, wie Gifthero Ihren Cashflow verbessern kann.",
+        "primaryButton": "Demo vereinbaren",
+        "secondaryButton": "Preise ansehen"
+      },
+      "testimonial": {
+        "quote": "Unsere Gifthero-Gutscheine haben dieses Quartal 40% zusätzliche Einnahmen generiert. Die Plattform ist intuitiv und unsere Kunden lieben die Flexibilität.",
+        "author": "Hans Müller",
+        "role": "Geschäftsführer, Elegante Boutique"
+      }
+    }
+  }
+}

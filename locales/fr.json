@@ -88,7 +88,80 @@
   "UseCases": {
     "title": "Cas d'usage & Types de cartes",
     "subtitle": "Découvrez la solution de carte cadeau parfaite pour chaque besoin professionnel. Des campagnes marketing aux programmes de fidélité et événements.",
-    "marketingCards": {
+    
+    "giftCards": {
+      "title": "Cartes Cadeaux",
+      "description": "Parfaits pour toutes les occasions, nos cartes cadeaux sont le cadeau idéal pour vos clients, employés ou partenaires.",
+      "featuresSection": {
+        "title": "Pourquoi choisir nos cartes cadeaux ?",
+        "subtitle": "Des solutions polyvalentes et pratiques pour tous vos besoins de cadeaux"
+      },
+      "benefitsSection": {
+        "title": "Avantages de nos cartes cadeaux",
+        "subtitle": "Créez des impressions durables avec nos solutions de cartes cadeaux flexibles"
+      },
+      "cta": {
+        "title": "Commencez à vendre des cartes cadeaux dès aujourd'hui",
+        "subtitle": "Rejoignez des milliers d'entreprises qui font confiance à notre plateforme.",
+        "getStarted": "Commencer",
+        "scheduleDemo": "Planifier une démo"
+      },
+      "testimonial": {
+        "quote": "Les cartes cadeaux ont considérablement augmenté nos ventes pendant les fêtes et amélioré la fidélité de nos clients.",
+        "author": "Sophie Martin",
+        "role": "Gérante, Boutique de mode"
+      }
+    },
+    
+    "experienceVouchers": {
+      "title": "Bons d'Expérience",
+      "description": "Parfaits pour des expériences uniques et des services où les prix varient ou lorsque vous souhaitez conserver une certaine flexibilité.",
+      "featuresSection": {
+        "title": "Pourquoi choisir les bons d'expérience ?",
+        "subtitle": "Créez des moments inoubliables avec nos bons d'expérience"
+      },
+      "benefitsSection": {
+        "title": "Avantages des bons d'expérience",
+        "subtitle": "Offrez des expériences uniques dont les clients se souviendront"
+      },
+      "cta": {
+        "title": "Commencez à proposer des bons d'expérience",
+        "subtitle": "Rejoignez les entreprises qui créent des expériences mémorables.",
+        "getStarted": "Commencer",
+        "scheduleDemo": "Planifier une démo"
+      },
+      "testimonial": {
+        "quote": "Nos bons d'expérience sont devenus notre offre la plus populaire, avec une augmentation de 30% des clients fidèles.",
+        "author": "Thomas Dubois",
+        "role": "Propriétaire, Aventures en Plein Air"
+      }
+    },
+    
+    "monetaryVouchers": {
+      "title": "Chèques Cadeaux",
+      "description": "Des chèques cadeaux flexibles qui peuvent être utilisés pour l'ensemble de vos produits et services.",
+      "featuresSection": {
+        "title": "Pourquoi choisir les chèques cadeaux ?",
+        "subtitle": "Des options de dépenses flexibles pour vos clients"
+      },
+      "benefitsSection": {
+        "title": "Avantages des chèques cadeaux",
+        "subtitle": "Augmentez les ventes et la satisfaction client avec des chèques cadeaux flexibles"
+      },
+      "cta": {
+        "title": "Commencez à vendre des chèques cadeaux",
+        "subtitle": "Rejoignez les entreprises qui augmentent leur chiffre d'affaires avec des chèques cadeaux.",
+        "getStarted": "Commencer",
+        "scheduleDemo": "Planifier une démo"
+      },
+      "testimonial": {
+        "quote": "Les chèques cadeaux nous ont aidés à augmenter notre panier moyen de 25%.",
+        "author": "Camille Lefèvre",
+        "role": "Directrice Marketing, Chaîne de Magasins"
+      }
+    },
+    
+    "marketingCampaigns": {
       "title": "Cartes Marketing",
       "experienceVoucher": {
         "title": "Bon d'Expérience",
@@ -153,6 +226,16 @@
   "Contact": {
     "title": "Contactez-nous",
     "subtitle": "Vous avez des questions ? Nous aimerions avoir de vos nouvelles.",
+    "CTAButton": {
+    "startTrial": "Commencer l'essai gratuit",
+    "watchDemo": "Voir la démo"
+  },
+  "common": {
+      "name": "Nom",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Envoyer le Message"
+    },
     "form": {
       "name": "Nom",
       "email": "Email",

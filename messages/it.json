@@ -1,0 +1,205 @@
+{
+  "common": {
+    "title": "Gifthero - Piattaforma di Carte Regalo e Buoni",
+    "description": "Potente piattaforma di gestione di carte regalo e buoni per le aziende",
+    "loading": "Caricamento in corso...",
+    "error": {
+      "title": "Si è verificato un errore",
+      "description": "Si è verificato un errore imprevisto. Riprova più tardi.",
+      "back": "Indietro",
+      "useCaseNotFound": "Caso d'uso non trovato",
+      "useCaseNotFoundDescription": "Impossibile trovare il caso d'uso richiesto."
+    },
+    "cta": {
+      "title": "Pronto a iniziare?",
+      "learnMore": "Scopri di più",
+      "getStarted": "Inizia ora",
+      "contactUs": "Contattaci",
+      "scheduleDemo": "Prenota una demo",
+      "back": "Indietro"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "useCases": "Casi d'uso",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "login": "Accedi",
+    "getStarted": "Inizia ora"
+  },
+  "useCases": {
+    "title": "Casi d'uso",
+    "subtitle": "Scopri come Gifthero può trasformare la tua attività",
+    "backToUseCases": "Torna ai casi d'uso",
+    "hero": {
+      "title": "Soluzioni potenti per la tua attività",
+      "subtitle": "Scopri come la nostra piattaforma può aiutarti a crescere"
+    },
+    "learnMore": "Scopri di più",
+    "status": {
+      "available": "Disponibile ora",
+      "soon": "Prossimamente",
+      "beta": "In Beta"
+    },
+    "experienceVouchers": {
+      "hero": {
+        "title": "Crea momenti indimenticabili con i buoni esperienza",
+        "subtitle": "Vendi esperienze uniche, dai trattamenti benessere ai corsi di cucina, e crea ricordi duraturi per i tuoi clienti."
+      },
+      "overview": {
+        "title": "Vai oltre i prodotti. Vendi esperienze.",
+        "description": "Gifthero ti permette di creare, vendere e gestire facilmente buoni per esperienze uniche. Aumenta il coinvolgimento dei clienti, stimola il traffico nei periodi di bassa stagione e rafforza il tuo brand offrendo attività memorabili che ti distinguono dalla concorrenza."
+      },
+      "featuresSection": {
+        "title": "Funzionalità potenti per i buoni esperienza",
+        "subtitle": "Tutto ciò di cui hai bisogno per creare, vendere e gestire esperienze indimenticabili"
+      },
+      "features": [
+        {
+          "title": "Template di esperienza personalizzabili",
+          "description": "Progetta bellissimi buoni brandizzati per qualsiasi esperienza con il nostro editor intuitivo. Nessuna programmazione richiesta."
+        },
+        {
+          "title": "Prenotazione e pianificazione integrate",
+          "description": "Consenti ai clienti di prenotare date e orari specifici al momento dell'acquisto, sincronizzandosi direttamente con il tuo calendario delle disponibilità."
+        },
+        {
+          "title": "Esperienze a livelli e pacchetti",
+          "description": "Raggruppa più servizi o crea livelli premium (es. 'Giornata Spa VIP') per aumentare il valore di ogni vendita."
+        },
+        {
+          "title": "Promemoria e comunicazione automatizzati",
+          "description": "Riduci le assenze con promemoria automatici via email e SMS per le prenotazioni imminenti."
+        }
+      ],
+      "benefitsSection": {
+        "title": "Perché scegliere i buoni esperienza?",
+        "subtitle": "Trasforma la tua attività con la nostra soluzione completa di buoni esperienza"
+      },
+      "benefits": [
+        {
+          "title": "Attira nuovi segmenti demografici",
+          "description": "Raggiungi clienti che cercano regali più personali e memorabili rispetto ai prodotti fisici."
+        },
+        {
+          "title": "Incrementa le vendite nei periodi di bassa stagione",
+          "description": "Crea e promuovi esperienze speciali per riempire la capacità durante i periodi tradizionalmente lenti."
+        },
+        {
+          "title": "Aumenta la spesa per cliente",
+          "description": "I buoni esperienza spesso portano ad acquisti aggiuntivi sul posto e vendite incrementali."
+        },
+        {
+          "title": "Genera buzz sui social",
+          "description": "Le esperienze uniche vengono condivise molto sui social media, fornendo marketing organico per il tuo brand."
+        }
+      ],
+      "cta": {
+        "title": "Pronto a vendere esperienze?",
+        "description": "Inizia a creare e vendere esperienze memorabili oggi stesso. Scopri come Gifthero può aprire nuove fonti di ricavo per la tua attività.",
+        "primaryButton": "Prenota una demo",
+        "secondaryButton": "Vedi i prezzi"
+      },
+      "testimonial": {
+        "quote": "Il passaggio a Gifthero per i nostri tour di degustazione vini è stato rivoluzionario. Le prenotazioni sono aumentate del 60%, e i promemoria automatici hanno dimezzato le nostre assenze. È incredibilmente facile da usare.",
+        "author": "Maria Garcia",
+        "role": "Proprietaria, Valley Vineyard Tours"
+      }
+    },
+    "monetaryVouchers": {
+      "hero": {
+        "title": "Buoni monetari flessibili per ogni occasione",
+        "subtitle": "Dai ai tuoi clienti la libertà di scegliere. Offri buoni monetari sicuri e facili da gestire per i tuoi prodotti e servizi."
+      },
+      "overview": {
+        "title": "Il regalo flessibile per eccellenza",
+        "description": "I buoni monetari sono uno strumento potente per migliorare il flusso di cassa e acquisire nuovi clienti. Con Gifthero puoi emettere, tracciare e gestire buoni digitali e fisici con valori variabili, branding personalizzato e robuste funzionalità di sicurezza."
+      },
+      "featuresSection": {
+        "title": "Funzionalità potenti per il tuo programma buoni",
+        "subtitle": "Tutto ciò di cui hai bisogno per lanciare e gestire un programma buoni di successo"
+      },
+      "features": [
+        {
+          "title": "Tagli variabili e fissi",
+          "description": "Lascia che i clienti scelgano qualsiasi valore o offri importi prestabiliti (es. €25, €50, €100)."
+        },
+        {
+          "title": "Generazione e distribuzione in massa",
+          "description": "Crea e invia facilmente centinaia di codici buono unici per clienti aziendali o campagne marketing."
+        },
+        {
+          "title": "Funzionalità di sicurezza avanzate",
+          "description": "Proteggiti dalle frodi con codici unici, date di scadenza e tracciamento dettagliato dei riscatti."
+        },
+        {
+          "title": "Riscatto omnicanale",
+          "description": "Consenti ai clienti di riscattare i loro buoni senza problemi online, in negozio o al telefono."
+        }
+      ],
+      "benefitsSection": {
+        "title": "Perché scegliere i nostri buoni monetari",
+        "subtitle": "Scopri i vantaggi della nostra soluzione buoni flessibile e sicura"
+      },
+      "benefits": [
+        {
+          "title": "Migliora il flusso di cassa immediato",
+          "description": "Ricevi il pagamento in anticipo, prima che prodotti o servizi vengano erogati, potenziando il tuo capitale circolante."
+        },
+        {
+          "title": "Aumenta il valore medio dell'ordine",
+          "description": "I clienti che riscattano buoni spesso spendono più del valore nominale del buono."
+        },
+        {
+          "title": "Riduci il costo di acquisizione clienti",
+          "description": "I buoni vengono spesso condivisi come regali, portando nuovi clienti senza costi di marketing aggiuntivi."
+        },
+        {
+          "title": "Costruisci la fedeltà del cliente",
+          "description": "I programmi buoni regolari incoraggiano acquisti ripetuti e rafforzano le relazioni con i clienti."
+        }
+      ],
+      "cta": {
+        "title": "Pronto a lanciare il tuo programma buoni?",
+        "description": "Inizia a emettere buoni monetari oggi e scopri come Gifthero può migliorare il tuo flusso di cassa.",
+        "primaryButton": "Prenota una demo",
+        "secondaryButton": "Vedi i prezzi"
+      },
+      "testimonial": {
+        "quote": "I nostri buoni Gifthero hanno generato il 40% di ricavi aggiuntivi questo trimestre. La piattaforma è intuitiva e i nostri clienti amano la flessibilità.",
+        "author": "Marco Rossi",
+        "role": "Direttore, Boutique Eleganza"
+      }
+    },
+    "giftCards": {
+      "hero": {
+        "title": "Programmi di carte regalo potenti che aumentano le vendite",
+        "subtitle": "Lancia un programma professionale di carte regalo digitali e fisiche per aumentare i ricavi, costruire fedeltà ed espandere la portata del tuo marchio."
+      }
+    },
+    "loyaltyPrograms": {
+      "hero": {
+        "title": "Costruisci relazioni durature con i clienti con i programmi fedeltà",
+        "subtitle": "Trasforma gli acquirenti occasionali in fan per la vita. Crea un programma fedeltà personalizzato che premia l'engagement e favorisce gli acquisti ripetuti."
+      }
+    },
+    "ticketing": {
+      "hero": {
+        "title": "Biglietteria senza soluzione di continuità, dalla vendita alla scansione",
+        "subtitle": "Gestisci i tuoi eventi con una piattaforma di biglietteria potente e intuitiva. Vendi biglietti, gestisci i partecipanti e ottieni informazioni in tempo reale."
+      }
+    },
+    "employeeRewards": {
+      "hero": {
+        "title": "Trasforma il tuo ambiente di lavoro con un riconoscimento significativo",
+        "subtitle": "Aumenta l'engagement, la fidelizzazione e la produttività con la nostra piattaforma completa di premi per i dipendenti."
+      }
+    },
+    "marketingCampaigns": {
+      "featuresSection": {
+        "title": "Funzionalità potenti per le campagne di marketing",
+        "subtitle": "Tutto ciò di cui hai bisogno per gestire campagne di marketing di successo"
+      }
+    }
+  }
+}

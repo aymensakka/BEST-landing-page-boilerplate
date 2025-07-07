@@ -1,0 +1,504 @@
+{
+  "common": {
+    "title": "Gifthero - Gift Card & Voucher Platform",
+    "description": "Powerful gift card and voucher management platform for businesses",
+    "loading": "Loading...",
+    "error": {
+      "title": "Something went wrong",
+      "description": "An unexpected error occurred. Please try again later.",
+      "back": "Go back"
+    },
+    "cta": {
+      "learnMore": "Learn More",
+      "getStarted": "Get Started",
+      "contactUs": "Contact Us",
+      "scheduleDemo": "Schedule Demo"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "useCases": "Use Cases",
+    "about": "About",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "login": "Login",
+    "signup": "Sign Up"
+  },
+  "useCases": {
+    "title": "Use Cases",
+    "subtitle": "Explore how Gifthero can transform your business",
+    "backToUseCases": "Back to Use Cases",
+    "hero": {
+      "title": "Powerful Solutions for Your Business",
+      "subtitle": "Discover how our platform can help you grow"
+    },
+    "learnMore": "Learn More",
+    "status": {
+      "available": "Available Now",
+      "soon": "Coming Soon",
+      "beta": "In Beta"
+    },
+    "experienceVouchers": {
+      "hero": {
+        "title": "Craft Unforgettable Moments with Experience Vouchers",
+        "subtitle": "Sell unique experiences—from spa days to cooking classes—and create lasting memories for your customers."
+      },
+      "overview": {
+        "title": "Go Beyond Products. Sell Experiences.",
+        "description": "Gifthero empowers you to easily create, sell, and manage vouchers for unique experiences. Increase customer engagement, drive off-peak traffic, and enhance your brand by offering memorable activities that set you apart from the competition."
+      },
+      "featuresSection": {
+        "title": "Powerful Features for Experience Vouchers",
+        "subtitle": "Everything you need to create, sell, and manage unforgettable experiences"
+      },
+      "features": [
+        {
+          "title": "Customizable Experience Templates",
+          "description": "Design beautiful, on-brand vouchers for any experience with our intuitive editor. No coding required."
+        },
+        {
+          "title": "Integrated Booking & Scheduling",
+          "description": "Allow customers to book specific dates and times upon purchase, syncing directly with your availability calendar."
+        },
+        {
+          "title": "Tiered & Packaged Experiences",
+          "description": "Bundle multiple services or create premium tiers (e.g., 'VIP Spa Day') to increase the value of each sale."
+        },
+        {
+          "title": "Automated Reminders & Communication",
+          "description": "Reduce no-shows with automated email and SMS reminders for upcoming bookings."
+        }
+      ],
+      "benefitsSection": {
+        "title": "Why Choose Experience Vouchers?",
+        "subtitle": "Transform your business with our comprehensive experience voucher solution"
+      },
+      "benefits": [
+        {
+          "title": "Attract New Demographics",
+          "description": "Reach customers seeking gifts that are more personal and memorable than physical products."
+        },
+        {
+          "title": "Boost Off-Peak Sales",
+          "description": "Create and promote special experiences to fill capacity during traditionally slow periods."
+        },
+        {
+          "title": "Increase Per-Customer Spending",
+          "description": "Experience vouchers often lead to additional on-site purchases and up-sells."
+        },
+        {
+          "title": "Generate Social Buzz",
+          "description": "Unique experiences are highly shareable on social media, providing organic marketing for your brand."
+        }
+      ],
+      "cta": {
+        "title": "Ready to Sell Experiences?",
+        "description": "Start creating and selling memorable experiences today. See how Gifthero can open up new revenue streams for your business.",
+        "primaryButton": "Schedule a Demo",
+        "secondaryButton": "See Pricing"
+      },
+      "testimonial": {
+        "quote": "Switching to Gifthero for our wine tasting tours was a game-changer. Bookings increased by 60%, and the automated reminders cut our no-shows in half. It's incredibly user-friendly.",
+        "author": "Maria Garcia",
+        "role": "Owner, Valley Vineyard Tours"
+      }
+    },
+    "monetaryVouchers": {
+      "featuresSection": {
+        "title": "Powerful Features for Your Voucher Program",
+        "subtitle": "Everything you need to launch and manage a successful voucher program"
+      },
+      "benefitsSection": {
+        "title": "Why Choose Our Monetary Vouchers",
+        "subtitle": "Discover the benefits of our flexible and secure voucher solution"
+      },
+      "hero": {
+        "title": "Flexible Monetary Vouchers for Any Occasion",
+        "subtitle": "Empower your customers with the freedom of choice. Offer secure, easy-to-manage monetary vouchers for your products and services."
+      },
+      "overview": {
+        "title": "The Ultimate Flexible Gift",
+        "description": "Monetary vouchers are a powerful tool for improving cash flow and acquiring new customers. With Gifthero, you can issue, track, and manage digital and physical vouchers with variable values, custom branding, and robust security features."
+      },
+      "features": [
+        {
+          "title": "Variable & Fixed Denominations",
+          "description": "Let customers choose any value or offer pre-set amounts (e.g., $25, $50, $100)."
+        },
+        {
+          "title": "Bulk Generation & Distribution",
+          "description": "Easily create and send hundreds of unique voucher codes for corporate clients or marketing campaigns."
+        },
+        {
+          "title": "Advanced Security Features",
+          "description": "Protect against fraud with unique codes, expiration dates, and detailed redemption tracking."
+        },
+        {
+          "title": "Omnichannel Redemption",
+          "description": "Allow customers to redeem their vouchers seamlessly online, in-store, or over the phone."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Improve Immediate Cash Flow",
+          "description": "Receive payment upfront, before products or services are rendered, boosting your working capital."
+        },
+        {
+          "title": "Increase Average Order Value",
+          "description": "Customers redeeming vouchers often spend more than the voucher's face value."
+        },
+        {
+          "title": "Acquire New, High-Value Customers",
+          "description": "Voucher recipients are often new to your brand, introduced by your most loyal customers."
+        },
+        {
+          "title": "Simplify Accounting & Reporting",
+          "description": "Get clear insights into outstanding liabilities, redemption rates, and voucher performance."
+        }
+      ],
+      "cta": {
+        "title": "Boost Your Cash Flow Today",
+        "description": "Start offering flexible and secure monetary vouchers. Discover how simple and effective they can be with Gifthero.",
+        "primaryButton": "Get Started Free",
+        "secondaryButton": "Talk to an Expert"
+      },
+      "testimonial": {
+        "quote": "Gifthero's monetary voucher system is foolproof. We launched a corporate gifting program that generated $50k in upfront revenue in the first quarter. The reporting is crystal clear.",
+        "author": "David Chen",
+        "role": "CFO, Urban Eateries Group"
+      }
+    },
+    "giftCards": {
+      "hero": {
+        "title": "Powerful Gift Card Programs That Drive Sales",
+        "subtitle": "Launch a professional digital and physical gift card program to increase revenue, build loyalty, and expand your brand's reach."
+      },
+      "overview": {
+        "title": "Your Brand's Currency",
+        "description": "A well-executed gift card program is a revenue-generating machine. Gifthero provides everything you need to sell beautiful, branded gift cards online and in-store, manage balances, and gain valuable customer insights."
+      },
+      "features": [
+        {
+          "title": "Digital & Physical Cards",
+          "description": "Offer instant eGift cards sent via email/SMS and beautifully designed physical cards for a tangible gift."
+        },
+        {
+          "title": "Full POS & E-commerce Integration",
+          "description": "Sync seamlessly with leading platforms like Shopify, WooCommerce, and Square for easy redemption."
+        },
+        {
+          "title": "Corporate Gifting Portal",
+          "description": "Enable B2B clients to purchase gift cards in bulk for their employees or customers through a self-service portal."
+        },
+        {
+          "title": "Balance Checking & Top-Up",
+          "description": "Allow customers to check their gift card balance and add funds online, encouraging repeat use."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Guaranteed Revenue & Reduced Spoilage",
+          "description": "Capture sales from undecided shoppers and benefit from unused balances (breakage)."
+        },
+        {
+          "title": "Increase Brand Awareness",
+          "description": "Turn your customers into brand ambassadors as they gift your cards to friends and family."
+        },
+        {
+          "title": "Drive Year-Round Sales",
+          "description": "Capitalize on holidays, birthdays, and corporate gifting seasons with a versatile product."
+        },
+        {
+          "title": "Gather Actionable Customer Data",
+          "description": "Understand purchasing and redemption habits to inform your marketing strategies."
+        }
+      ],
+      "cta": {
+        "title": "Launch Your Gift Card Program in Minutes",
+        "description": "Join thousands of businesses growing their revenue with Gifthero's powerful gift card platform.",
+        "primaryButton": "Start Your Free Trial",
+        "secondaryButton": "Request a Demo"
+      },
+      "testimonial": {
+        "quote": "The integration with Shopify was seamless. We launched our eGift card program in a day and saw a 20% lift in holiday sales. It's a must-have for any retail business.",
+        "author": "Emily White",
+        "role": "E-commerce Manager, Boutique Collective"
+      }
+    },
+    "loyaltyPrograms": {
+      "hero": {
+        "title": "Build Lasting Customer Relationships with Loyalty Programs",
+        "subtitle": "Turn casual buyers into lifelong fans. Create a custom loyalty program that rewards engagement and drives repeat business."
+      },
+      "overview": {
+        "title": "Reward Your Best Customers",
+        "description": "It costs 5x more to attract a new customer than to keep an existing one. Gifthero's loyalty platform helps you build a thriving community of repeat purchasers through points, tiers, and personalized rewards that keep them coming back."
+      },
+      "features": [
+        {
+          "title": "Flexible Points & Rewards System",
+          "description": "Reward points for purchases, referrals, social media follows, birthdays, and more. Let customers redeem for discounts, free products, or exclusive access."
+        },
+        {
+          "title": "Tiered Membership Levels",
+          "description": "Create tiers like 'Silver', 'Gold', 'Platinum' to incentivize higher spending with escalating benefits and exclusivity."
+        },
+        {
+          "title": "Automated Customer Engagement",
+          "description": "Automatically send personalized offers and reward notifications to drive engagement and prevent churn."
+        },
+        {
+          "title": "In-Depth Analytics & Segmentation",
+          "description": "Identify your most valuable customers, understand their behavior, and segment them for targeted campaigns."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Increase Customer Lifetime Value (LTV)",
+          "description": "Loyalty program members spend up to 67% more than new customers."
+        },
+        {
+          "title": "Drive Predictable, Repeat Revenue",
+          "description": "Foster purchasing habits that create a stable and growing baseline of income."
+        },
+        {
+          "title": "Create Powerful Brand Advocates",
+          "description": "Your most loyal customers become your most effective and credible marketing channel."
+        },
+        {
+          "title": "Collect Valuable First-Party Data",
+          "description": "Gain direct insights into customer preferences and behaviors to personalize their experience."
+        }
+      ],
+      "cta": {
+        "title": "Stop Losing Customers",
+        "description": "Build a loyalty program that pays for itself. See how easy it is to increase retention and LTV with Gifthero.",
+        "primaryButton": "Explore Loyalty Features",
+        "secondaryButton": "Book a Strategy Call"
+      },
+      "testimonial": {
+        "quote": "Our loyalty program, powered by Gifthero, is our biggest marketing asset. We've seen a 40% increase in repeat purchase rate, and our customers love the tiered rewards. The analytics are fantastic.",
+        "author": "Ben Carter",
+        "role": "Founder, The Coffee Bean Roastery"
+      }
+    },
+    "ticketing": {
+      "hero": {
+        "title": "Seamless Event Ticketing, From Sale to Scan",
+        "subtitle": "Manage your events with a powerful, user-friendly ticketing platform. Sell tickets, manage attendees, and get real-time insights."
+      },
+      "overview": {
+        "title": "Effortless Event Management",
+        "description": "Whether you're hosting a workshop, a concert, or a community festival, Gifthero's ticketing solution simplifies the entire process. Create event pages, sell tickets online, and manage check-ins with ease, all from one integrated platform."
+      },
+      "features": [
+        {
+          "title": "Customizable Event Pages",
+          "description": "Build beautiful, mobile-friendly event pages with your branding, event details, and ticket types."
+        },
+        {
+          "title": "Multiple Ticket Types & Add-ons",
+          "description": "Sell General Admission, VIP, Early Bird tickets, and offer add-ons like merchandise or drink vouchers."
+        },
+        {
+          "title": "Secure Payment Processing",
+          "description": "Accept payments from all major credit cards with our secure, PCI-compliant gateway."
+        },
+        {
+          "title": "Mobile Check-in & Attendee Management",
+          "description": "Use our mobile app to quickly scan tickets and manage your guest list at the door, reducing wait times."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Maximize Ticket Sales",
+          "description": "Our streamlined, mobile-first checkout process minimizes friction and boosts conversion rates."
+        },
+        {
+          "title": "Gain Real-Time Insights",
+          "description": "Track sales as they happen and get detailed reports on attendance, revenue, and ticket types."
+        },
+        {
+          "title": "Improve Attendee Experience",
+          "description": "From easy purchase to fast entry, provide a professional and smooth experience for your guests."
+        },
+        {
+          "title": "Centralize Your Operations",
+          "description": "Manage ticketing alongside your gift cards and loyalty programs in one unified dashboard."
+        }
+      ],
+      "cta": {
+        "title": "Your Next Event Starts Here",
+        "description": "Ready to simplify your ticketing and sell more tickets? Discover Gifthero's powerful event management tools.",
+        "primaryButton": "Create Your First Event",
+        "secondaryButton": "See Ticketing Pricing"
+      },
+      "testimonial": {
+        "quote": "We run over 50 workshops a year, and Gifthero has made managing them a breeze. The mobile check-in app is a lifesaver, and having all our sales data in one place is invaluable.",
+        "author": "Jasmine Lee",
+        "role": "Events Coordinator, Creative Hub"
+      }
+    },
+    "employeeRewards": {
+      "hero": {
+        "title": "Transform Your Workplace with Meaningful Recognition",
+        "subtitle": "Boost engagement, retention, and productivity with our comprehensive employee rewards platform."
+      },
+      "overview": {
+        "title": "Modern Employee Recognition Made Simple",
+        "description": "Create a culture of appreciation with our powerful employee rewards platform. Recognize achievements, celebrate milestones, and motivate your team with meaningful rewards that drive engagement and performance."
+      },
+      "features": [
+        {
+          "title": "Points-Based Rewards System",
+          "description": "Easily allocate and track reward points for exceptional performance, milestones, and peer recognition."
+        },
+        {
+          "title": "Peer-to-Peer Recognition Feed",
+          "description": "Empower employees to recognize each other's contributions with a simple, social recognition feed."
+        },
+        {
+          "title": "Custom Global Rewards Catalog",
+          "description": "Offer a vast selection of redemption options including thousands of gift cards, experiences, and company-specific rewards."
+        },
+        {
+          "title": "Automated Service Anniversaries",
+          "description": "Automatically celebrate and reward employee tenure and loyalty with personalized milestones."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Dramatically Increase Retention",
+          "description": "Companies with strategic recognition programs have 31% lower voluntary turnover."
+        },
+        {
+          "title": "Boost Engagement & Productivity",
+          "description": "Recognized employees are more motivated, leading to higher output and better business results."
+        },
+        {
+          "title": "Strengthen Company Culture",
+          "description": "Foster a positive work environment where employees feel valued, seen, and appreciated."
+        },
+        {
+          "title": "Attract Top Talent",
+          "description": "A strong recognition program is a key differentiator in a competitive job market."
+        }
+      ],
+      "cta": {
+        "title": "Ready to Build a Culture of Appreciation?",
+        "description": "Join leading companies that have seen significant improvements in engagement and retention with our employee rewards platform.",
+        "primaryButton": "Schedule a Demo",
+        "secondaryButton": "Download HR Whitepaper"
+      },
+      "testimonial": {
+        "quote": "Since implementing Gifthero, we've seen a 40% increase in employee satisfaction and a 25% reduction in turnover. The platform pays for itself in retention savings alone.",
+        "author": "Sarah Johnson",
+        "role": "Director of HR, TechForward Inc."
+      }
+    },
+    "customerRetention": {
+      "hero": {
+        "title": "Win Back Customers and Prevent Churn",
+        "subtitle": "Use automated, personalized campaigns to re-engage at-risk customers and turn them into loyal fans."
+      },
+      "overview": {
+        "title": "Turn Goodbyes into Second Chances",
+        "description": "Don't let valuable customers slip away. Gifthero's retention tools help you identify at-risk customers and proactively re-engage them with targeted offers, personalized communication, and incentives delivered at the perfect moment."
+      },
+      "features": [
+        {
+          "title": "Automated Win-Back Campaigns",
+          "description": "Set up triggers based on inactivity (e.g., 90 days since last purchase) to automatically send a 'We Miss You' offer."
+        },
+        {
+          "title": "Personalized Apology Vouchers",
+          "description": "Empower your support team to instantly issue vouchers as a goodwill gesture after a poor customer experience."
+        },
+        {
+          "title": "Feedback-Driven Incentives",
+          "description": "Reward customers for leaving reviews or completing surveys with a small gift card, turning feedback into a positive interaction."
+        },
+        {
+          "title": "Post-Purchase Engagement",
+          "description": "Schedule follow-up offers or 'thank you' vouchers to encourage a second purchase shortly after the first."
+        }
+      ],
+      "cta": {
+        "title": "Don't Let Your Customers Go",
+        "description": "Implement powerful retention strategies with Gifthero and keep your hard-won customers for life.",
+        "primaryButton": "See Retention Tools",
+        "secondaryButton": "Talk to a Specialist"
+      },
+      "testimonial": {
+        "quote": "The automated win-back campaign is brilliant. We're recovering about 15% of our at-risk customers with a simple, personalized voucher offer. It runs on autopilot and delivers real results.",
+        "author": "Mark Robinson",
+        "role": "Head of E-commerce, StyleDirect"
+      }
+    },
+    "marketingCampaigns": {
+      "featuresSection": {
+        "title": "Powerful Marketing Campaign Features",
+        "subtitle": "Everything you need to run successful marketing campaigns"
+      },
+      "benefitsSection": {
+        "title": "Why Marketing Campaigns with Vouchers Work",
+        "subtitle": "Leverage the power of incentives to boost your marketing results"
+      },
+      "hero": {
+        "title": "Supercharge Your Marketing with Voucher Incentives",
+        "subtitle": "Drive acquisition, referrals, and engagement with trackable, scalable gift card and voucher campaigns."
+      },
+      "overview": {
+        "title": "Incentives That Convert",
+        "description": "Move beyond simple discounts. Use Gifthero to create compelling marketing campaigns built around gift cards and vouchers. From customer acquisition to lead generation, our platform gives you the tools to launch, manage, and measure your ROI."
+      },
+      "features": [
+        {
+          "title": "Bulk Unique Code Generation",
+          "description": "Generate thousands of single-use codes for use in email blasts, social media contests, or direct mail campaigns."
+        },
+        {
+          "title": "Referral Program Engine",
+          "description": "Easily build 'give $10, get $10' style referral programs that reward both the referrer and the new customer."
+        },
+        {
+          "title": "Gated Content & Lead Magnets",
+          "description": "Offer a small eGift card as an incentive for webinar sign-ups, demo requests, or newsletter subscriptions."
+        },
+        {
+          "title": "Campaign Performance Analytics",
+          "description": "Track distribution, open rates, redemption rates, and the total ROI of your incentive campaigns."
+        }
+      ],
+      "benefits": [
+        {
+          "title": "Increase Campaign Conversion Rates",
+          "description": "A tangible reward like a gift card often has a higher perceived value than a simple percentage discount."
+        },
+        {
+          "title": "Generate High-Quality Leads",
+          "description": "Incentivize potential customers to share their real contact information and engage with your brand."
+        },
+        {
+          "title": "Drive Measurable Word-of-Mouth",
+          "description": "Systematize and track referrals to turn your customer base into a powerful acquisition channel."
+        },
+        {
+          "title": "Control Your Marketing Spend",
+          "description": "Set clear budgets and track redemptions to ensure you only pay for performance."
+        }
+      ],
+      "cta": {
+        "title": "Make Your Next Campaign Unforgettable",
+        "description": "Discover how voucher-based marketing can deliver better results than traditional methods. Let's build your next campaign.",
+        "primaryButton": "Launch a Campaign",
+        "secondaryButton": "See Case Studies"
+      },
+      "testimonial": {
+        "quote": "We used Gifthero to power our new referral program. We acquired over 1,000 new customers in two months, and the cost-per-acquisition was 50% lower than our paid ad channels. The ROI is undeniable.",
+        "author": "Olivia Chen",
+        "role": "Marketing Director, FreshBloom Organics"
+      }
+    }
+  }
+}

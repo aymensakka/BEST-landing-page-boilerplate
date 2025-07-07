@@ -14,6 +14,73 @@ import {
   Clock
 } from "lucide-react";
 
+// Define types for our data structure
+interface UseCaseCard {
+  title: string;
+  description: string;
+  icon?: any;
+  gradient?: string;
+}
+
+interface UseCaseCategory {
+  title: string;
+  icon: any;
+  color: string;
+  cards: UseCaseCard[];
+}
+
+// Default content in case translations are missing
+const defaultUseCases = {
+  title: "Use Cases & Card Types",
+  subtitle: "Discover the perfect gift card solution for every business need.",
+  categories: [
+    {
+      title: "Gift Cards",
+      icon: Gift,
+      color: "from-blue-500 to-blue-600",
+      cards: [
+        {
+          title: "Experience Vouchers",
+          description: "Perfect for gifting experiences and services.",
+          gradient: "from-blue-500 to-cyan-500"
+        },
+        {
+          title: "Monetary Vouchers",
+          description: "Let customers choose their perfect gift.",
+          gradient: "from-green-500 to-emerald-500"
+        },
+        {
+          title: "Marketing Vouchers",
+          description: "Boost your marketing campaigns with special offers.",
+          gradient: "from-purple-500 to-violet-500"
+        },
+        {
+          title: "Discount Cards",
+          description: "Reward loyal customers with exclusive discounts.",
+          gradient: "from-orange-500 to-red-500"
+        }
+      ]
+    },
+    {
+      title: "Loyalty & Rewards",
+      icon: Trophy,
+      color: "from-purple-500 to-purple-600",
+      cards: [
+        {
+          title: "Loyalty Programs",
+          description: "Encourage repeat business with a points-based system.",
+          gradient: "from-purple-500 to-indigo-500"
+        },
+        {
+          title: "Employee Rewards",
+          description: "Recognize and reward your team's hard work.",
+          gradient: "from-pink-500 to-rose-500"
+        }
+      ]
+    }
+  ]
+};
+
 const UseCases = ({ 
   id, 
   locale 
@@ -21,64 +88,34 @@ const UseCases = ({
   id: string; 
   locale: any; 
 }) => {
-  const categories = [
-    {
-      title: locale.marketingCards.title,
-      icon: TrendingUp,
-      color: "from-blue-500 to-blue-600",
-      cards: [
-        {
-          ...locale.marketingCards.experienceVoucher,
-          icon: Gift,
-          gradient: "from-blue-500 to-cyan-500"
-        },
-        {
-          ...locale.marketingCards.monetaryVoucher,
-          icon: CreditCard,
-          gradient: "from-green-500 to-emerald-500"
-        },
-        {
-          ...locale.marketingCards.marketingVoucher,
-          icon: TrendingUp,
-          gradient: "from-purple-500 to-violet-500"
-        },
-        {
-          ...locale.marketingCards.discountCards,
-          icon: Percent,
-          gradient: "from-orange-500 to-red-500"
-        }
-      ]
-    },
-    {
-      title: locale.loyaltyPrograms.title,
-      icon: Trophy,
-      color: "from-purple-500 to-purple-600",
-      cards: [
-        {
-          ...locale.loyaltyPrograms.membershipId,
-          icon: Users,
-          gradient: "from-indigo-500 to-blue-500"
-        },
-        {
-          ...locale.loyaltyPrograms.loyaltyCard,
-          icon: Trophy,
-          gradient: "from-pink-500 to-rose-500"
-        }
-      ]
-    },
-    {
-      title: locale.eventManagement.title,
-      icon: Calendar,
-      color: "from-green-500 to-green-600",
-      cards: [
-        {
-          ...locale.eventManagement.eventTickets,
-          icon: Calendar,
-          gradient: "from-emerald-500 to-teal-500"
-        }
-      ]
-    }
-  ];
+  // Merge provided locale with defaults
+  const content = {
+    title: locale?.title || defaultUseCases.title,
+    subtitle: locale?.subtitle || defaultUseCases.subtitle,
+    // If locale.categories exists, use it, otherwise use default categories
+    categories: (locale && 'categories' in locale) ? 
+      locale.categories : 
+      defaultUseCases.categories
+  };
+  
+  // Map the categories to include icons and gradients
+  const categories: UseCaseCategory[] = content.categories.map((category: any, index: number) => {
+    // Default category data
+    const defaultCategory = defaultUseCases.categories[index] || defaultUseCases.categories[0];
+    
+    return {
+      title: category.title || defaultCategory.title,
+      icon: defaultCategory.icon,
+      color: defaultCategory.color,
+      cards: (category.cards || []).map((card: any, cardIndex: number) => ({
+        title: card.title || `Card ${cardIndex + 1}`,
+        description: card.description || 'Description not available',
+        gradient: defaultCategory.cards[cardIndex]?.gradient || 'from-gray-500 to-gray-600',
+        status: card.status || 'Available',
+        icon: card.icon || defaultCategory.icon
+      }))
+    };
+  });
 
   const cardVariants = {
     hidden: { opacity: 0, y: 30 },
@@ -170,19 +207,21 @@ const UseCases = ({
                     </p>
 
                     {/* Features */}
-                    <div className="space-y-2 mb-6">
-                      {card.features.slice(0, 3).map((feature: string, featureIndex: number) => (
-                        <div key={featureIndex} className="flex items-center text-xs text-gray-500 dark:text-gray-400">
-                          <CheckCircle className="w-3 h-3 mr-2 text-green-500" />
-                          {feature}
-                        </div>
-                      ))}
-                      {card.features.length > 3 && (
-                        <div className="text-xs text-gray-400">
-                          +{card.features.length - 3} more features
-                        </div>
-                      )}
-                    </div>
+                    {card.features && card.features.length > 0 && (
+                      <div className="space-y-2 mb-6">
+                        {card.features.slice(0, 3).map((feature: any, featureIndex: number) => (
+                          <div key={featureIndex} className="flex items-center text-xs text-gray-500 dark:text-gray-400">
+                            <CheckCircle className="w-3 h-3 mr-2 text-green-500" />
+                            {typeof feature === 'string' ? feature : feature.title}
+                          </div>
+                        ))}
+                        {card.features.length > 3 && (
+                          <div className="text-xs text-gray-400">
+                            +{card.features.length - 3} more features
+                          </div>
+                        )}
+                      </div>
+                    )}
 
                     {/* CTA Button */}
                     <Button 

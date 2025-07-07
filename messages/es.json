@@ -1,0 +1,171 @@
+{
+  "common": {
+    "title": "Gifthero - Plataforma de Tarjetas Regalo y Vales",
+    "description": "Potente plataforma de gestión de tarjetas regalo y vales para empresas",
+    "loading": "Cargando...",
+    "error": {
+      "title": "Algo salió mal",
+      "description": "Ha ocurrido un error inesperado. Por favor, inténtalo de nuevo más tarde.",
+      "back": "Volver"
+    },
+    "cta": {
+      "learnMore": "Saber más",
+      "getStarted": "Comenzar",
+      "contactUs": "Contáctanos",
+      "scheduleDemo": "Agendar demostración"
+    }
+  },
+  "navigation": {
+    "home": "Inicio",
+    "useCases": "Casos de uso",
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "login": "Iniciar sesión",
+    "getStarted": "Comenzar"
+  },
+  "useCases": {
+    "title": "Casos de uso",
+    "subtitle": "Descubre cómo Gifthero puede transformar tu negocio",
+    "backToUseCases": "Volver a los casos de uso",
+    "hero": {
+      "title": "Soluciones potentes para tu negocio",
+      "subtitle": "Descubre cómo nuestra plataforma puede ayudarte a crecer"
+    },
+    "learnMore": "Saber más",
+    "status": {
+      "available": "Disponible ahora",
+      "soon": "Próximamente",
+      "beta": "En Beta"
+    },
+    "experienceVouchers": {
+      "hero": {
+        "title": "Crea momentos inolvidables con vales de experiencia",
+        "subtitle": "Vende experiencias únicas—desde días de spa hasta clases de cocina—y crea recuerdos duraderos para tus clientes."
+      },
+      "overview": {
+        "title": "Ve más allá de los productos. Vende experiencias.",
+        "description": "Gifthero te permite crear, vender y gestionar fácilmente vales para experiencias únicas. Aumenta la interacción con tus clientes, impulsa la demanda en temporadas bajas y fortalece tu marca ofreciendo actividades memorables que te diferencian de la competencia."
+      },
+      "featuresSection": {
+        "title": "Funciones potentes para vales de experiencia",
+        "subtitle": "Todo lo que necesitas para crear, vender y gestionar experiencias inolvidables"
+      },
+      "features": [
+        {
+          "title": "Plantillas de experiencia personalizables",
+          "description": "Diseña hermosos vales con tu marca para cualquier experiencia con nuestro editor intuitivo. No se requiere programación."
+        },
+        {
+          "title": "Reservas y programación integradas",
+          "description": "Permite a los clientes reservar fechas y horarios específicos al comprar, sincronizándose directamente con tu calendario de disponibilidad."
+        },
+        {
+          "title": "Experiencias escalonadas y en paquetes",
+          "description": "Agrupa múltiples servicios o crea niveles premium (ej. 'Día de Spa VIP') para aumentar el valor de cada venta."
+        },
+        {
+          "title": "Recordatorios y comunicación automatizados",
+          "description": "Reduce las ausencias con recordatorios automáticos por email y SMS para próximas reservas."
+        }
+      ],
+      "benefitsSection": {
+        "title": "¿Por qué elegir vales de experiencia?",
+        "subtitle": "Transforma tu negocio con nuestra solución integral de vales de experiencia"
+      },
+      "benefits": [
+        {
+          "title": "Atrae nuevos segmentos demográficos",
+          "description": "Alcanza clientes que buscan regalos más personales y memorables que productos físicos."
+        },
+        {
+          "title": "Impulsa las ventas en temporada baja",
+          "description": "Crea y promociona experiencias especiales para llenar la capacidad durante períodos tradicionalmente lentos."
+        },
+        {
+          "title": "Aumenta el gasto por cliente",
+          "description": "Los vales de experiencia a menudo llevan a compras adicionales en el sitio y ventas adicionales."
+        },
+        {
+          "title": "Genera revuelo social",
+          "description": "Las experiencias únicas se comparten mucho en redes sociales, proporcionando marketing orgánico para tu marca."
+        }
+      ],
+      "cta": {
+        "title": "¿Listo para vender experiencias?",
+        "description": "Comienza a crear y vender experiencias memorables hoy. Ve cómo Gifthero puede abrir nuevas fuentes de ingresos para tu negocio.",
+        "primaryButton": "Agendar una demo",
+        "secondaryButton": "Ver precios"
+      },
+      "testimonial": {
+        "quote": "Cambiar a Gifthero para nuestros tours de degustación de vinos fue revolucionario. Las reservas aumentaron un 60%, y los recordatorios automatizados redujeron nuestras ausencias a la mitad. Es increíblemente fácil de usar.",
+        "author": "Maria Garcia",
+        "role": "Propietaria, Valley Vineyard Tours"
+      }
+    },
+    "monetaryVouchers": {
+      "hero": {
+        "title": "Vales monetarios flexibles para cualquier ocasión",
+        "subtitle": "Ofrece a tus clientes la libertad de elegir. Proporciona vales monetarios seguros y fáciles de gestionar para tus productos y servicios."
+      },
+      "overview": {
+        "title": "El regalo flexible definitivo",
+        "description": "Los vales monetarios son una herramienta poderosa para mejorar tu flujo de caja y captar nuevos clientes. Con Gifthero puedes emitir, rastrear y administrar vales digitales y físicos con valores variables, marca personalizada y características de seguridad robustas."
+      },
+      "featuresSection": {
+        "title": "Funciones potentes para tu programa de vales",
+        "subtitle": "Todo lo que necesitas para lanzar y gestionar un programa de vales exitoso"
+      },
+      "features": [
+        {
+          "title": "Denominaciones variables y fijas",
+          "description": "Permite a los clientes elegir cualquier valor u ofrecer cantidades preestablecidas (ej. $25, $50, $100)."
+        },
+        {
+          "title": "Generación y distribución masiva",
+          "description": "Crea y envía fácilmente cientos de códigos de vales únicos para clientes corporativos o campañas de marketing."
+        },
+        {
+          "title": "Características de seguridad avanzadas",
+          "description": "Protégete contra el fraude con códigos únicos, fechas de vencimiento y seguimiento detallado de canjes."
+        },
+        {
+          "title": "Canje omnicanal",
+          "description": "Permite a los clientes canjear sus vales sin problemas en línea, en tienda o por teléfono."
+        }
+      ],
+      "benefitsSection": {
+        "title": "Por qué elegir nuestros vales monetarios",
+        "subtitle": "Descubre los beneficios de nuestra solución de vales flexible y segura"
+      },
+      "benefits": [
+        {
+          "title": "Mejora el flujo de caja inmediato",
+          "description": "Recibe el pago por adelantado, antes de que se entreguen productos o servicios, impulsando tu capital de trabajo."
+        },
+        {
+          "title": "Aumenta el valor promedio del pedido",
+          "description": "Los clientes que canjean vales a menudo gastan más que el valor nominal del vale."
+        },
+        {
+          "title": "Reduce el costo de adquisición de clientes",
+          "description": "Los vales a menudo se comparten como regalos, trayendo nuevos clientes sin costo adicional de marketing."
+        },
+        {
+          "title": "Construye lealtad del cliente",
+          "description": "Los programas regulares de vales fomentan compras repetidas y fortalecen las relaciones con los clientes."
+        }
+      ],
+      "cta": {
+        "title": "¿Listo para lanzar tu programa de vales?",
+        "description": "Comienza a emitir vales monetarios hoy y descubre cómo Gifthero puede mejorar tu flujo de caja.",
+        "primaryButton": "Agendar una demo",
+        "secondaryButton": "Ver precios"
+      },
+      "testimonial": {
+        "quote": "Nuestros vales Gifthero han generado un 40% de ingresos adicionales este trimestre. La plataforma es intuitiva y nuestros clientes aman la flexibilidad.",
+        "author": "Carlos Rodriguez",
+        "role": "Director, Boutique Elegancia"
+      }
+    }
+  }
+}
