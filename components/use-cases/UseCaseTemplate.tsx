@@ -82,37 +82,176 @@ const useCaseTranslations = (useCaseId: string) => {
   console.log(`[useCaseTranslations] Original useCaseId: ${useCaseId}`);
   
   // Generate all possible variations of the useCaseId
-  const normalizedUseCaseId = useCaseId.replace(/-/g, '');
-  const lowerCaseUseCaseId = normalizedUseCaseId.toLowerCase();
-  const camelCaseUseCaseId = lowerCaseUseCaseId.charAt(0).toLowerCase() + lowerCaseUseCaseId.slice(1);
-  const pascalCaseUseCaseId = lowerCaseUseCaseId.charAt(0).toUpperCase() + lowerCaseUseCaseId.slice(1);
+  // First, handle kebab-case to camelCase conversion
+  const camelCaseUseCaseId = useCaseId.replace(/-([a-z])/g, (_, letter) => letter.toUpperCase());
+  // Also generate a version with the first letter capitalized (PascalCase)
+  const pascalCaseUseCaseId = camelCaseUseCaseId.charAt(0).toUpperCase() + camelCaseUseCaseId.slice(1);
+  // Also try the original kebab-case
+  const kebabCaseUseCaseId = useCaseId;
+  // And a version with all hyphens removed
+  const noHyphenUseCaseId = useCaseId.replace(/-/g, '');
   
   console.log(`[useCaseTranslations] Generated variations:`, {
-    normalizedUseCaseId,
-    lowerCaseUseCaseId,
-    camelCaseUseCaseId,
-    pascalCaseUseCaseId
+    original: useCaseId,
+    camelCase: camelCaseUseCaseId,
+    pascalCase: pascalCaseUseCaseId,
+    kebabCase: kebabCaseUseCaseId,
+    noHyphen: noHyphenUseCaseId
   });
   
-  // Get the use case specific translations - try multiple namespace formats
-  let tUseCase: ReturnType<typeof useTranslations> | null = null;
+  // Define possible namespaces to try for translations
   const possibleNamespaces = [
-    // Try exact match first
-    `UseCases.${useCaseId}`,
-    `useCases.${useCaseId}`,
-    // Try normalized versions
-    `UseCases.${normalizedUseCaseId}`,
-    `useCases.${normalizedUseCaseId}`,
-    // Try lowercase version
-    `UseCases.${lowerCaseUseCaseId}`,
-    `useCases.${lowerCaseUseCaseId}`,
-    // Try camelCase version
-    `UseCases.${camelCaseUseCaseId}`,
+    // Try useCases.camelCase first (matches our translation files)
     `useCases.${camelCaseUseCaseId}`,
-    // Try PascalCase version
+    // Then try other variations as fallbacks
+    `useCases.${useCaseId}`,
+    `useCases.${kebabCaseUseCaseId}`,
+    `useCases.${pascalCaseUseCaseId}`,
+    `useCases.${noHyphenUseCaseId}`,
+    // Then try with capital U (just in case)
+    `UseCases.${camelCaseUseCaseId}`,
+    `UseCases.${useCaseId}`,
+    `UseCases.${kebabCaseUseCaseId}`,
     `UseCases.${pascalCaseUseCaseId}`,
-    `useCases.${pascalCaseUseCaseId}`
+    `UseCases.${noHyphenUseCaseId}`
   ];
+  
+  console.log(`[useCaseTranslations] Trying namespaces:`, possibleNamespaces);
+  
+  // Try each namespace until one works
+  let tUseCase: ReturnType<typeof useTranslations> | null = null;
+  let translationError: Error | null = null;
+  
+  for (const ns of possibleNamespaces) {
+    try {
+      tUseCase = useTranslations(ns);
+      console.log(`[i18n] Successfully loaded translations for namespace: ${ns}`);
+      break;
+    } catch (e) {
+      translationError = e as Error;
+      console.warn(`[i18n] Failed to load translations for namespace: ${ns}`, e);
+      // Try the next namespace
+      continue;
+    }
+  }
+  
+  if (!tUseCase) {
+    const errorMessage = `[i18n] Could not load translations for use case: ${useCaseId} (tried: ${possibleNamespaces.join(', ')}). Last error: ${translationError?.message || 'Unknown error'}`;
+    console.warn(errorMessage);
+  }
+  
+  // Return a simple translation function that handles nested keys
+  return (key: string, options?: { defaultValue?: string, debug?: boolean }) => {
+    const debug = options?.debug || false;
+    
+    // If it's a common key, try to get it from common translations
+    if (key.toLowerCase().startsWith('common.')) {
+      const commonKey = key.substring(7); // Remove 'common.' prefix
+      if (debug) console.log(`[i18n] Looking up common key: ${commonKey}`);
+      
+      try {
+        // Try to get the nested value (e.g., 'cta.scheduleDemo')
+        if (commonKey.includes('.')) {
+          const [namespace, subKey] = commonKey.split('.');
+          if (debug) console.log(`[i18n] Looking up nested key: ${namespace}.${subKey}`);
+          
+          try {
+            const namespaceTranslations = commonT.raw(namespace);
+            if (namespaceTranslations && typeof namespaceTranslations === 'object') {
+              const value = findKeyCaseInsensitive(namespaceTranslations, subKey);
+              if (value) {
+                if (debug) console.log(`[i18n] Found nested translation:`, value);
+                return value;
+              } else if (debug) {
+                console.warn(`[i18n] Nested key '${subKey}' not found in namespace '${namespace}'`);
+              }
+            } else if (debug) {
+              console.warn(`[i18n] Namespace '${namespace}' is not an object or not found`);
+            }
+          } catch (e) {
+            debug && console.warn(`[i18n] Could not access namespace '${namespace}' in common translations`, e);
+          }
+        }
+        
+        // Try to get the direct value with case-insensitive lookup
+        try {
+          const commonTranslations = commonT.raw('');
+          if (commonTranslations && typeof commonTranslations === 'object') {
+            const value = findKeyCaseInsensitive(commonTranslations, commonKey);
+            if (value) {
+              if (debug) console.log(`[i18n] Found direct translation:`, value);
+              return value;
+            } else if (debug) {
+              console.warn(`[i18n] Key '${commonKey}' not found in root of common translations`);
+            }
+          } else if (debug) {
+            console.warn(`[i18n] Common translations is not an object`);
+          }
+        } catch (e) {
+          debug && console.warn(`[i18n] Could not access common translations`, e);
+        }
+        
+        // If we get here, the key wasn't found - try to provide a better fallback
+        const fallbackValue = options?.defaultValue || commonKey.split('.').pop() || key;
+        console.warn(`[i18n] Could not find translation for '${key}', using fallback: '${fallbackValue}'`);
+        return fallbackValue;
+      } catch (e) {
+        console.warn(`[i18n] Error accessing common key: ${key}`, e);
+        return options?.defaultValue || commonKey.split('.').pop() || key;
+      }
+    }
+    
+    // For use case specific keys, first try the use case translations
+    if (tUseCase) {
+      try {
+        // Handle nested keys in the use case namespace (e.g., 'hero.title')
+        if (key.includes('.')) {
+          const [namespace, subKey] = key.split('.');
+          if (debug) console.log(`[i18n] Looking up nested use case key: ${namespace}.${subKey}`);
+          
+          try {
+            const namespaceTranslations = tUseCase?.raw(namespace);
+            if (namespaceTranslations && typeof namespaceTranslations === 'object') {
+              const value = findKeyCaseInsensitive(namespaceTranslations, subKey);
+              if (value) {
+                if (debug) console.log(`[i18n] Found nested use case translation:`, value);
+                return value;
+              } else if (debug) {
+                console.warn(`[i18n] Nested key '${subKey}' not found in namespace '${namespace}'`);
+              }
+            } else if (debug) {
+              console.warn(`[i18n] Namespace '${namespace}' is not an object or not found`);
+            }
+          } catch (e) {
+            debug && console.warn(`[i18n] Error accessing namespace '${namespace}' in use case translations`, e);
+          }
+        }
+        
+        // Try to get the direct value with case-insensitive lookup
+        try {
+          const useCaseTranslations = tUseCase?.raw('');
+          if (useCaseTranslations && typeof useCaseTranslations === 'object') {
+            const value = findKeyCaseInsensitive(useCaseTranslations, key);
+            if (value) {
+              if (debug) console.log(`[i18n] Found direct use case translation:`, value);
+              return value;
+            } else if (debug) {
+              console.warn(`[i18n] Key '${key}' not found in root of use case translations`);
+            }
+          } else if (debug) {
+            console.warn(`[i18n] Use case translations is not an object`);
+          }
+        } catch (e) {
+          debug && console.warn(`[i18n] Error accessing use case translations`, e);
+        }
+      } catch (e) {
+        console.warn(`[i18n] Error accessing use case key: ${key}`, e);
+      }
+    }
+    
+    // If we get here, no translation was found - return the default value or the key
+    return options?.defaultValue || key;
+  };
   
   console.log(`[useCaseTranslations] Trying namespaces:`, possibleNamespaces);
   
@@ -150,22 +289,34 @@ const useCaseTranslations = (useCaseId: string) => {
   }
   
   // Return a simple translation function that handles nested keys
-  return (key: string, options?: { defaultValue?: string }) => {
+  return (key: string, options?: { defaultValue?: string, debug?: boolean }) => {
+    const debug = options?.debug || false;
+    
     // If it's a common key, try to get it from common translations
     if (key.toLowerCase().startsWith('common.')) {
       const commonKey = key.substring(7); // Remove 'common.' prefix
+      
+      if (debug) console.log(`[i18n] Looking up common key: ${commonKey}`);
+      
       try {
         // Try to get the nested value (e.g., 'cta.scheduleDemo')
         if (commonKey.includes('.')) {
           const [namespace, subKey] = commonKey.split('.');
+          if (debug) console.log(`[i18n] Looking up nested key: ${namespace}.${subKey}`);
+          
           try {
             const namespaceTranslations = commonT.raw(namespace);
             if (namespaceTranslations && typeof namespaceTranslations === 'object') {
               const value = findKeyCaseInsensitive(namespaceTranslations, subKey);
-              if (value) return value;
+              if (value) {
+                if (debug) console.log(`[i18n] Found nested translation:`, value);
+                return value;
+              }
+            } else if (debug) {
+              console.warn(`[i18n] Namespace '${namespace}' is not an object`);
             }
           } catch (e) {
-            console.warn(`[i18n] Could not access namespace '${namespace}' in common translations`, e);
+            debug && console.warn(`[i18n] Could not access namespace '${namespace}' in common translations`, e);
           }
         }
         
@@ -174,10 +325,15 @@ const useCaseTranslations = (useCaseId: string) => {
           const commonTranslations = commonT.raw('');
           if (commonTranslations && typeof commonTranslations === 'object') {
             const value = findKeyCaseInsensitive(commonTranslations, commonKey);
-            if (value) return value;
+            if (value) {
+              if (debug) console.log(`[i18n] Found direct translation:`, value);
+              return value;
+            }
+          } else if (debug) {
+            console.warn(`[i18n] Common translations is not an object`);
           }
         } catch (e) {
-          console.warn(`[i18n] Could not access common translations`, e);
+          debug && console.warn(`[i18n] Could not access common translations`, e);
         }
         
         // If we get here, the key wasn't found - try to provide a better fallback
@@ -192,22 +348,53 @@ const useCaseTranslations = (useCaseId: string) => {
     
     // Try to get the use case specific translation
     try {
-      // Handle nested keys in the use case namespace
+      if (debug) console.log(`[i18n] Looking up use case key: ${key}`);
+      
+      // Handle nested keys in the use case namespace (e.g., 'hero.title')
       if (key.includes('.')) {
         const [namespace, subKey] = key.split('.');
-        const namespaceTranslations = tUseCase.raw(namespace);
-        if (namespaceTranslations && typeof namespaceTranslations === 'object') {
-          const value = findKeyCaseInsensitive(namespaceTranslations, subKey);
-          if (value) return value;
+        if (debug) console.log(`[i18n] Looking up nested use case key: ${namespace}.${subKey}`);
+        
+        try {
+          const namespaceTranslations = tUseCase.raw(namespace);
+          if (namespaceTranslations && typeof namespaceTranslations === 'object') {
+            const value = findKeyCaseInsensitive(namespaceTranslations, subKey);
+            if (value) {
+              if (debug) console.log(`[i18n] Found nested use case translation:`, value);
+              return value;
+            } else if (debug) {
+              console.warn(`[i18n] Nested key '${subKey}' not found in namespace '${namespace}'`);
+            }
+          } else if (debug) {
+            console.warn(`[i18n] Namespace '${namespace}' is not an object or not found`);
+          }
+        } catch (e) {
+          debug && console.warn(`[i18n] Error accessing namespace '${namespace}' in use case translations`, e);
         }
       }
       
       // Try to get the direct value with case-insensitive lookup
-      const useCaseTranslations = tUseCase.raw('');
-      const value = findKeyCaseInsensitive(useCaseTranslations, key);
-      if (value) return value;
+      try {
+        const useCaseTranslations = tUseCase.raw('');
+        if (useCaseTranslations && typeof useCaseTranslations === 'object') {
+          const value = findKeyCaseInsensitive(useCaseTranslations, key);
+          if (value) {
+            if (debug) console.log(`[i18n] Found direct use case translation:`, value);
+            return value;
+          } else if (debug) {
+            console.warn(`[i18n] Key '${key}' not found in root of use case translations`);
+          }
+        } else if (debug) {
+          console.warn(`[i18n] Use case translations is not an object`);
+        }
+      } catch (e) {
+        debug && console.warn(`[i18n] Error accessing use case translations`, e);
+      }
       
-      return options?.defaultValue || key;
+      // If we get here, the key wasn't found - try to provide a better fallback
+      const fallbackValue = options?.defaultValue || key;
+      console.warn(`[i18n] Could not find use case translation for '${key}', using fallback: '${fallbackValue}'`);
+      return fallbackValue;
     } catch (e) {
       console.warn(`[i18n] Error accessing use case key: ${key}`, e);
       return options?.defaultValue || key;
@@ -216,16 +403,22 @@ const useCaseTranslations = (useCaseId: string) => {
 };
 
 export default function UseCaseTemplate({ useCase }: UseCaseTemplateProps) {
+  // Enable debug mode for development to see translation lookups
+  const debugTranslations = process.env.NODE_ENV === 'development';
   const t = useCaseTranslations(useCase.id);
   
   // Get display title and description from translations or use fallbacks
   const displayTitle = useCase.label || 
-                      t('hero.title', { defaultValue: useCase.id.split('-').map(word => 
-                        word.charAt(0).toUpperCase() + word.slice(1) 
-                      ).join(' ') });
+                      t('hero.title', { 
+                        defaultValue: useCase.id.split('-').map(word => 
+                          word.charAt(0).toUpperCase() + word.slice(1) 
+                        ).join(' '),
+                        debug: debugTranslations
+                      });
   
   const displayDescription = t('hero.subtitle', { 
-    defaultValue: useCase.description || `Discover how our ${displayTitle} solution can help your business` 
+    defaultValue: useCase.description || `Discover how our ${displayTitle} solution can help your business`,
+    debug: debugTranslations
   });
 
   return (

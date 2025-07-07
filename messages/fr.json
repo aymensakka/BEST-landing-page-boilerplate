@@ -26,6 +26,146 @@
   "useCases": {
     "title": "Cas d'utilisation",
     "subtitle": "Découvrez comment Gifthero peut transformer votre entreprise",
-    "backToUseCases": "Retour aux cas d'utilisation"
+    "backToUseCases": "Retour aux cas d'utilisation",
+    "hero": {
+      "title": "Solutions puissantes pour votre entreprise",
+      "subtitle": "Découvrez comment notre plateforme peut vous aider à grandir"
+    },
+    "learnMore": "En savoir plus",
+    "status": {
+      "available": "Disponible maintenant",
+      "soon": "Bientôt disponible",
+      "beta": "En version bêta"
+    },
+    "experienceVouchers": {
+      "hero": {
+        "title": "Créez des moments inoubliables avec les bons cadeaux Expérience",
+        "subtitle": "Vendez des expériences uniques, des journées spa aux cours de cuisine, et offrez à vos clients des souvenirs impérissables."
+      },
+      "overview": {
+        "title": "Allez au-delà des produits. Vendez des expériences.",
+        "description": "Gifthero vous permet de créer, vendre et gérer facilement des bons pour des expériences uniques. Augmentez l'engagement client, attirez du trafic hors saison et valorisez votre marque en proposant des activités mémorables qui vous distinguent de la concurrence."
+      },
+      "featuresSection": {
+        "title": "Fonctionnalités puissantes pour les bons d'expérience",
+        "subtitle": "Tout ce dont vous avez besoin pour créer, vendre et gérer des expériences inoubliables"
+      },
+      "features": [
+        {
+          "title": "Modèles d'expérience personnalisables",
+          "description": "Créez de superbes bons cadeaux, en accord avec votre image, pour toute expérience grâce à notre éditeur intuitif. Aucune compétence technique requise."
+        },
+        {
+          "title": "Réservation et planification intégrées",
+          "description": "Permettez à vos clients de réserver une date et une heure lors de l'achat, synchronisées automatiquement avec votre calendrier de disponibilité."
+        },
+        {
+          "title": "Expériences groupées et premium",
+          "description": "Regroupez plusieurs services ou créez des offres haut de gamme (ex : « Journée Spa VIP ») pour augmenter la valeur de chaque vente."
+        },
+        {
+          "title": "Rappels et communication automatisés",
+          "description": "Réduisez les absences grâce à des rappels automatisés par email et SMS pour les réservations à venir."
+        }
+      ],
+      "benefitsSection": {
+        "title": "Pourquoi choisir les bons d'expérience ?",
+        "subtitle": "Transformez votre entreprise avec notre solution complète de bons d'expérience"
+      },
+      "benefits": [
+        {
+          "title": "Attirez de nouveaux publics",
+          "description": "Touchez des clients en quête de cadeaux plus personnels et mémorables que des produits physiques."
+        },
+        {
+          "title": "Boostez les ventes hors saison",
+          "description": "Créez et promouvez des expériences spéciales pour remplir votre capacité pendant les périodes creuses."
+        },
+        {
+          "title": "Augmentez les dépenses par client",
+          "description": "Les bons d'expérience conduisent souvent à des achats supplémentaires et des ventes incitatives sur site."
+        },
+        {
+          "title": "Générez du buzz social",
+          "description": "Les expériences uniques sont très partagées sur les réseaux sociaux, offrant un marketing organique pour votre marque."
+        }
+      ],
+      "cta": {
+        "title": "Prêt à vendre des expériences ?",
+        "description": "Commencez à créer et vendre des expériences mémorables dès aujourd'hui. Découvrez comment Gifthero peut ouvrir de nouvelles sources de revenus pour votre entreprise.",
+        "primaryButton": "Planifier une démo",
+        "secondaryButton": "Voir les tarifs"
+      },
+      "testimonial": {
+        "quote": "Passer à Gifthero pour nos visites de dégustation de vin a été révolutionnaire. Les réservations ont augmenté de 60%, et les rappels automatisés ont réduit de moitié nos absences. C'est incroyablement facile à utiliser.",
+        "author": "Maria Garcia",
+        "role": "Propriétaire, Valley Vineyard Tours"
+      }
+    },
+    "monetaryVouchers": {
+      "hero": {
+        "title": "Chèques-cadeaux monétaires flexibles pour toutes les occasions",
+        "subtitle": "Offrez à vos clients la liberté de choisir. Proposez des chèques-cadeaux monétaires sécurisés et simples à gérer pour vos produits et services."
+      },
+      "overview": {
+        "title": "Le cadeau flexible par excellence",
+        "description": "Les chèques-cadeaux monétaires sont un outil puissant pour améliorer votre trésorerie et attirer de nouveaux clients. Avec Gifthero, émettez, suivez et gérez des chèques-cadeaux numériques ou physiques à valeur variable, avec une personnalisation de marque et des fonctionnalités de sécurité avancées."
+      },
+      "featuresSection": {
+        "title": "Fonctionnalités puissantes pour votre programme de bons",
+        "subtitle": "Tout ce dont vous avez besoin pour lancer et gérer un programme de bons réussi"
+      },
+      "features": [
+        {
+          "title": "Montants variables & fixes",
+          "description": "Laissez vos clients choisir n'importe quel montant ou proposez des valeurs prédéfinies (exemple : 25 $, 50 $, 100 $)."
+        },
+        {
+          "title": "Génération et distribution en masse",
+          "description": "Créez et envoyez facilement des centaines de codes cadeaux uniques pour vos clients entreprises ou vos campagnes marketing."
+        },
+        {
+          "title": "Fonctionnalités de sécurité avancées",
+          "description": "Protégez-vous contre la fraude grâce à des codes uniques, des dates d'expiration et un suivi détaillé des utilisations."
+        },
+        {
+          "title": "Utilisation omnicanale",
+          "description": "Permettez à vos clients d'utiliser leurs bons facilement en ligne, en magasin ou par téléphone."
+        }
+      ],
+      "benefitsSection": {
+        "title": "Pourquoi choisir nos bons monétaires",
+        "subtitle": "Découvrez les avantages de notre solution de bons flexible et sécurisée"
+      },
+      "benefits": [
+        {
+          "title": "Améliorez la trésorerie immédiate",
+          "description": "Recevez les paiements à l'avance, avant la livraison des produits ou services, et optimisez votre fonds de roulement."
+        },
+        {
+          "title": "Augmentez le panier moyen",
+          "description": "Les clients qui utilisent des chèques-cadeaux dépensent souvent plus que la valeur indiquée sur le bon."
+        },
+        {
+          "title": "Réduisez le coût d'acquisition client",
+          "description": "Les bons sont souvent partagés comme cadeaux, attirant de nouveaux clients sans coût marketing supplémentaire."
+        },
+        {
+          "title": "Renforcez la fidélité client",
+          "description": "Les programmes de bons réguliers encouragent les achats répétés et renforcent les relations client."
+        }
+      ],
+      "cta": {
+        "title": "Prêt à lancer votre programme de bons ?",
+        "description": "Commencez à émettre des bons monétaires dès aujourd'hui et découvrez comment Gifthero peut améliorer votre trésorerie.",
+        "primaryButton": "Planifier une démo",
+        "secondaryButton": "Voir les tarifs"
+      },
+      "testimonial": {
+        "quote": "Nos bons cadeaux Gifthero ont généré 40% de revenus supplémentaires ce trimestre. La plateforme est intuitive et nos clients adorent la flexibilité.",
+        "author": "Jean Dupont",
+        "role": "Directeur, Boutique Élégance"
+      }
+    }
   }
 }

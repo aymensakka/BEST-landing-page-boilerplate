@@ -38,35 +38,103 @@ export const getUseCases = (): UseCase[] => {
   return [
     {
       id: "experience-vouchers",
-      label: "useCases.experienceVouchers.title",
-      description: "useCases.experienceVouchers.description",
+      label: "Experience Vouchers",
+      description: "Craft unforgettable moments with experience vouchers",
       icon: "gift",
-      features: mapToFeatureObjects([
-        "useCases.experienceVouchers.features.0",
-        "useCases.experienceVouchers.features.1",
-        "useCases.experienceVouchers.features.2"
-      ]),
-      benefits: mapToFeatureObjects([
-        "useCases.experienceVouchers.benefits.0",
-        "useCases.experienceVouchers.benefits.1",
-        "useCases.experienceVouchers.benefits.2"
-      ])
+      features: [
+        {
+          title: "Customizable Experience Templates",
+          description: "Design beautiful, on-brand vouchers for any experience with our intuitive editor. No coding required.",
+          icon: "check"
+        },
+        {
+          title: "Integrated Booking & Scheduling",
+          description: "Allow customers to book specific dates and times upon purchase, syncing directly with your availability calendar.",
+          icon: "check"
+        },
+        {
+          title: "Tiered & Packaged Experiences",
+          description: "Bundle multiple services or create premium tiers (e.g., 'VIP Spa Day') to increase the value of each sale.",
+          icon: "check"
+        },
+        {
+          title: "Automated Reminders & Communication",
+          description: "Reduce no-shows with automated email and SMS reminders for upcoming bookings.",
+          icon: "check"
+        }
+      ],
+      benefits: [
+        {
+          title: "Attract New Demographics",
+          description: "Reach customers seeking gifts that are more personal and memorable than physical products.",
+          icon: "check"
+        },
+        {
+          title: "Boost Off-Peak Sales",
+          description: "Create and promote special experiences to fill capacity during traditionally slow periods.",
+          icon: "check"
+        },
+        {
+          title: "Increase Per-Customer Spending",
+          description: "Experience vouchers often lead to additional on-site purchases and up-sells.",
+          icon: "check"
+        },
+        {
+          title: "Generate Social Buzz",
+          description: "Unique experiences are highly shareable on social media, providing organic marketing for your brand.",
+          icon: "check"
+        }
+      ]
     },
     {
       id: "monetary-vouchers",
-      label: "useCases.monetaryVouchers.title",
-      description: "useCases.monetaryVouchers.description",
+      label: "Monetary Vouchers",
+      description: "Flexible monetary vouchers for any occasion",
       icon: "dollar-sign",
-      features: mapToFeatureObjects([
-        "useCases.monetaryVouchers.features.0",
-        "useCases.monetaryVouchers.features.1",
-        "useCases.monetaryVouchers.features.2"
-      ]),
-      benefits: mapToFeatureObjects([
-        "useCases.monetaryVouchers.benefits.0",
-        "useCases.monetaryVouchers.benefits.1",
-        "useCases.monetaryVouchers.benefits.2"
-      ])
+      features: [
+        {
+          title: "Variable & Fixed Denominations",
+          description: "Let customers choose any value or offer pre-set amounts (e.g., $25, $50, $100).",
+          icon: "check"
+        },
+        {
+          title: "Bulk Generation & Distribution",
+          description: "Easily create and send hundreds of unique voucher codes for corporate clients or marketing campaigns.",
+          icon: "check"
+        },
+        {
+          title: "Advanced Security Features",
+          description: "Protect against fraud with unique codes, expiration dates, and detailed redemption tracking.",
+          icon: "check"
+        },
+        {
+          title: "Omnichannel Redemption",
+          description: "Allow customers to redeem their vouchers seamlessly online, in-store, or over the phone.",
+          icon: "check"
+        }
+      ],
+      benefits: [
+        {
+          title: "Improve Immediate Cash Flow",
+          description: "Receive payment upfront, before products or services are rendered, boosting your working capital.",
+          icon: "check"
+        },
+        {
+          title: "Increase Average Order Value",
+          description: "Customers redeeming vouchers often spend more than the voucher's face value.",
+          icon: "check"
+        },
+        {
+          title: "Reduce Customer Acquisition Cost",
+          description: "Vouchers are often shared as gifts, bringing in new customers at no additional marketing cost.",
+          icon: "check"
+        },
+        {
+          title: "Build Customer Loyalty",
+          description: "Regular voucher programs encourage repeat purchases and strengthen customer relationships.",
+          icon: "check"
+        }
+      ]
     },
     {
       id: "gift-cards",
