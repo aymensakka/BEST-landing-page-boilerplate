@@ -88,7 +88,80 @@
   "UseCases": {
     "title": "Casos de Uso & Tipos de Tarjeta",
     "subtitle": "Descubra la solución de tarjeta regalo perfecta para cada necesidad comercial. Desde campañas de marketing hasta programas de fidelidad y eventos.",
-    "marketingCards": {
+    
+    "giftCards": {
+      "title": "Tarjetas Regalo",
+      "description": "Perfectas para cualquier ocasión, nuestras tarjetas regalo son el obsequio ideal para sus clientes, empleados o socios.",
+      "featuresSection": {
+        "title": "¿Por qué elegir nuestras tarjetas regalo?",
+        "subtitle": "Soluciones versátiles y prácticas para todas sus necesidades de regalo"
+      },
+      "benefitsSection": {
+        "title": "Ventajas de nuestras tarjetas regalo",
+        "subtitle": "Cree impresiones duraderas con nuestras soluciones flexibles de tarjetas regalo"
+      },
+      "cta": {
+        "title": "Empiece a vender tarjetas regalo hoy mismo",
+        "subtitle": "Únase a miles de empresas que confían en nuestra plataforma.",
+        "getStarted": "Comenzar ahora",
+        "scheduleDemo": "Programar demostración"
+      },
+      "testimonial": {
+        "quote": "Las tarjetas regalo aumentaron significativamente nuestras ventas navideñas y mejoraron la fidelización de clientes.",
+        "author": "Sofía López",
+        "role": "Gerente, Tienda de Moda"
+      }
+    },
+    
+    "experienceVouchers": {
+      "title": "Vales de Experiencia",
+      "description": "Perfectos para experiencias únicas y servicios con precios variables o cuando se desea mantener flexibilidad.",
+      "featuresSection": {
+        "title": "¿Por qué elegir vales de experiencia?",
+        "subtitle": "Cree momentos inolvidables con nuestros vales de experiencia"
+      },
+      "benefitsSection": {
+        "title": "Ventajas de los vales de experiencia",
+        "subtitle": "Ofrezca experiencias únicas que los clientes recordarán"
+      },
+      "cta": {
+        "title": "Empiece a ofrecer vales de experiencia",
+        "subtitle": "Únase a las empresas que crean experiencias memorables.",
+        "getStarted": "Comenzar ahora",
+        "scheduleDemo": "Programar demostración"
+      },
+      "testimonial": {
+        "quote": "Nuestros vales de experiencia se han convertido en nuestra oferta más popular, con un aumento del 30% en clientes habituales.",
+        "author": "Carlos Méndez",
+        "role": "Propietario, Aventuras al Aire Libre"
+      }
+    },
+    
+    "monetaryVouchers": {
+      "title": "Vales Monetarios",
+      "description": "Vales flexibles que pueden canjearse por sus productos y servicios.",
+      "featuresSection": {
+        "title": "¿Por qué elegir vales monetarios?",
+        "subtitle": "Opciones de gasto flexibles para sus clientes"
+      },
+      "benefitsSection": {
+        "title": "Ventajas de los vales monetarios",
+        "subtitle": "Aumente las ventas y la satisfacción del cliente con vales flexibles"
+      },
+      "cta": {
+        "title": "Empiece a vender vales monetarios",
+        "subtitle": "Únase a las empresas que aumentan sus ingresos con vales.",
+        "getStarted": "Comenzar ahora",
+        "scheduleDemo": "Programar demostración"
+      },
+      "testimonial": {
+        "quote": "Los vales monetarios nos ayudaron a aumentar el valor promedio de pedido en un 25%.",
+        "author": "Ana Torres",
+        "role": "Directora de Marketing, Cadena de Tiendas"
+      }
+    },
+    
+    "marketingCampaigns": {
       "title": "Tarjetas de Marketing",
       "experienceVoucher": {
         "title": "Vale de Experiencia",
@@ -153,7 +226,11 @@
   "Contact": {
     "title": "Póngase en Contacto",
     "subtitle": "¿Tiene preguntas? Nos encantaría saber de usted.",
-    "form": {
+    "CTAButton": {
+      "startTrial": "Comenzar Prueba Gratuita",
+      "watchDemo": "Ver Demostración"
+    },
+    "common": {
       "name": "Nombre",
       "email": "Email",
       "message": "Mensaje",

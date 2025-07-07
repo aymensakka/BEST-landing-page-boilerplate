@@ -1,0 +1,62 @@
+{
+  "common": {
+    "title": "Gifthero - Geschenkkarten- und Gutscheinplattform",
+    "description": "Leistungsstarke Plattform zur Verwaltung von Geschenkkarten und Gutscheinen für Unternehmen",
+    "loading": "Wird geladen...",
+    "error": {
+      "title": "Etwas ist schiefgelaufen",
+      "description": "Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es später noch einmal.",
+      "back": "Zurück",
+      "useCaseNotFound": "Anwendungsfall nicht gefunden",
+      "useCaseNotFoundDescription": "Der angeforderte Anwendungsfall konnte nicht gefunden werden."
+    },
+    "cta": {
+      "title": "Bereit loszulegen?",
+      "learnMore": "Mehr erfahren",
+      "getStarted": "Jetzt starten",
+      "contactUs": "Kontakt",
+      "scheduleDemo": "Demo vereinbaren",
+      "back": "Zurück"
+    }
+  },
+  "navigation": {
+    "home": "Startseite",
+    "useCases": "Anwendungsfälle",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "getStarted": "Jetzt starten"
+  },
+  "useCases": {
+    "title": "Anwendungsfälle",
+    "subtitle": "Entdecken Sie, wie Gifthero Ihr Unternehmen verändern kann",
+    "backToUseCases": "Zurück zu den Anwendungsfällen",
+    "monetaryVouchers": {
+      "hero": {
+        "title": "Leistungsstarke Gutscheinlösungen für Ihr Unternehmen",
+        "subtitle": "Erstellen und verwalten Sie flexible Gutscheine, die zu Ihrem Unternehmen passen"
+      },
+      "overview": {
+        "title": "Flexible Gutscheine für jeden Anlass",
+        "description": "Mit Gifthero können Sie mühelos Gutscheine in beliebiger Höhe erstellen, verkaufen und verwalten. Erhöhen Sie den Umsatz, belohnen Sie treue Kunden und fördern Sie wiederholte Besuche mit einem maßgeschneiderten Gutscheinprogramm."
+      },
+      "featuresSection": {
+        "title": "Leistungsstarke Funktionen für Ihr Gutscheinprogramm",
+        "subtitle": "Alles, was Sie für den Start und die Verwaltung eines erfolgreichen Gutscheinprogramms benötigen"
+      },
+      "benefitsSection": {
+        "title": "Vorteile von Gutscheinen für Ihr Unternehmen",
+        "subtitle": "Erfahren Sie, wie Gutscheine Ihrem Unternehmen helfen können"
+      },
+      "cta": {
+        "title": "Starten Sie noch heute mit Gutscheinen",
+        "subtitle": "Kontaktieren Sie uns, um mehr über unsere Gutscheinlösungen zu erfahren"
+      },
+      "testimonial": {
+        "quote": "Dank Gifthero konnten wir unser Gutscheinprogramm erfolgreich einführen und verwalten. Die Kunden lieben die Flexibilität, und unser Umsatz ist gestiegen.",
+        "author": "Max Mustermann",
+        "position": "Geschäftsführer, Musterladen"
+      }
+    }
+  }
+}

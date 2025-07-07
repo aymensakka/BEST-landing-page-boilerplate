@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -12,45 +12,70 @@ const Contact = ({
   id: string; 
   locale: any; 
 }) => {
+  // Provide fallback values for contact info and section text
+  const sectionTitle = locale?.title || "Get In Touch";
+  const sectionSubtitle = locale?.subtitle || "Have questions or want to learn more? We'd love to hear from you.";
+  
+  const contactInfoData = locale?.info || {
+    email: "contact@gifthero.com",
+    phone: "+1 (555) 123-4567",
+    address: "123 Business St, City, Country"
+  };
+  
+  // Fallback values for form fields
+  const formLabels = locale?.form || {
+    name: "Full Name",
+    email: "Email Address",
+    message: "Your Message",
+    button: "Send Message",
+    success: "Thank you for your message! We'll get back to you soon.",
+    error: "There was an error sending your message. Please try again."
+  };
   const contactInfo = [
     {
       icon: Mail,
       label: "Email",
-      value: locale.info.email,
-      href: `mailto:${locale.info.email}`,
+      value: contactInfoData.email,
+      href: `mailto:${contactInfoData.email}`,
       color: "from-blue-500 to-blue-600"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: locale.info.phone,
-      href: `tel:${locale.info.phone}`,
+      value: contactInfoData.phone,
+      href: `tel:${contactInfoData.phone.replace(/[^0-9+]/g, '')}`,
       color: "from-green-500 to-green-600"
     },
     {
       icon: MapPin,
       label: "Address",
-      value: locale.info.address,
+      value: contactInfoData.address,
       href: "#",
       color: "from-purple-500 to-purple-600"
     }
   ];
 
-  const formVariants = {
+  const formVariants: Variants = {
     hidden: { opacity: 0, x: -30 },
     visible: { 
       opacity: 1, 
       x: 0,
-      transition: { duration: 0.8, ease: "easeOut" }
+      transition: { 
+        duration: 0.8, 
+        ease: [0.16, 1, 0.3, 1] // Using cubic-bezier values for better type safety
+      }
     }
   };
 
-  const contactInfoVariants = {
+  const contactInfoVariants: Variants = {
     hidden: { opacity: 0, x: 30 },
     visible: { 
       opacity: 1, 
       x: 0,
-      transition: { duration: 0.8, ease: "easeOut" }
+      transition: { 
+        duration: 0.8, 
+        ease: [0.16, 1, 0.3, 1] // Using cubic-bezier values for better type safety
+      }
     }
   };
 
@@ -74,10 +99,10 @@ const Contact = ({
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            {locale.title}
+            {sectionTitle}
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-            {locale.subtitle}
+            {sectionSubtitle}
           </p>
         </motion.div>
 
@@ -99,12 +124,12 @@ const Contact = ({
                 viewport={{ once: true }}
               >
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                  {locale.form.name}
+                  {formLabels.name}
                 </label>
                 <Input
                   id="name"
                   type="text"
-                  placeholder={locale.form.name}
+                  placeholder={formLabels.name}
                   className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
                 />
               </motion.div>
@@ -117,12 +142,12 @@ const Contact = ({
                 viewport={{ once: true }}
               >
                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                  {locale.form.email}
+                  {formLabels.email}
                 </label>
                 <Input
                   id="email"
                   type="email"
-                  placeholder={locale.form.email}
+                  placeholder={formLabels.email}
                   className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
                 />
               </motion.div>
@@ -135,14 +160,14 @@ const Contact = ({
                 viewport={{ once: true }}
               >
                 <label htmlFor="message" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                  {locale.form.message}
+                  {formLabels.message}
                 </label>
                 <Textarea
                   id="message"
-                  rows={5}
-                  placeholder={locale.form.message}
-                  className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 resize-none"
-                />
+                  rows={4}
+                  placeholder={formLabels.message}
+                  className="w-full px-4 py-3 rounded-xl border border-gray-300 dark:border-gray-600 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200"
+                ></Textarea>
               </motion.div>
 
               <motion.div
@@ -154,11 +179,9 @@ const Contact = ({
               >
                 <Button
                   type="submit"
-                  size="lg"
-                  className="w-full px-8 py-4 text-lg font-semibold bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
+                  className="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white font-medium py-3 px-6 rounded-xl transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
                 >
-                  <Send className="w-5 h-5 mr-2" />
-                  {locale.form.submit}
+                  {formLabels.button}
                 </Button>
               </motion.div>
             </form>

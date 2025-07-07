@@ -1,4 +1,27 @@
 {
+  "common": {
+    "getStarted": "Inizia ora",
+    "scheduleDemo": "Prenota una demo",
+    "backToUseCases": "Torna ai Casi d'Uso",
+    "viewAllFeatures": "Visualizza tutte le funzionalità",
+    "testimonials": "Cosa dicono i nostri clienti",
+    "trustedBy": "Fidato da aziende in tutto il mondo",
+    "readMore": "Leggi di più",
+    "seeAll": "Vedi tutto",
+    "loading": "Caricamento in corso...",
+    "error": "Si è verificato un errore. Riprova più tardi.",
+    "success": "Operazione completata con successo!",
+    "required": "Questo campo è obbligatorio",
+    "invalidEmail": "Inserisci un indirizzo email valido",
+    "submit": "Invia",
+    "cancel": "Annulla",
+    "saveChanges": "Salva modifiche",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "view": "Visualizza",
+    "back": "Indietro",
+    "next": "Avanti"
+  },
   "Hero": {
     "badge": "Mobile-friendly e disponibile in 8 lingue",
     "title": "Gestisci i tuoi voucher regalo con gifthero",
@@ -88,31 +111,207 @@
   "UseCases": {
     "title": "Casi d'Uso & Tipi di Carta",
     "subtitle": "Scopri la soluzione di carta regalo perfetta per ogni esigenza aziendale. Dalle campagne marketing ai programmi fedeltà e agli eventi.",
-    "marketingCards": {
-      "title": "Carte Marketing",
-      "experienceVoucher": {
-        "title": "Voucher Esperienza",
-        "description": "Ideale per esperienze uniche e servizi a prezzo variabile.",
-        "features": ["Non scadono mai", "Prezzo non visibile sul voucher", "Opzioni di riscatto flessibili", "Focalizzato sull'esperienza"],
-        "status": "Disponibile"
+    
+    "giftCards": {
+      "title": "Carte Regalo",
+      "description": "Perfette per ogni occasione, le nostre carte regalo sono il regalo ideale per i tuoi clienti, dipendenti o partner.",
+      "features": [
+        "Personalizzazione con logo e messaggio",
+        "Scelta tra formati digitali e fisici",
+        "Tracciamento in tempo reale dei saldi",
+        "Nessuna scadenza"
+      ],
+      "stats": [
+        { "value": "35%", "label": "Aumento delle vendite durante le festività" },
+        { "value": "50%", "label": "Tasso di riscatto più elevato" },
+        { "value": "40%", "label": "Aumento della fedeltà dei clienti" }
+      ],
+      "featuresSection": {
+        "title": "Perché scegliere le nostre carte regalo?",
+        "subtitle": "Soluzioni versatili e pratiche per tutte le tue esigenze di regalo"
       },
-      "monetaryVoucher": {
-        "title": "Voucher Monetari",
-        "description": "Carte regalo tradizionali a valore fisso, perfette per ristoranti e negozi.",
-        "features": ["Non scadono mai", "Prezzo visibile", "Valore fisso", "Riscatto facile"],
-        "status": "Disponibile"
+      "benefitsSection": {
+        "title": "Vantaggi delle nostre carte regalo",
+        "subtitle": "Crea impressioni durature con le nostre soluzioni flessibili di carte regalo"
       },
-      "marketingVoucher": {
-        "title": "Voucher Marketing",
-        "description": "Incentiva acquisti di valore con promozioni extra che aumentano la clientela.",
-        "features": ["Può scadere", "Limiti di utilizzo", "Campagne a tempo", "Valore extra in regalo"],
-        "status": "Disponibile"
+      "cta": {
+        "title": "Inizia a vendere carte regalo oggi stesso",
+        "subtitle": "Unisciti a migliaia di aziende che si fidano della nostra piattaforma.",
+        "getStarted": "Inizia ora",
+        "scheduleDemo": "Prenota una demo"
+      },
+      "testimonial": {
+        "quote": "Le carte regalo hanno aumentato notevolmente le nostre vendite natalizie e migliorato la fedeltà dei clienti.",
+        "author": "Sofia Rossi",
+        "role": "Responsabile, Negozio di Moda"
+      }
+    },
+    
+    "experienceVouchers": {
+      "title": "Buoni Esperienza",
+      "description": "Perfetti per esperienze uniche e servizi con prezzi variabili o quando desideri mantenere flessibilità.",
+      "features": [
+        "Nessuna scadenza fissa",
+        "Prezzo non visibile sul voucher",
+        "Opzioni di riscatto flessibili",
+        "Focalizzato sull'esperienza"
+      ],
+      "stats": [
+        { "value": "30%", "label": "Aumento dei clienti abituali" },
+        { "value": "45%", "label": "Tasso di conversione più alto" },
+        { "value": "35%", "label": "Aumento della spesa media" }
+      ],
+      "featuresSection": {
+        "title": "Perché scegliere i buoni esperienza?",
+        "subtitle": "Crea momenti indimenticabili con i nostri buoni esperienza"
+      },
+      "benefitsSection": {
+        "title": "Vantaggi dei buoni esperienza",
+        "subtitle": "Offri esperienze uniche che i clienti ricorderanno"
+      },
+      "cta": {
+        "title": "Inizia a offrire buoni esperienza",
+        "subtitle": "Unisciti alle aziende che creano esperienze memorabili.",
+        "getStarted": "Inizia ora",
+        "scheduleDemo": "Prenota una demo"
+      },
+      "testimonial": {
+        "quote": "I nostri buoni esperienza sono diventati la nostra offerta più popolare, con un aumento del 30% dei clienti abituali.",
+        "author": "Luca Bianchi",
+        "role": "Titolare, Tour Avventura"
+      }
+    },
+    
+    "monetaryVouchers": {
+      "title": "Buoni a Valore Monetario",
+      "description": "Buoni flessibili che possono essere utilizzati per i tuoi prodotti e servizi.",
+      "features": [
+        "Valore flessibile utilizzabile su tutti i prodotti",
+        "Scadenza estendibile",
+        "Gestione centralizzata dei saldi",
+        "Tracciamento delle transazioni in tempo reale"
+      ],
+      "stats": [
+        { "value": "25%", "label": "Aumento del valore medio dell'ordine" },
+        { "value": "40%", "label": "Tasso di conversione più elevato" },
+        { "value": "30%", "label": "Aumento delle vendite ripetute" }
+      ],
+      "featuresSection": {
+        "title": "Perché scegliere i buoni a valore monetario?",
+        "subtitle": "Opzioni di spesa flessibili per i tuoi clienti"
+      },
+      "benefitsSection": {
+        "title": "Vantaggi dei buoni a valore monetario",
+        "subtitle": "Aumenta le vendite e la soddisfazione dei clienti con buoni flessibili"
+      },
+      "cta": {
+        "title": "Inizia a vendere buoni a valore monetario",
+        "subtitle": "Unisciti alle aziende che aumentano il fatturato con i buoni.",
+        "getStarted": "Inizia ora",
+        "scheduleDemo": "Prenota una demo"
+      },
+      "testimonial": {
+        "quote": "I buoni a valore monetario ci hanno aiutato ad aumentare il valore medio dell'ordine del 25%.",
+        "author": "Giulia Ferrari",
+        "role": "Direttore Marketing, Catena di Negozi"
+      }
+    },
+    
+    "marketingCampaigns": {
+      "title": "Campagne di Marketing",
+      "description": "Crea campagne di marketing mirate con offerte speciali e promozioni.",
+      "features": [
+        "Creazione di campagne personalizzate",
+        "Tracciamento delle conversioni in tempo reale",
+        "Targeting avanzato del pubblico",
+        "Analisi delle prestazioni"
+      ],
+      "stats": [
+        { "value": "40%", "label": "Aumento dell'acquisizione di nuovi clienti" },
+        { "value": "30%", "label": "Incremento del tasso di conversione" },
+        { "value": "50%", "label": "Aumento del coinvolgimento dei clienti" }
+      ],
+      "featuresSection": {
+        "title": "Perché utilizzare le carte regalo per il marketing?",
+        "subtitle": "Potenzia i tuoi sforzi di marketing con campagne mirate"
+      },
+      "benefitsSection": {
+        "title": "Vantaggi delle campagne di marketing",
+        "subtitle": "Raggiungi nuovi clienti e aumenta la consapevolezza del marchio"
+      },
+      "cta": {
+        "title": "Lancia la tua campagna di marketing",
+        "subtitle": "Inizia a raggiungere più clienti oggi stesso.",
+        "getStarted": "Inizia ora",
+        "scheduleDemo": "Prenota una demo"
+      },
+      "testimonial": {
+        "quote": "La nostra ultima campagna con carte regalo ha portato a un aumento del 40% nell'acquisizione di nuovi clienti.",
+        "author": "Davide Rossi",
+        "role": "Responsabile Marketing, E-commerce"
       },
       "discountCards": {
         "title": "Carta Sconto",
         "description": "Premia azioni specifiche dei clienti con sconti per aumentare l'engagement.",
         "features": ["Può scadere", "Attivata da azione", "Limiti di utilizzo", "Tipi di sconto flessibili"],
-        "status": "Disponibile"
+        "stats": [
+          { "value": "25%", "label": "Aumento delle vendite" },
+          { "value": "30%", "label": "Incremento del tasso di conversione" },
+          { "value": "40%", "label": "Aumento del coinvolgimento dei clienti" }
+        ],
+        "featuresSection": {
+          "title": "Perché utilizzare le carte sconto?",
+          "subtitle": "Aumenta le vendite e la fedeltà dei clienti con sconti mirati"
+        },
+        "benefitsSection": {
+          "title": "Vantaggi delle carte sconto",
+          "subtitle": "Raggiungi nuovi clienti e aumenta la consapevolezza del marchio"
+        },
+        "cta": {
+          "title": "Crea la tua carta sconto",
+          "subtitle": "Inizia a raggiungere più clienti oggi stesso.",
+          "getStarted": "Inizia ora",
+          "scheduleDemo": "Prenota una demo"
+        },
+        "testimonial": {
+          "quote": "La nostra carta sconto ha portato a un aumento del 25% nelle vendite.",
+          "author": "Marco Bianchi",
+          "role": "Responsabile Marketing, Negozio di Abbigliamento"
+        }
+      }
+    },
+    "employeeRewards": {
+      "title": "Premi per Dipendenti",
+      "description": "Riconosci e premia i tuoi dipendenti con carte regalo che ameranno.",
+      "features": [
+        "Programmi di riconoscimento personalizzabili",
+        "Scelta tra diverse opzioni di premio",
+        "Tracciamento dei premi assegnati",
+        "Integrazione con i sistemi HR"
+      ],
+      "stats": [
+        { "value": "35%", "label": "Miglioramento della soddisfazione dei dipendenti" },
+        { "value": "40%", "label": "Aumento della fidelizzazione" },
+        { "value": "30%", "label": "Miglioramento del coinvolgimento" }
+      ],
+      "featuresSection": {
+        "title": "Perché scegliere i premi per i dipendenti?",
+        "subtitle": "Migliora il morale e la fidelizzazione con premi significativi"
+      },
+      "benefitsSection": {
+        "title": "Vantaggi dei premi per i dipendenti",
+        "subtitle": "Crea un ambiente di lavoro positivo con il riconoscimento dei dipendenti"
+      },
+      "cta": {
+        "title": "Inizia a premiare il tuo team",
+        "subtitle": "Mostra ai tuoi dipendenti che sono apprezzati.",
+        "getStarted": "Inizia ora",
+        "scheduleDemo": "Prenota una demo"
+      },
+      "testimonial": {
+        "quote": "I punteggi di soddisfazione dei nostri dipendenti sono migliorati del 35% dopo l'implementazione di un programma di premi.",
+        "author": "Laura Rossi",
+        "role": "Direttore Risorse Umane, Azienda Tecnologica"
       }
     },
     "loyaltyPrograms": {
@@ -130,13 +329,72 @@
         "status": "Prossimamente"
       }
     },
+    "customerLoyalty": {
+      "title": "Fedeltà dei Clienti",
+      "description": "Costruisci la fedeltà dei clienti con premi e offerte speciali.",
+      "features": [
+        "Programmi fedeltà personalizzabili",
+        "Punti e premi",
+        "Esperienze esclusive",
+        "Marketing mirato"
+      ],
+      "stats": [
+        { "value": "45%", "label": "Aumento degli acquisti ripetuti" },
+        { "value": "35%", "label": "Aumento della spesa media" },
+        { "value": "50%", "label": "Miglioramento della fidelizzazione" }
+      ],
+      "featuresSection": {
+        "title": "Perché concentrarsi sulla fedeltà dei clienti?",
+        "subtitle": "Trasforma gli acquirenti occasionali in clienti abituali"
+      },
+      "benefitsSection": {
+        "title": "Vantaggi dei programmi fedeltà",
+        "subtitle": "Aumenta la fidelizzazione e il valore nel tempo dei clienti"
+      },
+      "cta": {
+        "title": "Costruisci la fedeltà dei clienti oggi",
+        "subtitle": "Inizia a premiare i tuoi migliori clienti.",
+        "getStarted": "Inizia ora",
+        "scheduleDemo": "Prenota una demo"
+      },
+      "testimonial": {
+        "quote": "Il nostro programma fedeltà ha aumentato gli affari ripetuti del 45%.",
+        "author": "Marco Bianchi",
+        "role": "Titolare, Ristorante Locale"
+      }
+    },
     "eventManagement": {
-      "title": "Gestione Eventi",
-      "eventTickets": {
-        "title": "Biglietti Evento",
-        "description": "Biglietti evento digitali con scadenza automatica e gestione capacità.",
-        "features": ["Scadenza automatica dopo evento", "Limiti di capacità", "Integrazione QR code", "Dettagli evento integrati"],
-        "status": "Prossimamente"
+      "title": "Biglietti Evento",
+      "description": "Vendi e gestisci i biglietti per i tuoi eventi con facilità.",
+      "features": [
+        "Biglietti digitali con QR code",
+        "Scansione rapida all'ingresso",
+        "Gestione capacità in tempo reale",
+        "Dati di partecipazione"
+      ],
+      "stats": [
+        { "value": "100%", "label": "Biglietti digitali" },
+        { "value": "60%", "label": "Risparmio di tempo" },
+        { "value": "80%", "label": "Riduzione dei costi" }
+      ],
+      "featuresSection": {
+        "title": "Perché vendere i biglietti con noi?",
+        "subtitle": "Semplifica la gestione dei tuoi eventi"
+      },
+      "benefitsSection": {
+        "title": "Vantaggi del nostro sistema di biglietteria",
+        "subtitle": "Vendi più biglietti con meno sforzo"
+      },
+      "cta": {
+        "title": "Inizia a vendere biglietti evento",
+        "subtitle": "Rendi il tuo prossimo evento un successo.",
+        "getStarted": "Inizia ora",
+        "scheduleDemo": "Prenota una demo"
+      },
+      "testimonial": {
+        "quote": "Il nostro ultimo evento ha esaurito i biglietti in tempi record grazie al sistema di biglietteria semplice da usare.",
+        "author": "Sara Bianchi",
+        "role": "Organizzatrice Eventi, Festival Musicale"
       }
     }
   },
@@ -170,11 +428,12 @@
     "subtitle": "Unisciti a migliaia di aziende che già usano la nostra piattaforma",
     "button": "Inizia la Tua Prova Gratuita"
   },
+  
   "CTAButton": {
     "startTrial": "Inizia la Prova Gratuita",
-    "watchDemo": "Guarda la Demo",
-    "signIn": "Accedi"
+    "watchDemo": "Guarda la Demo"
   },
+
   "Navigation": {
     "brand": "gifthero",
     "features": "Funzionalità",

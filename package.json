@@ -13,6 +13,8 @@
     "docker": "npm run build && npm run postbuild && npm run create-docker-image && npm run save-docker-image"
   },
   "dependencies": {
+    "@21st-extension/react": "^0.5.7",
+    "@21st-extension/toolbar-next": "^0.5.7",
     "@formatjs/intl-localematcher": "^0.5.4",
     "@iconify/react": "^5.0.1",
     "@nextui-org/react": "^2.2.10",
@@ -22,11 +24,12 @@
     "@vercel/analytics": "^1.1.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
-    "framer-motion": "^11.0.14",
+    "framer-motion": "^12.23.0",
     "jsdom": "^24.1.1",
     "lucide-react": "^0.316.0",
     "negotiator": "^0.6.3",
     "next": "14.1.0",
+    "next-intl": "^4.3.4",
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",

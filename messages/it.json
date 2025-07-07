@@ -1,0 +1,31 @@
+{
+  "common": {
+    "title": "Gifthero - Piattaforma di Carte Regalo e Buoni",
+    "description": "Potente piattaforma di gestione di carte regalo e buoni per le aziende",
+    "loading": "Caricamento in corso...",
+    "error": {
+      "title": "Si è verificato un errore",
+      "description": "Si è verificato un errore imprevisto. Riprova più tardi.",
+      "back": "Indietro"
+    },
+    "cta": {
+      "learnMore": "Scopri di più",
+      "getStarted": "Inizia ora",
+      "contactUs": "Contattaci",
+      "scheduleDemo": "Prenota una demo"
+    }
+  },
+  "navigation": {
+    "home": "Home",
+    "useCases": "Casi d'uso",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "login": "Accedi",
+    "getStarted": "Inizia ora"
+  },
+  "useCases": {
+    "title": "Casi d'uso",
+    "subtitle": "Scopri come Gifthero può trasformare la tua attività",
+    "backToUseCases": "Torna ai casi d'uso"
+  }
+}

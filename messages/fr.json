@@ -1,0 +1,31 @@
+{
+  "common": {
+    "title": "Gifthero - Plateforme de cartes-cadeaux et bons",
+    "description": "Plateforme puissante de gestion de cartes-cadeaux et de bons pour les entreprises",
+    "loading": "Chargement...",
+    "error": {
+      "title": "Quelque chose s'est mal passé",
+      "description": "Une erreur inattendue s'est produite. Veuillez réessayer plus tard.",
+      "back": "Retour"
+    },
+    "cta": {
+      "learnMore": "En savoir plus",
+      "getStarted": "Commencer",
+      "contactUs": "Contactez-nous",
+      "scheduleDemo": "Planifier une démo"
+    }
+  },
+  "navigation": {
+    "home": "Accueil",
+    "useCases": "Cas d'utilisation",
+    "about": "À propos",
+    "contact": "Contact",
+    "login": "Connexion",
+    "getStarted": "Commencer"
+  },
+  "useCases": {
+    "title": "Cas d'utilisation",
+    "subtitle": "Découvrez comment Gifthero peut transformer votre entreprise",
+    "backToUseCases": "Retour aux cas d'utilisation"
+  }
+}

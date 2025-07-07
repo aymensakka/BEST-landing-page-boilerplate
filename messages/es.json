@@ -1,0 +1,31 @@
+{
+  "common": {
+    "title": "Gifthero - Plataforma de Tarjetas Regalo y Vales",
+    "description": "Potente plataforma de gestión de tarjetas regalo y vales para empresas",
+    "loading": "Cargando...",
+    "error": {
+      "title": "Algo salió mal",
+      "description": "Ha ocurrido un error inesperado. Por favor, inténtalo de nuevo más tarde.",
+      "back": "Volver"
+    },
+    "cta": {
+      "learnMore": "Saber más",
+      "getStarted": "Comenzar",
+      "contactUs": "Contáctanos",
+      "scheduleDemo": "Agendar demostración"
+    }
+  },
+  "navigation": {
+    "home": "Inicio",
+    "useCases": "Casos de uso",
+    "about": "Sobre nosotros",
+    "contact": "Contacto",
+    "login": "Iniciar sesión",
+    "getStarted": "Comenzar"
+  },
+  "useCases": {
+    "title": "Casos de uso",
+    "subtitle": "Descubre cómo Gifthero puede transformar tu negocio",
+    "backToUseCases": "Volver a los casos de uso"
+  }
+}

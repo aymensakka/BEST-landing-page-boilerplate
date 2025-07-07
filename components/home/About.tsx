@@ -1,5 +1,5 @@
 "use client";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Globe, Building2, Shield, Headphones } from "lucide-react";
 
 const About = ({ 
@@ -9,39 +9,53 @@ const About = ({
   id: string; 
   locale: any; 
 }) => {
+  // Provide fallback values for title and description
+  const title = locale?.title || "About Gifthero";
+  const description = locale?.description || "Discover how Gifthero can transform your business with our innovative solutions.";
+  // Provide fallback values if locale.stats is undefined
+  const statsData = locale?.stats || {
+    languages: "10+",
+    businesses: "500+",
+    uptime: "99.9%",
+    support: "24/7"
+  };
+
   const stats = [
     {
       icon: Globe,
-      value: locale.stats.languages,
+      value: statsData.languages,
       label: "Languages",
       color: "from-blue-500 to-blue-600"
     },
     {
       icon: Building2,
-      value: locale.stats.businesses,
+      value: statsData.businesses,
       label: "Businesses",
       color: "from-green-500 to-green-600"
     },
     {
       icon: Shield,
-      value: locale.stats.uptime,
+      value: statsData.uptime,
       label: "Uptime",
       color: "from-purple-500 to-purple-600"
     },
     {
       icon: Headphones,
-      value: locale.stats.support,
+      value: statsData.support,
       label: "Support",
       color: "from-orange-500 to-orange-600"
     }
   ];
 
-  const statVariants = {
+  const statVariants: Variants = {
     hidden: { opacity: 0, scale: 0.8 },
     visible: { 
       opacity: 1, 
       scale: 1,
-      transition: { duration: 0.6, ease: "easeOut" }
+      transition: { 
+        duration: 0.6, 
+        ease: [0.16, 1, 0.3, 1] // Using cubic-bezier values for better type safety
+      }
     }
   };
 
@@ -56,12 +70,24 @@ const About = ({
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-              {locale.title}
-            </h2>
-            <p className="text-xl text-gray-600 dark:text-gray-400 leading-relaxed">
-              {locale.description}
-            </p>
+            <motion.h2 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
+              className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 dark:text-white mb-6"
+            >
+              {title}
+            </motion.h2>
+            <motion.p 
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
+              className="text-xl text-gray-600 dark:text-gray-400 leading-relaxed"
+            >
+              {description}
+            </motion.p>
           </motion.div>
           
           {/* Stats Grid */}
